@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?validation-md5-digest 9bdfa70afcdc3068a82259688c903de7?>
+<worksheet version="3.0.3" xmlns="http://schemas.mathsoft.com/worksheet30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet30" xmlns:ml="http://schemas.mathsoft.com/math30" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10" xmlns:prd="http://schemas.mathsoft.com/point-release-data">
+	<pointReleaseData/>
+	<metadata>
+		<generator>Mathcad Professional 14.0</generator>
+		<userData>
+			<title>Hiding Content and Protecting Your Worksheets</title>
+			<description>Hiding and protecting regions in your worksheets.</description>
+			<author>Parametric Technology Corporation</author>
+			<company>Parametric Technology Corporation</company>
+			<keywords>regions collapsing hiding locking protecting worksheets area creating e-books</keywords>
+			<revisedBy />
+			<customValues>
+				<customValue name="{5D8556F3-01A4-44AB-BD6D-4FAAFBD2AB72}" type="text">New</customValue>
+				<customValue name="{8F19E048-74B4-45E8-B4B5-D6E77C7BB7E6}" type="text">Resource Center::Mathcad Resources::Tutorial::Features</customValue>
+			</customValues>
+		</userData>
+		<identityInfo>
+			<revision>35</revision>
+			<documentID>4C65FAC4-E117-40D3-8CCA-348BED804361</documentID>
+			<versionID>F3DC58EC-F1D9-4754-9BB4-AF7A217DB069</versionID>
+			<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
+			<branchID>00000000-0000-0000-0000-000000000000</branchID>
+		</identityInfo>
+	</metadata>
+	<settings>
+		<presentation>
+			<textRendering>
+				<textStyles>
+					<textStyle name="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Chapter Head">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline" color="#008080"/>
+					</textStyle>
+					<textStyle name="Section Title">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="16" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline" color="#800080"/>
+					</textStyle>
+					<textStyle name="Heading 1">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline" color="#800000"/>
+					</textStyle>
+					<textStyle name="Heading 2">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="Verdana" font-charset="0" font-size="10" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline" color="#800000"/>
+					</textStyle>
+					<textStyle name="Column Head">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="inherit" font-charset="inherit" font-size="12" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="List_custom" base-style="Normal">
+						<blockAttr margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="List_bullet" base-style="Normal">
+						<blockAttr margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Comment" base-style="Normal">
+						<blockAttr margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="inherit" font-charset="inherit" font-size="inherit" font-weight="bold" font-style="inherit" underline="inherit" line-through="inherit" vertical-align="inherit" color="#800080"/>
+					</textStyle>
+					<textStyle name="directions" base-style="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="inherit" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Tahoma" font-charset="0" font-size="10" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline" color="#800080"/>
+					</textStyle>
+					<textStyle name="chapter" base-style="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="inherit" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline" color="#008080"/>
+					</textStyle>
+					<textStyle name="Title" base-style="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="inherit" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="16" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline" color="#800080"/>
+					</textStyle>
+					<textStyle name="Head" base-style="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="inherit" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline" color="#800000"/>
+					</textStyle>
+					<textStyle name="H1" base-style="Normal">
+						<blockAttr margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="24" font-weight="normal" font-style="inherit" underline="inherit" line-through="inherit" vertical-align="inherit"/>
+					</textStyle>
+					<textStyle name="List">
+						<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+				</textStyles>
+			</textRendering>
+			<mathRendering equation-color="#000">
+				<operators multiplication="auto-select" derivative="derivative" literal-subscript="large" definition="colon-equal" global-definition="triple-equal" local-definition="left-arrow" equality="bold-equal" symbolic-evaluation="right-arrow"/>
+				<mathStyles>
+					<mathStyle name="Variables" font-family="Times New Roman" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Constants" font-family="Times New Roman" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 1" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 2" font-family="Courier New" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 3" font-family="Arial" font-charset="0" font-size="10" font-weight="bold" font-style="normal" underline="false"/>
+					<mathStyle name="User 4" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="italic" underline="false"/>
+					<mathStyle name="User 5" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 6" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 7" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Math Text Font" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+				</mathStyles>
+				<dimensionNames mass="mass" length="length" time="time" current="charge" thermodynamic-temperature="temperature" luminous-intensity="luminosity" amount-of-substance="substance" display="false"/>
+				<symbolics derivation-steps-style="vertical-insert" show-comments="true" evaluate-in-place="false"/>
+				<results>
+					<general precision="3" show-trailing-zeros="false" radix="dec" complex-threshold="10" zero-threshold="15" imaginary-value="i" exponential-threshold="3"/>
+					<matrix display-style="auto" expand-nested-arrays="false"/>
+					<unit format-units="true" simplify-units="true" fractional-unit-exponent="false"/>
+				</results>
+			</mathRendering>
+			<pageModel show-page-frame="false" show-header-frame="false" show-footer-frame="false" header-footer-start-page="1" paper-code="1" orientation="portrait" print-single-page-width="false" page-width="612" page-height="792">
+				<margins left="86.4" right="86.4" top="86.4" bottom="86.4"/>
+				<header use-full-page-width="false"/>
+				<footer use-full-page-width="false">
+					<left>{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fnil\fprq6 Arial;}{\f3\fswiss Arial;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1033\pard\plain\f3\fs20 \{f\}
+\par }</left>
+					<center>{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fnil\fprq6 Arial;}{\f3\fswiss Arial;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1033\pard\qc\plain\f3\fs20 \{n\}
+\par }</center>
+					<right>{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fnil\fprq6 Arial;}{\f3\fswiss Arial;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1033\pard\qr\plain\f3\fs20 \{d\}
+\par }</right>
+				</footer>
+			</pageModel>
+			<colorModel background-color="#fff" default-highlight-color="#ffff80"/>
+			<language math="EN" UI="EN"/>
+		</presentation>
+		<calculation>
+			<builtInVariables array-origin="1" convergence-tolerance="0.001" constraint-tolerance="0.001" random-seed="1" prn-precision="4" prn-col-width="8"/>
+			<calculationBehavior automatic-recalculation="true" matrix-strict-singularity-check="true" optimize-expressions="false" exact-boolean="false" strings-use-origin="false" zero-over-zero="error">
+				<compatibility multiple-assignment="MC12" local-assignment="MC12"/>
+			</calculationBehavior>
+			<units>
+				<currentUnitSystem name="si" customized="false"/>
+			</units>
+		</calculation>
+		<editor view-annotations="false" view-regions="false">
+			<ruler is-visible="false" ruler-unit="in">
+				<tabs>
+					<tab show-guide="true" position="18"/>
+					<tab show-guide="true" position="378"/>
+				</tabs>
+			</ruler>
+			<plotTemplate>
+				<xy item-idref="1"/>
+			</plotTemplate>
+			<grid granularity-x="6" granularity-y="6"/>
+		</editor>
+		<fileFormat image-type="image/png" image-quality="75" save-numeric-results="false" exclude-large-results="false" save-text-images="false" screen-dpi="96"/>
+		<miscellaneous>
+			<handbook handbook-region-tag-ub="4693" can-delete-original-handbook-regions="true" can-delete-user-regions="true" can-print="true" can-copy="true" can-save="true" file-permission-mask="4294967295"/>
+		</miscellaneous>
+	</settings>
+	<regions>
+		<region region-id="4568" left="6" top="6" width="9" height="57.75" align-x="6" align-y="6" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<picture>
+				<png item-idref="2" display-width="7.5" display-height="56.25"/>
+			</picture>
+			<link href=".\..\..\map.xmcd" title="Links to Mathcad Resources" popup="false"/>
+			<rendering item-idref="3"/>
+		</region>
+		<region region-id="4569" left="18" top="8.25" width="105" height="12" align-x="46.5" align-y="18" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">
+					<f family="Arial" charset="0" size="11">
+						<inlineAttr font-weight="normal" line-through="false">
+							<c val="#808000">FEATURES IN-DEPTH</c>
+						</inlineAttr>
+					</f>
+				</p>
+			</text>
+			<link href="./feat_toc.xmcd" title="Links to Features In-Depth" popup="false"/>
+		</region>
+		<region region-id="4570" left="18" top="38.25" width="91.5" height="12" align-x="18" align-y="48" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<f family="Arial" charset="0" size="11">
+						<b>
+							<c val="#808080">
+								<link href=".\..\..\toc_tuto.xmcd" title="Links to Tutorials" popup="false">tutorials</link>
+							</c>
+						</b>
+					</f>
+				</p>
+			</text>
+		</region>
+		<region region-id="4571" left="18" top="50.25" width="267" height="12" align-x="18" align-y="60" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
+					<f family="Arial" charset="0" size="11">
+						<b>
+							<inlineAttr line-through="false">
+								<c val="#800000">Hiding Content and Protecting Your Worksheets</c>
+							</inlineAttr>
+						</b>
+					</f>
+				</p>
+			</text>
+			<indexes>
+				<phrase>hiding content</phrase>
+				<phrase>regions, hiding</phrase>
+				<phrase>worksheets, protecting</phrase>
+				<phrase>areas, working with</phrase>
+				<phrase>protecting worksheets</phrase>
+			</indexes>
+		</region>
+		<region region-id="4615" left="6" top="96.75" width="328.5" height="42.75" align-x="6" align-y="108" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Sometimes when you have a document with lots of complex equations you want to hide or protect those equations from your readers. There are several ways to do this in Mathcad. </p>
+			</text>
+		</region>
+		<region region-id="4616" left="6" top="158.25" width="153.75" height="12" align-x="6" align-y="168" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Heading 2" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Reference Function</p>
+			</text>
+			<indexes>
+				<phrase>reference function</phrase>
+			</indexes>
+		</region>
+		<region region-id="4617" left="6" top="174.75" width="328.5" height="71.25" align-x="6" align-y="186" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">You can put definitions and equations in a separate file that is called into your main document through the <b>reference</b> function. The <b>reference</b> function is particularly useful if you have a set of definitions that you want to reuse in multiple files - you only need to make revisions to these definitions in one place.</p>
+			</text>
+		</region>
+		<region region-id="4618" left="6" top="258.75" width="327.75" height="42.75" align-x="6" align-y="270" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">To use this function, choose <b>Reference</b> from the <b>Insert</b> menu, then select the worksheet to reference. An icon and path appears in your current worksheet showing the location of the referenced file. </p>
+			</text>
+		</region>
+		<region region-id="4683" left="6" top="312.75" width="474.75" height="10.5" align-x="5.25" align-y="312" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<reference>
+				<originRef doc-id="0DB57C93-B2B0-4BE9-8DC2-3EF59BC11201" version-id="690B1835-C07A-4FC5-826B-4705DFA2EC91" branch-id="00000000-0000-0000-0000-000000000000" revision-num="9" is-modified="true" region-id="0" href="C:\Vault\Mathcad\Documentation\ResourceCenter\EN\qsheet\Statistics\estimean.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+					<hash/>
+				</originRef>
+				<parentRef doc-id="4C65FAC4-E117-40D3-8CCA-348BED804361" version-id="BB1C2099-5F7F-49E0-B438-81FB710D25D7" branch-id="00000000-0000-0000-0000-000000000000" revision-num="34" is-modified="true" region-id="4683" href="C:\Vault\Mathcad\Documentation\ResourceCenter\EN\qsheet\tutorial\Features\feat_15.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+					<hash>48c90188984de0e89e5b0e966ad80d0e</hash>
+				</parentRef>
+				<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+				<originComment xmlns="http://schemas.mathsoft.com/provenance10">Calculating a confidence interval for an estimate of the mean of a normal population with unknown population variance.</originComment>
+			</reference>
+			<link href=".\..\..\Statistics\estimean.xmcd"/>
+			<rendering item-idref="4"/>
+		</region>
+		<region region-id="4620" left="6" top="336.75" width="309" height="57" align-x="6" align-y="348" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Any variable definitions in the source file affect the current worksheet just as if they were in the worksheet. For example, there is a variable <inlineAttr font-weight="normal">n</inlineAttr> defined in the worksheet referenced above. You can display its value in this worksheet by typing <f family="Verdana" charset="0" size="10">
+						<b>n=</b>
+					</f>.</p>
+			</text>
+		</region>
+		<region region-id="4681" left="30" top="402.75" width="40.5" height="15.75" align-x="42.75" align-y="414" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:eval placeholderMultiplicationStyle="default" resultMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">n</ml:id>
+				</ml:eval>
+			</math>
+			<rendering item-idref="5"/>
+		</region>
+		<region region-id="4690" left="6" top="426.75" width="309" height="99.75" align-x="14.25" align-y="438" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">The exception to this rule is any built-in variable defined with the <b>Worksheet Options</b> dialog, such as <b>
+						<u>
+							<link href="./feat_03.xmcd" title="Links to section" popup="false">ORIGIN</link>
+						</u>
+					</b> or <b>
+						<u>
+							<link href=".\..\..\Solving\converge.xmcd" title="Links to section" popup="false">TOL</link>
+						</u>
+					</b>. Such definitions made in the source file are overridden by those made in the current worksheet, which may yield unanticipated results. To ensure the consistency of results between worksheets, define built-in variables within the worksheet itself, just as you would any other variable.</p>
+			</text>
+		</region>
+		<region region-id="4691" left="36" top="540.75" width="66" height="15.75" align-x="85.5" align-y="552" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">ORIGIN</ml:id>
+					<ml:real>1</ml:real>
+				</ml:define>
+			</math>
+			<rendering item-idref="6"/>
+		</region>
+		<region region-id="4622" left="6" top="564.75" width="306" height="42.75" align-x="6" align-y="576" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">You can open the referenced file by double-clicking on the icon or path, above.<sp count="2"/>You can change the file it points to by right-clicking and choosing <b>Properties</b>.</p>
+			</text>
+		</region>
+		<region region-id="4651" left="0" top="612" width="6000" height="6" align-x="0" align-y="612" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<pageBreak/>
+		</region>
+		<region region-id="4623" left="6" top="620.25" width="260.25" height="12" align-x="6" align-y="630" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Heading 2" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Hiding Material Past the Right Page Break</p>
+			</text>
+		</region>
+		<region region-id="4624" left="6" top="636.75" width="336.75" height="156.75" align-x="6" align-y="648" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">Another method for hiding regions from users is to put material past the right page break. These regions are not visible to users unless they scroll to the right. Since Mathcad reads from left to right, then up and down, those definitions still affect your results below, but they are hidden from the reader. You can even direct the reader to examine the material if desired.</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit"/>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<b>
+						<c val="#008080">Note</c>
+					</b>
+					<b>
+						<c val="#008080">:</c>
+					</b> When printing the document, even one character past the right page break causes a number of blank pages to print. To avoid this problem, you can choose "Print single page width" in <b>File &gt; </b>
+					<b>Page Setup</b>.</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Also if you save your file to Microsoft Word, any regions past the right margin do not appear in a Word document.</p>
+			</text>
+		</region>
+		<region region-id="4625" left="6" top="812.25" width="121.5" height="12" align-x="6" align-y="822" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Heading 2" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Popup Windows</p>
+			</text>
+			<indexes>
+				<phrase>popup windows</phrase>
+			</indexes>
+		</region>
+		<region region-id="4626" left="6" top="828.75" width="333" height="114" align-x="6" align-y="840" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">You can put extra information in a small popup window. Popup files are .xmcd files that you link to using a hyperlink with the "Display as pop-up document" box checked.<sp count="2"/>Popups allow you to add more details or tutorial information for readers who want to see it.</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit"/>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">You can indicate popups with labeled icons or hyperlinked words that don't interrupt the flow of material. Readers cannot edit content in a popup. Double-click on the sample below.</p>
+			</text>
+		</region>
+		<region region-id="4685" left="6" top="950.25" width="108.75" height="12" align-x="18" align-y="960" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="false">
+				<p style="directions" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<u>
+						<link href=".\popups\example_popup.xmcd" title="Opens popup window" popup="true">Sample Popup Window</link>
+					</u>
+				</p>
+			</text>
+		</region>
+		<region region-id="4630" left="6" top="986.25" width="138" height="12" align-x="6" align-y="996" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Heading 2" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Hiding Regions</p>
+			</text>
+			<indexes>
+				<phrase>hiding regions</phrase>
+				<phrase>regions, collapsing</phrase>
+				<phrase>regions, locking</phrase>
+				<phrase>collapsing regions</phrase>
+				<phrase>locking regions</phrase>
+			</indexes>
+		</region>
+		<region region-id="4631" left="6" top="1002.75" width="319.5" height="42.75" align-x="6" align-y="1014" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">You can create an area containing regions that can be hidden or collapsed and locked. The definitions and other material within the area still affect everything that follows. </p>
+			</text>
+		</region>
+		<region region-id="4632" left="6" top="1056.75" width="147.75" height="14.25" align-x="6" align-y="1068" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">To create a collapsed region:</p>
+			</text>
+		</region>
+		<region region-id="4633" left="6" top="1080.75" width="319.5" height="28.5" align-x="6" align-y="1092" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="List_custom" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<b>
+						<c val="#008080">1.</c>
+					</b>
+					<sp count="2"/>Choose <b>Area</b> from the <b>Insert</b> menu. Two area boundaries appear as below.</p>
+			</text>
+		</region>
+		<region region-id="4634" left="6" top="1128.75" width="312.75" height="28.5" align-x="6" align-y="1140" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="List_custom" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<b>
+						<c val="#008080">2. </c>
+					</b>These boundaries can be dragged so you can type new material within them or paste content to be hidden within them. </p>
+			</text>
+		</region>
+		<region region-id="4635" left="6" top="1170" width="381.75" height="51" align-x="6" align-y="1170" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<picture>
+				<png item-idref="7" display-width="380.25" display-height="49.5"/>
+			</picture>
+			<rendering item-idref="8"/>
+		</region>
+		<region region-id="4660" left="0" top="1224" width="6000" height="6" align-x="0" align-y="1224" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<pageBreak/>
+		</region>
+		<region region-id="4636" left="6" top="1236.75" width="297" height="114" align-x="6" align-y="1248" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="List_custom" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<b>
+						<c val="#008080">3. </c>
+					</b> Choose <b>Area &gt; Collapse</b> from the <b>Format</b> menu or right-click on the area border to collapse the region. A gray line appears across the page with a triangle at the left. Return to the <b>Area</b> menu to expand the region.<br/>
+					<br/>Right-click on the area border and pick <b>Properties</b>
+					<inlineAttr font-weight="normal">,</inlineAttr> then go to the Area page to find additional options for hiding the area indicator line entirely.</p>
+			</text>
+		</region>
+		<region region-id="4637" left="18" top="1362.75" width="306.75" height="57" align-x="18" align-y="1374" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">The image below shows a collapsed area. To open a collapsed area, click on the border, and choose <b>Area &gt; </b>
+					<b>Expand</b> from the <b>
+						<inlineAttr font-style="normal">Format</inlineAttr>
+					</b> menu. <b>
+						<c val="#008080">Note:</c>
+					</b> You cannot open collapsed or locked regions within an E-book or the Resources window.</p>
+			</text>
+		</region>
+		<region region-id="4638" left="24" top="1428" width="312.75" height="18" align-x="24" align-y="1428" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<picture>
+				<png item-idref="9" display-width="311.25" display-height="16.5"/>
+			</picture>
+			<rendering item-idref="10"/>
+		</region>
+		<region region-id="4639" left="6" top="1452.75" width="309" height="85.5" align-x="6" align-y="1464" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="List_custom" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<b>
+						<c val="#008080">4. </c>
+					</b>You can also choose to lock the area from the <b>Format &gt; Area</b> menu. The Lock Area dialog box gives you the options of using a password and collapsing the area.</p>
+				<p style="List_custom" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<br/>Locking regions allows you to show material that a user can see but not change. </p>
+			</text>
+		</region>
+		<region region-id="4640" left="18" top="1554" width="313.5" height="102.75" align-x="18" align-y="1554" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<picture>
+				<png item-idref="11" display-width="312" display-height="101.25"/>
+			</picture>
+			<rendering item-idref="12"/>
+		</region>
+		<region region-id="4661" left="0" top="1662" width="6000" height="6" align-x="0" align-y="1662" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<pageBreak/>
+		</region>
+		<region region-id="4641" left="6" top="1670.25" width="169.5" height="12" align-x="24" align-y="1680" show-border="false" show-highlight="false" is-protected="false" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="false">
+				<p style="Heading 2" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Protecting an Entire Worksheet</p>
+			</text>
+		</region>
+		<region region-id="4642" left="6" top="1686.75" width="315" height="28.5" align-x="16.5" align-y="1698" show-border="false" show-highlight="false" is-protected="false" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">You can also choose to lock an entire worksheet so users can only copy or edit the regions you allow them to. </p>
+			</text>
+		</region>
+		<region region-id="4643" left="6" top="1722.75" width="249" height="14.25" align-x="25.5" align-y="1734" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="false">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Mathcad provides three levels of worksheet protection:</p>
+			</text>
+		</region>
+		<region region-id="4644" left="6" top="1740.75" width="328.5" height="99.75" align-x="15.75" align-y="1752" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="List_bullet" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<b>
+						<c val="#008080">•<sp count="3"/>
+						</c>
+					</b>
+					<b>
+						<u>
+							<link href="./ProtectF.xmcdz" title="Links to file" popup="false">File</link>
+						</u>
+					</b>. The worksheet can only be saved as a compressed Mathcad 14 (*.XMCDZ),<sp count="2"/>MCD (Mathcad 11 or 12), RTF, or HTML file.</p>
+				<p style="List_bullet" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit"/>
+				<p style="List_bullet" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<b>
+						<c val="#008080">•<sp count="3"/>
+						</c>
+					</b>
+					<b>
+						<u>
+							<link href="./ProtectC.xmcdz" title="Links to file" popup="false">Content</link>
+						</u>
+					</b>. In addition, existing regions cannot be changed.</p>
+				<p style="List_bullet" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<sp/>
+				</p>
+				<p style="List_bullet" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<c val="#008080">
+						<b>•<sp count="3"/>
+						</b>
+					</c>
+					<b>
+						<u>
+							<link href="./ProtectE.xmcdz" title="Links to file" popup="false">Editing</link>
+						</u>
+					</b>. The preceding restrictions apply, plus no new regions can be created in the worksheet.</p>
+			</text>
+		</region>
+		<region region-id="4645" left="6" top="1848.75" width="331.5" height="71.25" align-x="12.75" align-y="1860" show-border="false" show-highlight="false" is-protected="false" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="true" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">First you must disable protection for any regions that you want to allow users to edit. Right-click on those regions, choose <b>Properties</b> and deselect "Protect region from editing" on the Protect tab. If there are multiple regions you want to leave open, you can shift-click on each of them, then choose <b>Format &gt; Properties</b> to unprotect them together.</p>
+			</text>
+		</region>
+		<region region-id="4688" left="6" top="1932.75" width="330" height="28.5" align-x="22.5" align-y="1944" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Second, save the file as an XMCDZ file, which is a compressed XML format.</p>
+			</text>
+		</region>
+		<region region-id="4646" left="6" top="1974.75" width="318" height="42.75" align-x="16.5" align-y="1986" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Third, select <b>Protect Worksheet</b> from the <b>Tools</b> menu and choose your level of protection. By default, Mathcad protects all regions unless you explicitly chose to unprotect them first.</p>
+			</text>
+		</region>
+		<region region-id="4647" left="6" top="2036.25" width="192.75" height="12" align-x="6" align-y="2046" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Heading 2" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Creating Mathcad E-books</p>
+			</text>
+			<indexes>
+				<phrase>E-books, creating</phrase>
+				<phrase>electronic books, creating</phrase>
+			</indexes>
+		</region>
+		<region region-id="4648" left="6" top="2052.75" width="327.75" height="71.25" align-x="6" align-y="2064" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Mathcad E-books appear in a window much like the Resources window. Users can revise or annotate material in an E-book without altering the original content. For example, you can prevent novice Mathcad users from deleting formulas and functions. To find out how to make an E-book see the <b>Author's Reference</b> under <b>Help</b>.</p>
+			</text>
+		</region>
+		<region region-id="4674" left="6" top="2144.25" width="255.75" height="12" align-x="6" align-y="2154" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Heading 2" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Turning Off Calculations - For Professors </p>
+			</text>
+		</region>
+		<region region-id="4675" left="6" top="2160.75" width="338.25" height="57" align-x="6" align-y="2172" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">You can use Mathcad to prepare tests by printing two versions of a file, one with calculation turned off and one with it on. Your students won't see the answers on their copy, and you don't have to make an answer key because Mathcad calculates the correct answers for you.</p>
+			</text>
+		</region>
+		<region region-id="4676" left="6" top="2226.75" width="334.5" height="28.5" align-x="6" align-y="2238" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">To turn off calculation for an entire worksheet, uncheck <b>Calculate &gt; Automatic Calculation</b> in the <b>Tools</b> menu.</p>
+			</text>
+		</region>
+		<region region-id="4693" left="6" top="2268" width="426.75" height="5.25" align-x="6" align-y="2268" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<picture>
+				<png item-idref="13" display-width="425.25" display-height="3.75"/>
+			</picture>
+			<rendering item-idref="14"/>
+		</region>
+	</regions>
+	<binaryContent>
+		<item item-id="1" content-encoding="gzip">H4sIAAAAAAAA/2yRQU+DQBCFZ9gqFKn4A4z1Ir33F/TQeDL10HNtVoqKkbRBmnj0n+Obt/Rk
+d/OWL2/mDRvIREShFyglO5z5br59b/3hY/u2bxvfxWLrHhrTXvrO05IHKGnK59fPquyCtQkP
+iazfpkXQHXTL+fa21P/U348cPWLvDFrpcJewemzR2Xn36Yx7Gh53rS+r+dKxVAyNU70RLbQ3
+UgBCU40MejiOJTgjOoALwO8CpUs2A2ItIsYTAONjA4unLMG5ogPIAIxP2Ay41sIxngMYD9fN
+V8emauvSf4UPkvDaa2gnNTb/x/B3nPxbmR1/AAAA//8DANx/ekHGAQAA</item>
+		<item item-id="2">iVBORw0KGgoAAAANSUhEUgAAAAoAAABLCAIAAADGVIEjAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AAlwSFlzAAALEwAACxMBAJqcGAAAAFFJREFUSEtj/P//PwMesHiFOh7EMCqNLXyGb7A8xwsY
+CEi/K8/HgxhGpbGFz/ANFsoS0/K+TjyIYVQaW/gM32ChLDHNm3YUD2IYlcYWPsM2WAAcpUm4
+oQOl6gAAAABJRU5ErkJggg==</item>
+		<item item-id="3">iVBORw0KGgoAAAANSUhEUgAAAAwAAABNCAYAAACScYUuAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AIZJREFUSEtj/A8EDKQAkAZSAANI8eIV6kRhsGtGNRAIrdFQIiY9DatQev78+X9iMNzTxCgG
+qYFreFee/58YPKphNJRwJJWRnTRIznEka1je1/mfGAyPB2IUg9SMaiAmpEZDaaiHEsk5jmQN
+86Yd/U8MhqclYhSD1IxqICakRkNpqIcSKV1LAPVF2W5Ss3TRAAAAAElFTkSuQmCC</item>
+		<item item-id="4">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
+JvA/EvgBRiz5Nq1exfgAAAAASUVORK5CYII=</item>
+		<item item-id="5">iVBORw0KGgoAAAANSUhEUgAAADYAAAAVCAYAAAANfR1FAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AMBJREFUWEftllEOgCAMQ/X+h1YwkgDZWBswToQvI5P0tctwP8LaZlwRbMa1zQh1deEC+5gD
+rhILM0y0L77X9jS/3YBp4nMgBs4FWBJcC5dAULh/gOXOoc70zpRWqw1JLPU409P5N9KzBW21
+3hCw+9eq0PJkaohopAaaipaDVgLMfivtdM5rYL2tWBuBGIt2UTEVkYOZVNhaKyEUqvhXrIeH
+NExYoWy9Jly7vFvnu7jHWAOQ+gWGuOSpZiXmKQ1Eywl2eN71aa8sdwAAAABJRU5ErkJg
+gg==</item>
+		<item item-id="6">iVBORw0KGgoAAAANSUhEUgAAAFgAAAAVCAYAAADCUymGAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+ATtJREFUWEftmNGuwzAIQ7v//+itrZYqywDjJp72QKT7cFUC6cEx1R7PfW21dAQOwLV0BDZd
+6sp8ukNh0BIowFq+voJ31z+G3/U3nmN83v7PxKGY9+A9w7w6M/XETM8zt2UquA+4ArtN/QHH
+WGtvD8yC6wGP6kQ50TMVYEuQX4A9QN6hs83IxnkN9fazDVXB9cTwATiCy744UmqmVlbBbPPQ
+rZxtgmsRmZdGlpBVVKZWFrB1u9j8s1ClCo6GIaN8a6hFaouazQJmh2nUEJmCGf9GANBNQapF
++VcqNrLD5R68yiLuAO6h/yVg9HmTGSZZwGytTO3eTljAP7EIxu/YWAY8uv6ZrwAW8ErLcD14
+nITR8LI6Hu2/mwspqz1Hn4UWQEUTxves3yJWStfIVYALsJiAOH0puACLCYjTvwAk6xdKWdti
+zwAAAABJRU5ErkJggg==</item>
+		<item item-id="7">iVBORw0KGgoAAAANSUhEUgAAAfsAAABCCAIAAADfW+iMAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AAlwSFlzAAAOxAAADsQBlSsOGwAAAtlJREFUeF7t3MGKg0AQBFD3y/PprktAssNomGNZz7OH
+qddNGUzIz77vm4sAAQIEGgSOxncRIECAQIPA9hny6xPuuPnlIkCAAIFMgbHxb55yx/Og4Rko
+IwECBJ4qoPGfOlm5CBAgMApofDtBgACBFgGN3zJpOQkQIDBp/On3t4eU9/jWhQABAtEC88/4
+Q+m/E2r86Ek7PAECBC7f6pylfxppfOtCgACBaIG79/hDxWv86Ek7PAECBHxzawcIECDQIqDx
+WyYtJwECBDS+HSBAgECLwPL/6rTAyEmAAIHHCfirnMeNVCACBAhcCGh8q0GAAIEWAY3fMmk5
+CRAgoPHtAAECBFoENH7LpOUkQICAxrcDBAgQaBHQ+C2TlpMAAQIa3w4QIECgRUDjt0xaTgIE
+CGh8O0CAAIEWAY3fMmk5CRAgoPHtAAECBFoENH7LpOUkQICAxrcDBAgQaBHQ+C2TlpMAAQIa
+3w4QIECgRUDjt0xaTgIECGh8O0CAAIEWAY3fMmk5CRAgoPHtAAECBFoENH7LpOUkQICAxrcD
+BAgQaBHQ+C2TlpMAAQIa3w4QIECgRUDjt0xaTgIECGh8O0CAAIEWAY3fMmk5CRAgoPHtAAEC
+BFoENH7LpOUkQICAxrcDBAgQaBHQ+C2TlpMAAQIa3w4QIECgRUDjt0xaTgIECGh8O0CAAIEW
+AY3fMmk5CRAg8K/xt28XLwIECBDIFRgb/ybJ8TjIzenkBAgQIKDx7QABAgRaBDR+y6TlJECA
+wF3jD69xvNWxLgQIEIgWuGz880vcM57Gj560wxMgQGDe+MNvdt5MGt+6ECBAIFpg0vjTn2hq
+/OgxOzwBAgT+avxT4f5TvM/4NoYAAQLRAho/enwOT4AAgQUBjb+A5VYCBAhEC2j86PE5PAEC
+BBYElv9X5+UiQIAAgUwBf5Wz8Hh0KwECBKIFNH70+ByeAAECCwIafwHLrQQIEIgW+AVRuqBN
+CZX0dgAAAABJRU5ErkJggg==</item>
+		<item item-id="8">iVBORw0KGgoAAAANSUhEUgAAAf0AAABECAYAAACLfuyBAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+BAZJREFUeF7t3NFqg0AUBFD75X56WguBPBhzYds7u3KEvGlmPbswalO/Hj/bZiNAgAABAgTu
+L3CUvo0AAQIECBC4v8B2/1N0hgQIECBAgMDvk/0zhp/nG8cj/9LnOH7fdx8G1oA1YA1YA9bA
+xGvgsvQr10THhYGNAAECBAgQWEPg7Z1+ZfhKv6JkHwIECBAgMIeA0p9jHoyCAAECBAj8u4DS
+/3diAQQIECBAYA6By9K/+jHfMXyP9+eYRKMgQIAAAQIVgY93+mfF//xipV8htg8BAgQIEJhD
+4GPpP+/on+X/OmylP8ckGgUBAgQIEKgIlEr/3aN8pV8htg8BAgQIEJhDoFz6Z8NV+nNMolEQ
+IECAAIGKgNKvKNmHAAECBAjcQEDp32ASnQIBAgQIEKgI/Mm79ytB9iFAgAABAgSyAl6en/WX
+ToAAAQIE2gSUfhu1IAIECBAgkBVQ+ll/6QQIECBAoE1A6bdRCyJAgAABAlkBpZ/1l06AAAEC
+BNoElH4btSACBAgQIJAVUPpZf+kECBAgQKBNQOm3UQsiQIAAAQJZAaWf9ZdOgAABAgTaBJR+
+G7UgAgQIECCQFVD6WX/pBAgQIECgTUDpt1ELIkCAAAECWQGln/WXToAAAQIE2gSUfhu1IAIE
+CBAgkBVQ+ll/6QQIECBAoE1A6bdRCyJAgAABAlkBpZ/1l06AAAECBNoElH4btSACBAgQIJAV
+UPpZf+kECBAgQKBNQOm3UQsiQIAAAQJZAaWf9ZdOgAABAgTaBJR+G7UgAgQIECCQFVD6WX/p
+BAgQIECgTUDpt1ELIkCAAAECWQGln/WXToAAAQIE2gSUfhu1IAIECBAgkBVQ+ll/6QQIECBA
+oE1A6bdRCyJAgAABAlkBpZ/1l06AAAECBNoElH4btSACBAgQIJAVUPpZf+kECBAgQKBNQOm3
+UQsiQIAAAQJZAaWf9ZdOgAABAgTaBJR+G7UgAgQIECCQFVD6WX/pBAgQIECgTeC09Ldte1Q/
+bSMVRIAAAQIECAwJvC39yrceFwY2AgQIECBAYA0Bpb/GPBklAQIECBAYFlD6w4S+gAABAgQI
+rCFQLv2zR/ke768xyUZJgAABAgQOgVLpv/6o75VN6VtEBAgQIEBgHYGPpX/2K/7n6Sn9dSba
+SAkQIECAwGXpX/3b3u9jAr/et4IIECBAgMAyAh/v9K/OROkvM88GSoAAAQIEan/Tf+ek9K0g
+AgQIECCwjoA7/XXmykgJECBAgMCQgNIf4nMwAQIECBBYR+BP3r2/7/vDh4E1YA1YA9aANTDv
+GjguTbw8f50LNCMlQIAAAQJDAkp/iM/BBAgQIEBgHQGlv85cGSkBAgQIEBgSUPpDfA4mQIAA
+AQLrCHwD7K3CLzZwzOAAAAAASUVORK5CYII=</item>
+		<item item-id="9">iVBORw0KGgoAAAANSUhEUgAAAZ8AAAAWCAIAAACQSAZnAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AAlwSFlzAAAOxAAADsQBlSsOGwAAAQ5JREFUeF7t3MsOwjAMBMDy5Xx6KOIpKCHXtScnJHqI
+x9FiyuM0xtgsAgQI1BPY080iQIBAPYGtXkkqIkCAwPVdKQUCBAiUFJBuJduqKAIEHrPb3/uJ
+qAgQIJAlcJ/d9nSb7Hv+bFbBdkuAQBMB6dak0cok0E7gIN2+JzWzW7tzoWAC+QLH6fYRZ9It
+v9EqINBO4Ge6vSeadGt3LhRMIF9glm7PULs9OFsECBDIETC75b9CqYAAgSMB992cCwIEagr4
+zLRmX1VFgIDvuzkDBAjUFJBuNfuqKgIEXuk2/6kpKQIECGQJ+I+QrH7ZLQECqwLSbVXKdQQI
+ZAlIt6x+2S0BAqsC0m1VynUECGQJXACICrbQafMIPQAAAABJRU5ErkJggg==</item>
+		<item item-id="10">iVBORw0KGgoAAAANSUhEUgAAAaEAAAAYCAYAAABTGkLLAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AWRJREFUeF7t3NEKwjAMBdD55f30uQpCnXMrWSAgpzDwJakeAtfK3GPd1mIRIECAAIEKgR5C
+FgECBAgQqBBYKja1JwECBAgQeP0Sh4EAAQIECFQJCKEqefsSIECAgJOQGSBAgACBOoGPk9B2
+Y0S/U27qqnvLdiZAgACBfxH4CqGZD9aDyiJAgAABAncFhNBdQfUECBAgEBY4DaFfJx4nobC3
+QgIECBAYBC5D6ChwhJAZIkCAAIEMgakQ2oeOEMqg14MAAQIEpkNoDJ7369ba6mJgBsyAGTAD
+kRnoETwdQmNeOwn59kKAAAECGQJTIbTfSAhl0OtBgAABApchdEQkhAwOAQIECGQI+J9QhqIe
+BAgQIBASEEIhNkUECBAgkCHg2XEZinoQIECAQEjAQ+BCbIoIECBAIENACGUo6kGAAAECIQEh
+FGJTRIAAAQIZAkIoQ1EPAgQIEAgJCKEQmyICBAgQyBB4AloHReRHOGogAAAAAElFTkSuQmCC</item>
+		<item item-id="11">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</item>
+		<item item-id="12">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
+QIDArQL/B529DZ60sk9iAAAAAElFTkSuQmCC</item>
+		<item item-id="13">iVBORw0KGgoAAAANSUhEUgAAAkQAAAAFCAMAAACTpQOIAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AwBQTFRFAAAAgICAgAAAgIAAAIAAAICAAACAgACAgIBAAEBAAID/AECAQAD/gEAA////wMDA
+/wAA//8AAP8AAP//AAD//wD///+AAP+AgP//gID//wCA/4BAwNzApsrwbWlzTAB/PwCCMQCG
+IgCJEgCMAgCPAA6TACCWADOZAEacAFqgAG+jAIWmAJupAK2nALCWALODALdwALpdAL1IAMAz
+AMQdAMcGEMoAKc0AQtEAXNQAdtcAktsArt4Ay+EA5OEA6MkA67AA7pcA8XwA9WIA+EYA+ykA
+/wwACwsLFhYWISEhLCwsNzc3QkJCTU1NWFhYY2Njbm5ueXl5hYWFkJCQm5ubpqamsbGxvLy8
+x8fH0tLS3d3d6Ojo8/PzKwAAVQAAqgAA1QAAADMAKzMAVTMAgDMAqjMA1TMA/zMAAGYAK2YA
+VWYAgGYAqmYA1WYA/2YAAJkAK5kAVZkAgJkAqpkA1ZkA/5kAAMwAK8wAVcwAgMwAqswA1cwA
+/8wAK/8AVf8AgP8Aqv8A1f8AAABVKwBVVQBVgABVqgBV1QBV/wBVADNVKzNVVTNVgDNVqjNV
+1TNV/zNVAGZVK2ZVVWZVgGZVqmZV1WZV/2ZVAJlVK5lVVZlVgJlVqplV1ZlV/5lVAMxVK8xV
+VcxVgMxVqsxV1cxV/8xVAP9VK/9VVf9VgP9Vqv9V1f9V//9VAACqKwCqVQCqgACqqgCq1QCq
+/wCqADOqKzOqVTOqgDOqqjOq1TOq/zOqAGaqK2aqVWaqgGaqqmaq1Waq/2aqAJmqK5mqVZmq
+gJmqqpmq1Zmq/5mqAMyqK8yqVcyqgMyqqsyq1cyq/8yqAP+qK/+qVf+qgP+qqv+q1f+q//+q
+KwD/VQD/gAD/qgD/1QD/ADP/KzP/VTP/gDP/qjP/1TP//zP/AGb/K2b/VWb/gGb/qmb/1Wb/
+/2b/AJn/K5n/VZn/gJn/qpn/1Zn//5n/AMz/K8z/Vcz/gMz/qsz/1cz//8z/K///Vf//qv//
+1f////vwoKCk2AWPPxGsViNa2xjW4wAAAAlwSFlzAAAOzQAADtYBytAvAAAAADNJREFUSEvt
+0jENADAQw8CoAMwf7peDV3vPcsqoBKTA5L55AoxXCRgB/okqASnQiSRgcziJX4ONC7U4ewAA
+AABJRU5ErkJggg==</item>
+		<item item-id="14">iVBORw0KGgoAAAANSUhEUgAAAjkAAAAHCAYAAADqBFyZAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AIBJREFUaEPt2dsJACAMA8C6uZv7AsEVDFdwgJ75CNrGmjIECBAgQIAAgTSBXXIMAQIECBAg
+QCBNoNIWsg8BAgQIECBA4PxUXYZeNRwGMiADMiADMiADP2fgrXdecpRdAgQIECBAIFJAyYm8
+VksRIECAAAECSo4MECBAgAABApECExAorgNNM6TDAAAAAElFTkSuQmCC</item>
+	</binaryContent>
+</worksheet>

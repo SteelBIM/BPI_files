@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+        "http://www.w3.org/TR/REC-html40/loose.dtd">
+
+<html>
+
+<head>
+	<title>Comparing Two Worksheets</title>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+	<meta name="generator" content="RoboHELP by eHelp Corporation - www.ehelp.com">
+	<link rel='stylesheet' href='MAIN_TOPIC_ns.css'>
+<script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='MAIN_TOPIC.css'>");}
+//-->
+</script>
+<!--<meta name="MS-HAID" content="">-->
+<style type="text/css">
+<!--
+tr.whs1 {height: 94px;}
+-->
+</style>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+  div.WebHelpPopupMenu {position:absolute; left:0px; top:0px; z-index:4; visibility:hidden;}
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+
+<body>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Getting Started\nCreating, Opening and Saving Files\nComparing Two Worksheets");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(0);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Mcad.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<table>
+	<tr class="whs1">
+		<td valign="top"><h1>Comparing Two Worksheets</h1></td>
+	</tr>
+</table>
+
+<p>The <b>Compare</b> feature allows you to visually compare the contents of two saved Mathcad worksheets. The two worksheets display side-by-side in the <b>File Comparison</b> window, starting at the first difference. Differences between the two worksheets are outlined with colored rectangles, indicating the type of difference:</p>
+
+<ul type="disc">
+	<li>A <span style="color: #FF0000; font-weight: 700;"><font color=red >red</font></span> outline indicates content present in only the first (left) worksheet.</li>
+	<li>A <span style="color: #00FF00; font-weight: 700;"><font color=lime >green</font></span> outline indicates content present in only the second (right) worksheet.</li>
+	<li>A <span style="color: #CCCC00; font-weight: 700;"><font color=#cccc00 >yellow</font></span> outline indicates a region present in both worksheets, but whose content differs between the two.</li>
+</ul>
+
+<p>The current difference is indicated in each worksheet with a thicker border. Click <b>Next</b> and <b>Previous</b> at the top of the screen or use your mouse to move between differences.</p>
+
+<p>You can use the scroll bars to quickly scan the differences in both worksheets. Both sets of scroll bars are synchronized, to maintain a valid side-by-side comparison whenever possible. The display synchronizes at the vertical midpoint of the windows.</p>
+
+<p>The <b>File Comparison</b> window defaults to a magnification of 75%. You can zoom the display from 1% to 100% by using the zoom slider. To view a region at regular size, regardless of the zoom setting, position the mouse over the region.</p>
+
+<h2>
+	<table>
+		<tr>
+			<td valign="top"><img src="Graphics/H2.gif" width="12" height="18" border="0"></td>
+			<td valign="top"><a name="ViewDifferences">Viewing the Differences Between Two Worksheets</a></td>
+		</tr>
+	</table>
+</h2>
+
+<p>To view the differences between two worksheets:</p>
+
+<ol type="1">
+	<li>Click <b>File</b> &gt; <b>Compare</b>.</li>
+	<li><p>Select the two worksheets to compare by clicking <b>Browse</b> to independently select each worksheet. Mathcad initially points you to the <a href="Current_working_directory.html">current working directory</a>, but you can browse to any folder and file. You can also type the path and filename.</p>
+
+<p class="blockindent">Comparison only works on saved worksheets. If the selected worksheet has been modified since it was last saved, Mathcad displays a warning that it will perform the comparison on the last saved version. To compare an unsaved worksheet, dismiss the <b>Compare</b> dialog and save the worksheet, then choose <b>File</b> &gt; <b>Compare</b> again.</p></li>
+	
+	<li>Click <b>Compare</b> to view the differences between the two files.</li>
+	<li>When you finish your comparison, click <b>Cancel</b> to dismiss the <b>File Comparison</b> window.</li>
+</ol>
+
+<p>Each comparison only occurs between two worksheets. However, Mathcad allows you to simultaneously view multiple comparisons, including multiple comparisons of the same worksheet.</p>
+
+<h4>Notes:</h4>
+
+<ul type="disc">
+	<li>Mathcad can compare only XMCD and XMCDZ worksheets. MCD format worksheets cannot be compared.</li>
+	<li>Comparisons of mathematical results are performed using <a href="XML_format.html#saveresults">saved results</a>, which are maintained to the full 17 digits of precision, rather than the displayed result. Comparing saved results may indicate differences that are not readily apparent due to the rounding of results for display in Mathcad.</li>
+<li>Mathcad indicates differences at the region level only. If a difference occurs within a region - for example, a &quot;2&quot; was changed to a &quot;3&quot; in an equation - the entire region is highlighted as different, rather than the individual portion of the region.</li>
+</ul>
+	
+
+<hr size="2" width="100%" align="center">
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

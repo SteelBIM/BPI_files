@@ -1,0 +1,1527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?validation-md5-digest a0707a6e493d27fc50edb1fd72b165df?>
+<worksheet version="3.0.3" xmlns="http://schemas.mathsoft.com/worksheet30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet30" xmlns:ml="http://schemas.mathsoft.com/math30" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10" xmlns:prd="http://schemas.mathsoft.com/point-release-data">
+<pointReleaseData></pointReleaseData>
+<metadata>
+<generator>Mathcad Professional 14.0</generator>
+<userData>
+<title>Symbolic Transforms</title>
+<description>Performing symbolic Fourier, Laplace, z transforms, and their inverses.</description>
+<author>Parametric Technology Corporation</author>
+<company>Parametric Technology Corporation</company>
+<keywords>symbolics transform</keywords>
+<revisedBy></revisedBy>
+<customValues>
+<customValue name="{5D8556F3-01A4-44AB-BD6D-4FAAFBD2AB72}" type="text">New</customValue>
+<customValue name="{8F19E048-74B4-45E8-B4B5-D6E77C7BB7E6}" type="text">Resource Center::Mathcad Resources::Quicksheets::Symbolic Math</customValue>
+</customValues>
+</userData>
+<identityInfo>
+<revision>26</revision>
+<documentID>7721C6A6-4198-4F9E-A8F9-87F306FCD16F</documentID>
+<versionID>DD97E273-D69A-42BF-B2C9-AD00482158E9</versionID>
+<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
+<branchID>00000000-0000-0000-0000-000000000000</branchID>
+</identityInfo>
+</metadata>
+<settings>
+<presentation>
+<textRendering>
+<textStyles>
+<textStyle name="Normal">
+<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"></blockAttr>
+<inlineAttr font-family="Times New Roman" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"></inlineAttr>
+</textStyle>
+<textStyle name="heading 1" base-style="Normal">
+<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"></blockAttr>
+<inlineAttr font-family="Verdana" font-charset="0" font-size="10" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline" color="#800000"></inlineAttr>
+</textStyle>
+</textStyles>
+</textRendering>
+<mathRendering equation-color="#000">
+<operators multiplication="dot" derivative="derivative" literal-subscript="small" definition="colon-equal" global-definition="triple-equal" local-definition="left-arrow" equality="bold-equal" symbolic-evaluation="right-arrow"></operators>
+<mathStyles>
+<mathStyle name="Variables" font-family="Times New Roman" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false"></mathStyle>
+<mathStyle name="Constants" font-family="Times New Roman" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false"></mathStyle>
+<mathStyle name="User 1" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"></mathStyle>
+<mathStyle name="User 2" font-family="Courier New" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"></mathStyle>
+<mathStyle name="User 3" font-family="System" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"></mathStyle>
+<mathStyle name="User 4" font-family="Script" font-charset="255" font-size="10" font-weight="normal" font-style="normal" underline="false"></mathStyle>
+<mathStyle name="User 5" font-family="Roman" font-charset="255" font-size="10" font-weight="normal" font-style="normal" underline="false"></mathStyle>
+<mathStyle name="User 6" font-family="Modern" font-charset="255" font-size="10" font-weight="normal" font-style="normal" underline="false"></mathStyle>
+<mathStyle name="User 7" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"></mathStyle>
+<mathStyle name="Math Text Font" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"></mathStyle>
+</mathStyles>
+<dimensionNames mass="mass" length="length" time="time" current="charge" thermodynamic-temperature="temperature" luminous-intensity="luminosity" amount-of-substance="substance" display="false"></dimensionNames>
+<symbolics derivation-steps-style="vertical-insert" show-comments="false" evaluate-in-place="false"></symbolics>
+<results>
+<general precision="3" show-trailing-zeros="false" radix="dec" complex-threshold="10" zero-threshold="15" imaginary-value="i" exponential-threshold="3"></general>
+<matrix display-style="auto" expand-nested-arrays="false"></matrix>
+<unit format-units="true" simplify-units="true" fractional-unit-exponent="false"></unit>
+</results>
+</mathRendering>
+<pageModel show-page-frame="false" show-header-frame="false" show-footer-frame="false" header-footer-start-page="1" paper-code="1" orientation="portrait" print-single-page-width="false" page-width="612" page-height="792">
+<margins left="86.4" right="86.4" top="86.4" bottom="86.4"></margins>
+<header use-full-page-width="false"></header>
+<footer use-full-page-width="false"></footer>
+</pageModel>
+<colorModel background-color="#fff" default-highlight-color="#ffff80"></colorModel>
+<language math="EN" UI="EN"></language>
+</presentation>
+<calculation>
+<builtInVariables array-origin="0" convergence-tolerance="0.001" constraint-tolerance="0.001" random-seed="1" prn-precision="4" prn-col-width="8"></builtInVariables>
+<calculationBehavior automatic-recalculation="true" matrix-strict-singularity-check="true" optimize-expressions="false" exact-boolean="false" strings-use-origin="false" zero-over-zero="error">
+<compatibility multiple-assignment="MC12" local-assignment="MC12"></compatibility>
+</calculationBehavior>
+<units>
+<currentUnitSystem name="mks" customized="false"></currentUnitSystem>
+<customUnitSystem base-unit-system="si">
+<baseUnits></baseUnits>
+<derivedUnits></derivedUnits>
+</customUnitSystem>
+</units>
+</calculation>
+<editor view-annotations="false" view-regions="false">
+<ruler is-visible="false" ruler-unit="in">
+<tabs>
+<tab show-guide="true" position="36"></tab>
+<tab show-guide="true" position="351"></tab>
+</tabs>
+</ruler>
+<plotTemplate>
+<xy item-idref="1"></xy>
+</plotTemplate>
+<grid granularity-x="6" granularity-y="6"></grid>
+</editor>
+<fileFormat image-type="image/png" image-quality="75" save-numeric-results="true" exclude-large-results="false" save-text-images="false" screen-dpi="96"></fileFormat>
+<miscellaneous>
+<handbook handbook-region-tag-ub="882" can-delete-original-handbook-regions="true" can-delete-user-regions="true" can-print="true" can-copy="true" can-save="true" file-permission-mask="4294967295"></handbook>
+</miscellaneous>
+</settings>
+<regions>
+<region region-id="681" left="6" top="6" width="9" height="57.75" align-x="6" align-y="6" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<picture>
+<png item-idref="2" display-width="7.5" display-height="56.25"></png>
+</picture>
+<link href=".\..\map.xmcd" title="Links to Mathcad Resources" popup="false"></link>
+<rendering item-idref="3"></rendering>
+</region>
+<region region-id="682" left="18" top="8.25" width="84" height="12" align-x="18" align-y="18" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
+<f family="Arial" charset="0" size="11">
+<inlineAttr font-weight="normal" line-through="false">
+<c val="#808000">SYMBOLIC MATH</c>
+</inlineAttr>
+</f>
+</p>
+</text>
+<link href="./symbolictoc.xmcd" title="Links to Symbolic Math" popup="false"></link>
+</region>
+<region region-id="683" left="18" top="38.25" width="91.5" height="12" align-x="18" align-y="48" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+<f family="Arial" charset="0" size="11">
+<b>
+<c val="#808080">
+<link href=".\..\toc_qs.xmcd" title="Links to QuickSheets" popup="false">quicksheets</link>
+</c>
+</b>
+</f>
+</p>
+</text>
+</region>
+<region region-id="684" left="18" top="50.25" width="108.75" height="12" align-x="18" align-y="60" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
+<f family="Arial" charset="0" size="11">
+<b>
+<inlineAttr line-through="false">
+<c val="#800000">Symbolic Transforms</c>
+</inlineAttr>
+</b>
+</f>
+</p>
+</text>
+<indexes>
+<phrase>transforms, symbolic</phrase>
+</indexes>
+</region>
+<region region-id="499" left="6" top="96.75" width="339" height="42.75" align-x="6" align-y="108" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">This QuickSheet shows how to perform symbolic Fourier, Laplace, and z transforms, and their inverses. You can calculate the transform of a function in either of the following ways:</p>
+</text>
+<indexes>
+<phrase>symbolic transforms</phrase>
+<phrase>symbolic Fourier</phrase>
+<phrase>Laplace transform</phrase>
+<phrase>z transforms</phrase>
+<phrase>inverse transforms</phrase>
+</indexes>
+</region>
+<region region-id="874" left="6" top="150.75" width="309.75" height="42.75" align-x="6" align-y="162" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="none" tabs="inherit">
+<b>
+<c val="#008080">•<sp count="3"></sp>
+</c>
+</b>Use the symbolic equal sign (<f family="Symbol" charset="2"></f>) with a keyword for the transform. This is the recommended method because results are automatically updated when you make changes in the worksheet. </p>
+</text>
+</region>
+<region region-id="875" left="6" top="204.75" width="304.5" height="42.75" align-x="6" align-y="216" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="none" tabs="inherit">
+<b>
+<c val="#008080">•<sp count="3"></sp>
+</c>
+</b>Select <b>Transform</b> from the <b>Symbolics</b> menu and then select a transform from the drop-down menu. In this case, results are not automatically updated. </p>
+</text>
+</region>
+<region region-id="593" left="6" top="266.25" width="213.75" height="12" align-x="21.75" align-y="276" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="heading 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Fourier and Inverse Fourier Transforms</p>
+</text>
+<indexes>
+<phrase>transforms, Fourier and inverse Fourier</phrase>
+<phrase>Fourier and inverse Fourier transforms</phrase>
+</indexes>
+</region>
+<region region-id="500" left="6" top="282.75" width="322.5" height="42.75" align-x="6" align-y="294" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">To find the Fourier transform of a function, select the function, press <f family="Verdana" charset="0" size="10">
+<b>[Ctrl] [Shift] [.]</b>
+</f>
+<f family="Times New Roman" charset="0" size="10">
+<inlineAttr font-weight="normal">, </inlineAttr>
+</f>
+<f family="Verdana" charset="0" size="10">
+<inlineAttr font-weight="normal">and</inlineAttr>
+</f>
+<f family="Verdana" charset="0" size="10">
+<b>
+<sp></sp>
+</b>
+</f>
+<inlineAttr font-weight="normal">type "fourier" in the placeholder that appears</inlineAttr>. This equation finds the Fourier transform of the Dirac delta function :</p>
+</text>
+</region>
+<region region-id="501" left="36" top="336.75" width="159.75" height="15.75" align-x="103.5" align-y="348" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+<ml:apply>
+<ml:id xml:space="preserve">Δ</ml:id>
+<ml:id xml:space="preserve">τ</ml:id>
+</ml:apply>
+<ml:command>
+<ml:id xml:space="preserve">fourier</ml:id>
+</ml:command>
+<ml:symResult>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:real>2</ml:real>
+<ml:id xml:space="preserve">π</ml:id>
+</ml:apply>
+<ml:apply>
+<ml:id xml:space="preserve">Δ</ml:id>
+<ml:id xml:space="preserve">τ</ml:id>
+</ml:apply>
+</ml:apply>
+<ml:apply>
+<ml:id xml:space="preserve">Δ</ml:id>
+<ml:id xml:space="preserve">ω</ml:id>
+</ml:apply>
+</ml:apply>
+</ml:symResult>
+</ml:symEval>
+</math>
+<rendering item-idref="4"></rendering>
+</region>
+<region region-id="504" left="6" top="360.75" width="221.25" height="14.25" align-x="6" align-y="372" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">As expected, this returns a constant frequency.</p>
+</text>
+</region>
+<region region-id="730" left="6" top="384.75" width="303.75" height="28.5" align-x="6" align-y="396" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">The next example finds the Fourier transform of a function involving the Heaviside step function <f family="Symbol" charset="2">F</f>(t):</p>
+</text>
+</region>
+<region region-id="882" left="36" top="438.75" width="378" height="15.75" align-x="215.25" align-y="450" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+<ml:apply>
+<ml:plus></ml:plus>
+<ml:apply>
+<ml:neg></ml:neg>
+<ml:apply>
+<ml:id xml:space="preserve">Φ</ml:id>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:apply>
+<ml:mult style="auto-select"></ml:mult>
+<ml:apply>
+<ml:neg></ml:neg>
+<ml:id xml:space="preserve">λ</ml:id>
+</ml:apply>
+<ml:real>1</ml:real>
+</ml:apply>
+<ml:id xml:space="preserve">c</ml:id>
+</ml:apply>
+</ml:apply>
+</ml:apply>
+<ml:apply>
+<ml:id xml:space="preserve">Φ</ml:id>
+<ml:apply>
+<ml:plus></ml:plus>
+<ml:apply>
+<ml:mult style="auto-select"></ml:mult>
+<ml:apply>
+<ml:neg></ml:neg>
+<ml:id xml:space="preserve">λ</ml:id>
+</ml:apply>
+<ml:real>1</ml:real>
+</ml:apply>
+<ml:id xml:space="preserve">c</ml:id>
+</ml:apply>
+</ml:apply>
+</ml:apply>
+<ml:command>
+<ml:id xml:space="preserve">fourier</ml:id>
+</ml:command>
+<ml:symResult>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:parens>
+<ml:real>-2</ml:real>
+</ml:parens>
+<ml:id xml:space="preserve">π</ml:id>
+</ml:apply>
+<ml:apply>
+<ml:id xml:space="preserve">Δ</ml:id>
+<ml:id xml:space="preserve">ω</ml:id>
+</ml:apply>
+</ml:apply>
+<ml:parens>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:apply>
+<ml:id xml:space="preserve">Φ</ml:id>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:apply>
+<ml:neg></ml:neg>
+<ml:id xml:space="preserve">λ</ml:id>
+</ml:apply>
+<ml:id xml:space="preserve">c</ml:id>
+</ml:apply>
+</ml:apply>
+<ml:apply>
+<ml:id xml:space="preserve">Φ</ml:id>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:id xml:space="preserve">c</ml:id>
+<ml:id xml:space="preserve">λ</ml:id>
+</ml:apply>
+</ml:apply>
+</ml:apply>
+</ml:parens>
+</ml:apply>
+</ml:symResult>
+</ml:symEval>
+</math>
+<rendering item-idref="5"></rendering>
+</region>
+<region region-id="626" left="6" top="482.25" width="149.25" height="12" align-x="9" align-y="492" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="heading 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Z and Inverse Z Transforms</p>
+</text>
+<indexes>
+<phrase>transforms, z and inverse z</phrase>
+<phrase>z and inverse z transforms</phrase>
+</indexes>
+</region>
+<region region-id="524" left="6" top="504.75" width="315" height="14.25" align-x="6" align-y="516" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">To calculate the z-transform of a function, use the keyword "ztrans."</p>
+</text>
+</region>
+<region region-id="525" left="36" top="526.5" width="99" height="39" align-x="84" align-y="546" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+<ml:id xml:space="preserve">n</ml:id>
+<ml:command>
+<ml:id xml:space="preserve">ztrans</ml:id>
+</ml:command>
+<ml:symResult>
+<ml:apply>
+<ml:div></ml:div>
+<ml:id xml:space="preserve">z</ml:id>
+<ml:apply>
+<ml:pow></ml:pow>
+<ml:parens>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:id xml:space="preserve">z</ml:id>
+<ml:real>1</ml:real>
+</ml:apply>
+</ml:parens>
+<ml:real>2</ml:real>
+</ml:apply>
+</ml:apply>
+</ml:symResult>
+</ml:symEval>
+</math>
+<rendering item-idref="6"></rendering>
+</region>
+<region region-id="528" left="36" top="574.5" width="204.75" height="39" align-x="118.5" align-y="594" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+<ml:apply>
+<ml:id xml:space="preserve">sin</ml:id>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:id xml:space="preserve">a</ml:id>
+<ml:id xml:space="preserve">n</ml:id>
+</ml:apply>
+</ml:apply>
+<ml:command>
+<ml:id xml:space="preserve">ztrans</ml:id>
+</ml:command>
+<ml:symResult>
+<ml:apply>
+<ml:div></ml:div>
+<ml:parens>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:id xml:space="preserve">z</ml:id>
+<ml:apply>
+<ml:id xml:space="preserve">sin</ml:id>
+<ml:id xml:space="preserve">a</ml:id>
+</ml:apply>
+</ml:apply>
+</ml:parens>
+<ml:parens>
+<ml:apply>
+<ml:plus></ml:plus>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:apply>
+<ml:pow></ml:pow>
+<ml:id xml:space="preserve">z</ml:id>
+<ml:real>2</ml:real>
+</ml:apply>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:real>2</ml:real>
+<ml:apply>
+<ml:id xml:space="preserve">cos</ml:id>
+<ml:id xml:space="preserve">a</ml:id>
+</ml:apply>
+</ml:apply>
+<ml:id xml:space="preserve">z</ml:id>
+</ml:apply>
+</ml:apply>
+<ml:real>1</ml:real>
+</ml:apply>
+</ml:parens>
+</ml:apply>
+</ml:symResult>
+</ml:symEval>
+</math>
+<rendering item-idref="7"></rendering>
+</region>
+<region region-id="845" left="0" top="618" width="6000" height="6" align-x="0" align-y="618" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<pageBreak></pageBreak>
+</region>
+<region region-id="783" left="6" top="624.75" width="355.5" height="14.25" align-x="12" align-y="636" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">To calculate the inverse z-transform of a function, use the keyword "invztrans." </p>
+</text>
+</region>
+<region region-id="531" left="36" top="652.5" width="98.25" height="33.75" align-x="117.75" align-y="672" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+<ml:apply>
+<ml:div></ml:div>
+<ml:id xml:space="preserve">z</ml:id>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:id xml:space="preserve">z</ml:id>
+<ml:real>1</ml:real>
+</ml:apply>
+</ml:apply>
+<ml:command>
+<ml:id xml:space="preserve">invztrans</ml:id>
+</ml:command>
+<ml:symResult>
+<ml:real>1</ml:real>
+</ml:symResult>
+</ml:symEval>
+</math>
+<rendering item-idref="8"></rendering>
+</region>
+<region region-id="534" left="36" top="700.5" width="102" height="33.75" align-x="117" align-y="720" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+<ml:apply>
+<ml:div></ml:div>
+<ml:id xml:space="preserve">z</ml:id>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:id xml:space="preserve">z</ml:id>
+<ml:id xml:space="preserve">e</ml:id>
+</ml:apply>
+</ml:apply>
+<ml:command>
+<ml:id xml:space="preserve">invztrans</ml:id>
+</ml:command>
+<ml:symResult>
+<ml:apply>
+<ml:pow></ml:pow>
+<ml:id xml:space="preserve">e</ml:id>
+<ml:id xml:space="preserve">n</ml:id>
+</ml:apply>
+</ml:symResult>
+</ml:symEval>
+</math>
+<rendering item-idref="9"></rendering>
+</region>
+<region region-id="829" left="6" top="752.25" width="251.25" height="12" align-x="23.25" align-y="762" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="heading 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Changing the Default Variable for a Transform </p>
+</text>
+<indexes>
+<phrase>transforms, Laplace and inverse Laplace</phrase>
+<phrase>Laplace and inverse Laplace transforms</phrase>
+</indexes>
+</region>
+<region region-id="846" left="6" top="768.75" width="345" height="85.5" align-x="6" align-y="780" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">You can change the default variable in the function returned by a transform by adding a pair of arguments after the transform keyword. The first argument is the independent variable for the domain function; the second argument is the independent variable for the transformed function. For example, to change the default variable returned by the inverse Laplace transform "invlaplace" from t to t1, perform the following steps:<sp count="2"></sp>
+</p>
+</text>
+</region>
+<region region-id="851" left="6" top="852.75" width="336" height="156.75" align-x="12" align-y="864" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"></p>
+<p style="Normal" margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="none" tabs="inherit">
+<f family="Times New Roman" charset="0" size="12">
+<b>
+<inlineAttr font-style="normal" underline="false" line-through="false">
+<c val="#008080">1.</c>
+</inlineAttr>
+</b>
+</f>
+<f family="Times New Roman" charset="0" size="12">
+<inlineAttr font-weight="normal" font-style="normal" underline="false" line-through="false">
+<sp count="2"></sp>Type the function you want to transform and press </inlineAttr>
+</f>
+<f family="Verdana" charset="0" size="10">
+<b>[Ctrl] [Shift] [.]</b>
+</f>
+<inlineAttr font-style="normal" underline="false" line-through="false">
+<f family="Times New Roman" charset="0" size="12">
+<b>
+<sp></sp>
+</b>
+</f>
+</inlineAttr>
+<f family="Times New Roman" charset="0" size="12">
+<inlineAttr font-weight="normal" font-style="normal" underline="false" line-through="false">to insert a placeholder followed by the symbolic equal sign.</inlineAttr>
+</f>
+<f family="Times New Roman" charset="0" size="12">
+<inlineAttr font-weight="normal" font-style="normal" underline="false" line-through="false">
+<sp></sp>
+</inlineAttr>
+</f>
+</p>
+<p style="Normal" margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="none" tabs="inherit"></p>
+<p style="Normal" margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="none" tabs="inherit">
+<f family="Times New Roman" charset="0" size="12">
+<b>
+<inlineAttr font-style="normal" underline="false" line-through="false">
+<c val="#008080">2.</c>
+</inlineAttr>
+</b>
+</f>
+<f family="Times New Roman" charset="0" size="12">
+<inlineAttr font-weight="normal" font-style="normal" underline="false" line-through="false">
+<sp count="2"></sp>Type "invlaplace," followed by a comma, in the placeholder</inlineAttr>
+</f>
+<f family="Times New Roman" charset="0" size="12">
+<inlineAttr font-weight="normal" font-style="normal" underline="false" line-through="false">. This inserts another placeholder</inlineAttr>
+</f>
+</p>
+<p style="Normal" margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="none" tabs="inherit"></p>
+<p style="Normal" margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="none" tabs="inherit">
+<b>
+<c val="#008080">3.</c>
+</b>
+<sp count="2"></sp>Type the independent variable for the function, followed by a comma, in the second placeholder. This inserts another placeholder.</p>
+<p style="Normal" margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="none" tabs="inherit"></p>
+<p style="Normal" margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="none" tabs="inherit">
+<b>
+<c val="#008080">4.</c>
+</b>
+<sp count="2"></sp>Type t1 in the third placeholder and press <b>[Enter]</b>. </p>
+</text>
+</region>
+<region region-id="850" left="42" top="1024.5" width="189.75" height="33.75" align-x="150" align-y="1044" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+<ml:apply>
+<ml:div></ml:div>
+<ml:id xml:space="preserve">s</ml:id>
+<ml:apply>
+<ml:plus></ml:plus>
+<ml:id xml:space="preserve">a</ml:id>
+<ml:id xml:space="preserve">s</ml:id>
+</ml:apply>
+</ml:apply>
+<ml:command>
+<ml:sequence>
+<ml:id xml:space="preserve">invlaplace</ml:id>
+<ml:id xml:space="preserve">s</ml:id>
+<ml:id xml:space="preserve">τ</ml:id>
+</ml:sequence>
+</ml:command>
+<ml:symResult>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:apply>
+<ml:id xml:space="preserve">Δ</ml:id>
+<ml:id xml:space="preserve">τ</ml:id>
+</ml:apply>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:id xml:space="preserve">a</ml:id>
+<ml:apply>
+<ml:pow></ml:pow>
+<ml:id xml:space="preserve">e</ml:id>
+<ml:apply>
+<ml:neg></ml:neg>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:id xml:space="preserve">a</ml:id>
+<ml:id xml:space="preserve">τ</ml:id>
+</ml:apply>
+</ml:apply>
+</ml:apply>
+</ml:apply>
+</ml:apply>
+</ml:symResult>
+</ml:symEval>
+</math>
+<rendering item-idref="10"></rendering>
+</region>
+<region region-id="855" left="6" top="1074.75" width="342" height="57" align-x="6" align-y="1086" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Mathcad returns the inverse Laplace transform using the variable t1 as the independent variable. <f family="Symbol" charset="2" size="12">
+<inlineAttr font-weight="normal" font-style="normal" underline="false" line-through="false">D</inlineAttr>
+</f>(t) is the Dirac delta function. Although you cannot evaluate <f family="Symbol" charset="2">D</f>(t) with the numerical equal sign, you can evaluate it with the symbolic equal sign. See the <b>
+<u>
+<link href="./dilog.xmcd" title="Links to section" popup="false">Dirac Delta Function</link>
+</u>
+</b> for more details.</p>
+</text>
+</region>
+<region region-id="857" left="6" top="1146.75" width="345.75" height="28.5" align-x="12" align-y="1158" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">You can find the Laplace transform of the result, using the keyword "laplace," as follows</p>
+</text>
+</region>
+<region region-id="858" left="42" top="1186.5" width="138.75" height="33.75" align-x="135" align-y="1206" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+<ml:apply>
+<ml:pow></ml:pow>
+<ml:id xml:space="preserve">e</ml:id>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:apply>
+<ml:neg></ml:neg>
+<ml:id xml:space="preserve">a</ml:id>
+</ml:apply>
+<ml:id xml:space="preserve">τ</ml:id>
+</ml:apply>
+</ml:apply>
+<ml:command>
+<ml:sequence>
+<ml:id xml:space="preserve">laplace</ml:id>
+<ml:id xml:space="preserve">τ</ml:id>
+<ml:id xml:space="preserve">s</ml:id>
+</ml:sequence>
+</ml:command>
+<ml:symResult>
+<ml:apply>
+<ml:div></ml:div>
+<ml:real>1</ml:real>
+<ml:parens>
+<ml:apply>
+<ml:plus></ml:plus>
+<ml:id xml:space="preserve">a</ml:id>
+<ml:id xml:space="preserve">s</ml:id>
+</ml:apply>
+</ml:parens>
+</ml:apply>
+</ml:symResult>
+</ml:symEval>
+</math>
+<rendering item-idref="11"></rendering>
+</region>
+<region region-id="861" left="0" top="1224" width="6000" height="6" align-x="0" align-y="1224" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<pageBreak></pageBreak>
+</region>
+<region region-id="841" left="6" top="1238.25" width="227.25" height="12" align-x="6" align-y="1248" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="heading 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Using More Than One Keyword at a Time</p>
+</text>
+<indexes>
+<phrase>keywords, using more than one</phrase>
+</indexes>
+</region>
+<region region-id="864" left="6" top="1254.75" width="341.25" height="64.5" align-x="6" align-y="1266" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">If the results of a symbolic calculation are not be in the form you want, you can add a keyword after the transform keyword to modify the format of the result. For example, suppose you want to expand the denominator <region region-id="781" left="307.5" top="1284" width="38.25" height="21" align-x="325.5" align-y="1300.5" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:apply>
+<ml:pow></ml:pow>
+<ml:parens>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:id xml:space="preserve">z</ml:id>
+<ml:real>1</ml:real>
+</ml:apply>
+</ml:parens>
+<ml:real>3</ml:real>
+</ml:apply>
+</math>
+<rendering item-idref="12"></rendering>
+</region> in the following result:</p>
+</text>
+</region>
+<region region-id="815" left="36" top="1337.25" width="101.25" height="39" align-x="90" align-y="1362" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+<ml:apply>
+<ml:pow></ml:pow>
+<ml:id xml:space="preserve">k</ml:id>
+<ml:real>2</ml:real>
+</ml:apply>
+<ml:command>
+<ml:id xml:space="preserve">ztrans</ml:id>
+</ml:command>
+<ml:symResult>
+<ml:apply>
+<ml:div></ml:div>
+<ml:parens>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:apply>
+<ml:pow></ml:pow>
+<ml:id xml:space="preserve">k</ml:id>
+<ml:real>2</ml:real>
+</ml:apply>
+<ml:id xml:space="preserve">z</ml:id>
+</ml:apply>
+</ml:parens>
+<ml:parens>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:id xml:space="preserve">z</ml:id>
+<ml:real>1</ml:real>
+</ml:apply>
+</ml:parens>
+</ml:apply>
+</ml:symResult>
+</ml:symEval>
+</math>
+<rendering item-idref="13"></rendering>
+</region>
+<region region-id="810" left="6" top="1386.75" width="338.25" height="50.25" align-x="12" align-y="1398" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">To do so: </p>
+<p style="Normal" margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="none" tabs="inherit">
+<b>
+<c val="#008080">1.</c>
+</b>
+<sp count="2"></sp>Place the cursor to the right of <region region-id="773" left="159.75" top="1401.75" width="12" height="21" align-x="165" align-y="1418.25" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:apply>
+<ml:pow></ml:pow>
+<ml:id xml:space="preserve">k</ml:id>
+<ml:real>2</ml:real>
+</ml:apply>
+</math>
+<rendering item-idref="14"></rendering>
+</region>
+<f family="Times New Roman" charset="0" size="12">
+<inlineAttr font-weight="normal" font-style="normal" underline="false" line-through="false">and press </inlineAttr>
+</f>
+<f family="Verdana" charset="0" size="10">
+<b>[Ctrl] [Shift] [.]</b>
+</f> to insert a vertical bar and a placeholder below "ztrans." </p>
+</text>
+</region>
+<region region-id="816" left="36" top="1452.75" width="64.5" height="36.75" align-x="87.75" align-y="1476" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math error="This placeholder is empty." optimize="false" disable-calc="false">
+<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+<ml:apply>
+<ml:pow></ml:pow>
+<ml:id xml:space="preserve">k</ml:id>
+<ml:real>2</ml:real>
+</ml:apply>
+<ml:command>
+<ml:id xml:space="preserve">ztrans</ml:id>
+</ml:command>
+<ml:command>
+<ml:placeholder></ml:placeholder>
+</ml:command>
+<ml:symResult>
+<ml:placeholder></ml:placeholder>
+</ml:symResult>
+</ml:symEval>
+</math>
+<metadata>
+<customValue name="mathsoft_expected_error" type="text">bad_placeholder</customValue>
+</metadata>
+<rendering item-idref="15"></rendering>
+</region>
+<region region-id="867" left="6" top="1500.75" width="263.25" height="14.25" align-x="6" align-y="1512" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="none" tabs="inherit">
+<b>
+<c val="#008080">2. </c>
+</b> Type "expand" in the placeholder.</p>
+</text>
+</region>
+<region region-id="818" left="36" top="1535.25" width="309" height="44.25" align-x="102" align-y="1560" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+<ml:apply>
+<ml:pow></ml:pow>
+<ml:id xml:space="preserve">k</ml:id>
+<ml:real>2</ml:real>
+</ml:apply>
+<ml:command>
+<ml:sequence>
+<ml:id xml:space="preserve">ztrans</ml:id>
+<ml:id xml:space="preserve">k</ml:id>
+</ml:sequence>
+</ml:command>
+<ml:command>
+<ml:id xml:space="preserve">expand</ml:id>
+</ml:command>
+<ml:symResult>
+<ml:apply>
+<ml:plus></ml:plus>
+<ml:apply>
+<ml:div></ml:div>
+<ml:apply>
+<ml:pow></ml:pow>
+<ml:id xml:space="preserve">z</ml:id>
+<ml:real>2</ml:real>
+</ml:apply>
+<ml:parens>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:apply>
+<ml:plus></ml:plus>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:apply>
+<ml:pow></ml:pow>
+<ml:id xml:space="preserve">z</ml:id>
+<ml:real>3</ml:real>
+</ml:apply>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:real>3</ml:real>
+<ml:apply>
+<ml:pow></ml:pow>
+<ml:id xml:space="preserve">z</ml:id>
+<ml:real>2</ml:real>
+</ml:apply>
+</ml:apply>
+</ml:apply>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:real>3</ml:real>
+<ml:id xml:space="preserve">z</ml:id>
+</ml:apply>
+</ml:apply>
+<ml:real>1</ml:real>
+</ml:apply>
+</ml:parens>
+</ml:apply>
+<ml:apply>
+<ml:div></ml:div>
+<ml:id xml:space="preserve">z</ml:id>
+<ml:parens>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:apply>
+<ml:plus></ml:plus>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:apply>
+<ml:pow></ml:pow>
+<ml:id xml:space="preserve">z</ml:id>
+<ml:real>3</ml:real>
+</ml:apply>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:real>3</ml:real>
+<ml:apply>
+<ml:pow></ml:pow>
+<ml:id xml:space="preserve">z</ml:id>
+<ml:real>2</ml:real>
+</ml:apply>
+</ml:apply>
+</ml:apply>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:real>3</ml:real>
+<ml:id xml:space="preserve">z</ml:id>
+</ml:apply>
+</ml:apply>
+<ml:real>1</ml:real>
+</ml:apply>
+</ml:parens>
+</ml:apply>
+</ml:apply>
+</ml:symResult>
+</ml:symEval>
+</math>
+<rendering item-idref="16"></rendering>
+</region>
+<region region-id="799" left="6" top="1602.75" width="241.5" height="14.25" align-x="16.5" align-y="1614" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Here is another example using the keyword "simplify":</p>
+</text>
+</region>
+<region region-id="819" left="36" top="1631.25" width="180.75" height="44.25" align-x="163.5" align-y="1656" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:apply>
+<ml:id xml:space="preserve">sinh</ml:id>
+<ml:id xml:space="preserve">τ</ml:id>
+</ml:apply>
+<ml:apply>
+<ml:id xml:space="preserve">cos</ml:id>
+<ml:id xml:space="preserve">τ</ml:id>
+</ml:apply>
+</ml:apply>
+<ml:command>
+<ml:sequence>
+<ml:id xml:space="preserve">laplace</ml:id>
+<ml:id xml:space="preserve">τ</ml:id>
+</ml:sequence>
+</ml:command>
+<ml:command>
+<ml:id xml:space="preserve">simplify</ml:id>
+</ml:command>
+<ml:symResult>
+<ml:apply>
+<ml:div></ml:div>
+<ml:parens>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:apply>
+<ml:pow></ml:pow>
+<ml:id xml:space="preserve">s</ml:id>
+<ml:real>2</ml:real>
+</ml:apply>
+<ml:real>2</ml:real>
+</ml:apply>
+</ml:parens>
+<ml:parens>
+<ml:apply>
+<ml:plus></ml:plus>
+<ml:apply>
+<ml:pow></ml:pow>
+<ml:id xml:space="preserve">s</ml:id>
+<ml:real>4</ml:real>
+</ml:apply>
+<ml:real>4</ml:real>
+</ml:apply>
+</ml:parens>
+</ml:apply>
+</ml:symResult>
+</ml:symEval>
+</math>
+<rendering item-idref="17"></rendering>
+</region>
+<region region-id="811" left="0" top="1686" width="6000" height="6" align-x="0" align-y="1686" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<pageBreak></pageBreak>
+</region>
+<region region-id="800" left="6" top="1692.75" width="348.75" height="14.25" align-x="6" align-y="1704" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Here are examples of inverse Fourier transforms:</p>
+</text>
+</region>
+<region region-id="757" left="36" top="1722.75" width="30" height="15.75" align-x="49.5" align-y="1734" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:define warning="WarnRedefinedBIUnit">
+<ml:id xml:space="preserve">c</ml:id>
+<ml:real>1</ml:real>
+</ml:define>
+</math>
+<rendering item-idref="18"></rendering>
+</region>
+<region region-id="758" left="36" top="1746.75" width="255" height="37.5" align-x="165" align-y="1770" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+<ml:apply>
+<ml:div></ml:div>
+<ml:apply>
+<ml:id xml:space="preserve">sin</ml:id>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:id xml:space="preserve">c</ml:id>
+<ml:id xml:space="preserve">ω</ml:id>
+</ml:apply>
+</ml:apply>
+<ml:id xml:space="preserve">ω</ml:id>
+</ml:apply>
+<ml:command>
+<ml:sequence>
+<ml:id xml:space="preserve">invfourier</ml:id>
+<ml:id xml:space="preserve">ω</ml:id>
+<ml:id xml:space="preserve">τ</ml:id>
+</ml:sequence>
+</ml:command>
+<ml:command>
+<ml:id xml:space="preserve">simplify</ml:id>
+</ml:command>
+<ml:symResult>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:apply>
+<ml:div></ml:div>
+<ml:apply>
+<ml:id xml:space="preserve">Φ</ml:id>
+<ml:apply>
+<ml:plus></ml:plus>
+<ml:id xml:space="preserve">τ</ml:id>
+<ml:real>1</ml:real>
+</ml:apply>
+</ml:apply>
+<ml:real>2</ml:real>
+</ml:apply>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:apply>
+<ml:div></ml:div>
+<ml:real>1</ml:real>
+<ml:real>2</ml:real>
+</ml:apply>
+<ml:apply>
+<ml:id xml:space="preserve">Φ</ml:id>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:id xml:space="preserve">τ</ml:id>
+<ml:real>1</ml:real>
+</ml:apply>
+</ml:apply>
+</ml:apply>
+</ml:apply>
+</ml:symResult>
+</ml:symEval>
+</math>
+<rendering item-idref="19"></rendering>
+</region>
+<region region-id="759" left="36" top="1800.75" width="257.25" height="37.5" align-x="167.25" align-y="1824" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:symEval style="default" hide-keywords="false" hide-lhs="false">
+<ml:apply>
+<ml:id xml:space="preserve">sinc</ml:id>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:id xml:space="preserve">c</ml:id>
+<ml:id xml:space="preserve">ω</ml:id>
+</ml:apply>
+</ml:apply>
+<ml:command>
+<ml:sequence>
+<ml:id xml:space="preserve">invfourier</ml:id>
+<ml:id xml:space="preserve">ω</ml:id>
+<ml:id xml:space="preserve">τ</ml:id>
+</ml:sequence>
+</ml:command>
+<ml:command>
+<ml:id xml:space="preserve">simplify</ml:id>
+</ml:command>
+<ml:symResult>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:apply>
+<ml:div></ml:div>
+<ml:apply>
+<ml:id xml:space="preserve">Φ</ml:id>
+<ml:apply>
+<ml:plus></ml:plus>
+<ml:id xml:space="preserve">τ</ml:id>
+<ml:real>1</ml:real>
+</ml:apply>
+</ml:apply>
+<ml:real>2</ml:real>
+</ml:apply>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:apply>
+<ml:div></ml:div>
+<ml:real>1</ml:real>
+<ml:real>2</ml:real>
+</ml:apply>
+<ml:apply>
+<ml:id xml:space="preserve">Φ</ml:id>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:id xml:space="preserve">τ</ml:id>
+<ml:real>1</ml:real>
+</ml:apply>
+</ml:apply>
+</ml:apply>
+</ml:apply>
+</ml:symResult>
+</ml:symEval>
+</math>
+<rendering item-idref="20"></rendering>
+</region>
+<region region-id="828" left="6" top="1854.75" width="346.5" height="14.25" align-x="6" align-y="1866" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">For input functions that have no symbolic transform, use the <b>
+<u>
+<link href=".\..\Applications\f060.xmcd" title="Links to section" popup="false">numerical FFT</link>
+</u>
+</b>.</p>
+</text>
+</region>
+<region region-id="860" left="6" top="1884" width="426.75" height="5.25" align-x="6" align-y="1884" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<picture>
+<png item-idref="21" display-width="425.25" display-height="3.75"></png>
+</picture>
+<rendering item-idref="22"></rendering>
+</region>
+</regions>
+<binaryContent>
+<item item-id="1" content-encoding="gzip">H4sIAAAAAAAA/4yQMW/CMBCF7+LQhJA2LJ3TpWbnFzCgTogOnQG5IdBUjYpCKnXsPw/vzmZh
+6llnv5y/d7EuJyJGbpGZaoO92M93x86dPnaH7651fUIST8ixlpeud1qiZ2TaVq/vn3XV+9LG
+HxQJb0L/R+mqWr4y99ucX7R1rOwMueLA+hiwiGf/r16bJ33nqnq+NHplA1jylNjyIIrZRjCV
+HLE1sJZs2MaDVGIwNECMwPwtcHUnjLgSZSBSYQQeSx+xZ2DUPgGj9hyM2u/1XxAPykAUwgjs
+n1usf9q6ayr35QeS6rPfkHtqsEyYXBameRO5bBcAAAD//wMASTtlpsYBAAA=</item>
+<item item-id="2">iVBORw0KGgoAAAANSUhEUgAAAAoAAABLCAIAAADGVIEjAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AAlwSFlzAAALEwAACxMBAJqcGAAAAFFJREFUSEtj/P//PwMesHiFOh7EMCqNLXyGb7A8xwsY
+CEi/K8/HgxhGpbGFz/ANFsoS0/K+TjyIYVQaW/gM32ChLDHNm3YUD2IYlcYWPsM2WAAcpUm4
+oQOl6gAAAABJRU5ErkJggg==</item>
+<item item-id="3">iVBORw0KGgoAAAANSUhEUgAAAAwAAABNCAYAAACScYUuAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AIZJREFUSEtj/A8EDKQAkAZSAANI8eIV6kRhsGtGNRAIrdFQIiY9DatQev78+X9iMNzTxCgG
+qYFreFee/58YPKphNJRwJJWRnTRIznEka1je1/mfGAyPB2IUg9SMaiAmpEZDaaiHEsk5jmQN
+86Yd/U8MhqclYhSD1IxqICakRkNpqIcSKV1LAPVF2W5Ss3TRAAAAAElFTkSuQmCC</item>
+<item item-id="4">iVBORw0KGgoAAAANSUhEUgAAANUAAAAVCAYAAADRqKs3AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+ArFJREFUeF7tmo1uwzAIhLv3f+itmerJczD34R+lqahUTYoxHMcB2bSv7+fnkZ9kIBlYx8DR
+VPlJBpKBdQw81rlKT8lAMvD75pc0JAPJwFoGsqnW8pnekgF/Uz1/c0MUKTt1bgU57pQvAhEw
+GsETcL/NdCcns6App8pOnY/gpD6pXY3BuuN2DQlCbF5/YcR8tD5pDBzghobvzgmpEbGJaoWU
+ksQlNr1Yp9ooQy9YFAi1p3aE0He2ieRpTkT4JrGbg4LtCq2o3HZg671ZlefdTbUDDBURtVOE
+3uF8JteZuyu5uVIrKo8d2Iaaqi5Wr3De8+Os/qp30Pbcu2u9BrV4LfzFp/V6obDWd1URR85H
+m2PkXlubXu40jyu1ojDOYPvbOi8tF92QbWxuKku4bQLqdSTajKrxPIJ6eC3BtA0SuauKOHMe
+bZCofT1MiNhoLldrxcM5iq1uKLWVLN0ubSoFxtoSBHS0gZVorM3Wa0AqLm/betuhPSPxRhqq
+N7RW+urVl0x3ogPCjTeclY4idz1fp6aigXcSFZ0wnr3KZzSPaIGVPRU3sVM2auiQ4RhpoFGO
+R++twKY0ON1UFsjRhFXBaSxPGEo06pyKSjUKPSec0C1PYtL8la8ebiVIbyPQs93YVA64qSKN
+Qm0VOLr2I0102Bb76KZaJThV9GjjqjxovLY5PZ48n7T+ahjQuo7m196jelR2oaYqguz9JJOk
+vkvsWxvvvjcdW4FYfmaeRQpLbOmGKsK0akLieDWoB1DEl9KJEmU9VCwMEW6sxlH4iC5brfR0
+eRpUESJV1ytfM0Qp33n+3gxEax+1n8l+Rax/G3cGjFrtZBrMxs/792GAipfarcx8JuZpK68A
+pgCp8xUY0sc9GFBaUOc7sxyJbd1h/4a+M5P0nQx8GAPZVB9W0EznegZ+AEysuKJt/ynRAAAA
+AElFTkSuQmCC</item>
+<item item-id="5">iVBORw0KGgoAAAANSUhEUgAAAfgAAAAVCAYAAACqhfyXAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+BXdJREFUeF7tmoluFDEMhuH9HxraoikhSvIfdmazgyshEHF8fL6yq/789fHzo36KQBEoAkWg
+CBSBZxH4XPD1UwSKQBEoAkWgCDyLwI9nhVPRFIEiUASKQBEoAl/fzheGIlAEikARKAJF4HkE
+asE/L6cVUREoAkWgCBQB/xP8x28ifP5y3j9/EM9PefXnssHec2ywukdyd9or5n8z4HBv+UVy
+/uo6yPb966u8QG/2dx1dO2KK5MmJwbmzinuk79QZkJW/bIYzv+7iGOEy230zRsN6iTigDAYn
+cdcd5u7O4Y0YMf4hHco5a4+Va22/C3Ol9kayDhslR+8k67BAS93ReQczxi9GZrU4MuJAPqDz
+ywdWzp0BGbH2OhyfXT9YW6yc68eMgbLMh3POdUh5Ablw2nusDlbOjTursR0/n8LciT3KPdNm
+du1k6lPjVOVXiwMt/cw4HV3M49XlMVqQjo/o4XrqDHBjjfa1a/cOjq5vfQ1Elrz+nfmH9dni
+VR1RALCNx8opthlZ1W5Ennn4qPpHMbI6WLnIp4roIFB9ZHJ+qowSqyKL4q0F/4dQlCkzR0+b
+Aag21PMow5W9V+wvNX7mwUjViWoYNTE6V+2pS2F3YVwvv8hCVIcAYorOT2Ou5qh9bTvc+9d6
+3zwjfv0QGA2FthZmOma5WdWRmy9mKKgyii+jvKq5bvu9z1uEWcZC7PO9ii0SN1PjqOdd+73t
+LD2zmLLmKVunKjeU40hNuj4zPXz5LX+CzwSkBMgWGivH2p49MKLDTPHzacwzY2cfSyhfLON2
+6fTLCNXK6K5ah4o84ozOM2w5Nr6HU/OLf46e1SBE9cAuuplfrr+sPrZelRyOYnbjQHaR/2xf
+Izsoj8gPNx+qXzN59IBA/n0v+Hb4jP6Nhhd7fiVuZW+WFKbYkAwbJyoM5pXdD5gs205RqrZH
+Q3ZVhKuCRrZXOUP5ZAcBYtbrWcmj5aD0DzsIGIYzGSVvyI5T92yMq55j6gDV4Grhr+oI1Q6q
+ByV+NLDZOTvzKXvuOvXi9qwyT9mad3LL+u/sOnX3oXqRP8GvBmFmoY8KmWlyRkZpuFlDqYPO
+eTDMBlIb4zsyV3LEyDoyiFt0wbMDxqlF9g7igs4ZO0hH5PGG6pztTZRrpMdZAm7c7D3EBuUF
+5RbpR/fROeMfI4PsoDmN4kQL1LHP3kG+MY9Sa8HPXiYIJhsYs9juHqBMsTEyaJisGI1ey+/I
+PJsTow8N6dXDFZ0x55G8R/tmV6843JVYmAHH6GOHtCvHPiAivrb108+BE2YAE9tsru+qz52z
+lKl9lUkvz9Q/qll7wbMDKwpiFCT7yo0CXhVktKkjXNBddI647Gau+KcuZmVYrBqoP7uG6uzV
+rOhC/KPnLF9Wjl0g0Z5gBpzqszIr0LCczbzMuNn4kBw6RzWmzgCkb5VbpqdU/aw84uTWBGsf
+PUL6mmPmYcvTXvD9K1JpJDZ4tXFan1gbitxKPyoUVOCMH09h7rBqF6zzSWCWu5neq0kuX9u/
++zsj3ez/MXlXZBy2iv524KB6VH1BD2pH38jH/v+YeurzmTkLlNmAmDOxoHyrcxfpm53vZIh8
+yuC4c98wOWAeH/aCRwAzCk2x8WpZZ/js9Pk0f3bF+r/E+Y783jE3GT5HdUTv95/6dtXOTr1Z
+DDJ8PMkXZq+2/t6y4NuvDDKAn6bj3QrgNH6uP6dyd+N51b0dHHfovItPxPfIXWZ4qwyy/FHt
+RuRP9Pk0n5hP7197N5II9e5pkFT/R/Knx3S6f24OnhqXyyN6L5Nnpq5oXO59Jwbnzsq/LH1Z
+elyWyr2TfT3FN3a5377glUSXbBEoAkWgCBSBIuATuPUTvO9m3SwCRaAIFIEiUAQUAr8BeVkX
+/KDRhwYAAAAASUVORK5CYII=</item>
+<item item-id="6">iVBORw0KGgoAAAANSUhEUgAAAIQAAAA0CAYAAABLjpDSAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AqhJREFUeF7tmoFuwzAIRLv//+itqZY0oWCwfaRNuUiTptbG+HghmPTn937deFGBVYEFCF5U
+YFXgRimowF4BAkEeDgoQCAJBIMiArQAzBOlghiADzBBkIKgAHxlBod417N4vWhqHh79MXwhE
+proA2wsMW9No9z/AtGqCQGQpC7a7BwNsmkVlpqAZts+CYfGdGSIjgmCbBAIs6JXNSRiy4WCG
++GBatBMGgfjggH2ja8wQ3xjViT2lAJGd1ib2G5p6df9DmzQGEQhLmBOaQDOBy5p7AGK9M9Zi
+xlvUKnr2nz/Otv/iSrtynOzIWX5Y8zx/e7+vmCk2IDSRPUGstqr8XAusdZzy/Di9lVssU6gZ
+Qt6p3p3lnZUjYLUCjYIgktF6j3ozNj9t7kun0gusBoYW7KidfeaIArE+gjzIPIij35+1TtSf
+7HHTGWIUiBY0PUBlClQNhukM0aoDZDEpA6fVGdajKlKroMGoCMMBCFnMacXdXvTWs1Y+Cqyi
+0hrXmu/5hQCjKgwvGQIhJm1cW4GUxtS1JanhvZVpCUSN+B922SzoC+rBLQsFDkU71aECBIIM
+mI8Q1hDF4XipJ4rrUX77BKI8Ak8B1NcO1AevwDs6ndH3P9rrARaVeAY2i2fD0GrlW75orx02
+UBK1KWf6bBjkuyVN8F6feMoAYtsrPnDp7WeK0mavTwQCFJWR9Axa+mGmFfgeKAgEKCotILRC
+DrRsqHYhEGi1A/Y80b072Pp9iWc3AlvUxiPTBPbKIQEFvIAHTEwNQa1PIKbC8JyMCsioO6j1
+CcRoBMS8SA3hFX8zrhCIGfWS5mrdwlYTCOXGSHPKWpsZAhUV5+gHXKbLVE9ByaKyS9rY4N4A
+xKyOjRrxhRliTOvmrJFAoN0Y9YFAoCNxcXsE4uIBRLv/ByVDUD37dgQGAAAAAElFTkSuQmCC</item>
+<item item-id="7">iVBORw0KGgoAAAANSUhEUgAAAREAAAA0CAYAAACtggy/AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+BkNJREFUeF7tXUtOJTEMZA7IzTgBF2DPnjuwZcmSHTdgXp7UUgh2XLbT6V8hIc2o/a3Y1U7e
+6+bfz+3ngT9EgAgQgSgChUT4QwSIABGIIvAQVaQeESACROC+kyEMRIAIEIEMAiSRDHrUJQJE
+gJMIa+A4CNzO/VYPNuoD0dNkEN3VE084WH9VEsFRlQgsCOy50TyxnZFISCLs090j4GnS2clE
+YjsbkZBEZlcd/bkRiDSq20lQIRIbSSQINtWIQASBXsOVa/Wv176kW/tb/r3ItfZ7BGLFdSYi
+4STirTzKT0UAabbsNCCRhUUwBQQkNk0O1Z0KdtAZSSQIHNXmIGARhHVdixJp4lbG+r/kyzvF
+RPOZsxqyF5LIlujTt4mAtWXoGbAaUmpwaTuz+PCQSG1bigMhMROcnQiQRHayEAxDuct1vhti
+kQSKqUYcFmmgREASQVeCckRgBQQyjYpOKWuSCLczKxQFTRIBLwLSRFAffGqNapFIqyfZbA9d
+relkOUhttzO9bZK2XfLitJU8tJ2Jjo1RPS8Ys/x446L8GAT2vL6R2NDpagx661uBSCQSRgTc
+iJ+js3gm5yvpzq4nD7ae2M5GIPfJywMWKusBFbWJyGX9ZvWRGNeUOXr8FjZ7zg+J7YwEQhJp
+qhYpBKvQt75+hhy2xpD+fQj8mUTqwyVpq9AeNLXuekUs2faEa/m+syLwuLh2gNbGp/nT8rDi
+y+aPYoVggNqiHBGwEPhFInXxSQ1hEUyvidvC9hY64ttDIj2CXOwsPmsQtTys+CRsrcXJXPfi
+m/FF3WsjoJKI1jgWGSDFKzUnsgyWb5REJAKRdK1c2jx68Vm2evkjk5Mmo9nN2KTu7wf/rozH
+vW+k7YinGZDGrpu2nnCkAu81G+ILbVZJDrFfTykt8Vj6UfJECFZax4gedYiAFwH10xlt/EYa
+BSEHtNmRrURPpncnthrPSzQWNtoE5F00Sz6CbbH59vZmmeb1iyLw/v6uZm6eiUTuthaJRO/I
+SJMiDaTZaacki0Si2xkkxmitRm1/fn7+fH19Rd1S7+QIlPoov2Jvt3dxqTGkPV891qPNXdv2
+Ekkdg+YbaSApl5o82n9LuUl5WPG119eoOSR/zS+nkDVW5Fw2X15ebBIZlXKmmDMxbOU3E/Me
+dD8+PjiF7GEhdh5DmURKrbQ/q3xjtd0CzcCGBBJH+fX11a08Y7JyB0WF1RGQppHVSGQmkZBA
+crWjjamaVWT7mouI2ntF4Pn5ed4kslcQGNdvBMqImj0PIYlfp6pKrbQHrKtOIteB9riZSkXh
+zYYk4kXsuPLlTKS96ZBEjrueQyIv46n20R3qgCSCInV8uVIr7ZaGJHL8dU1l8PT0lNIngaTg
+O5zy9/f3T1szJJHDLePYgB8fH1MGSSIp+A6p3NYMSeSQyzgu6AwJZHTHZUBLsxH48+nc7ADo
+b18IRImg1ova6CFxlO+hILkjMnuqCiteksieVmsHsVgFI4UoPTowMpWjfA/Fg51HdiSWHlso
+cZNEPKheQHaPxS3FtLc4I/FEdDIlGPVn6ZFEMqtyQt3sweosSKzCnhXH4icST0Qnk1fUn6XH
+g9XMqpxQt3xcVz6222Lb4oHTKmzNljWiL9et/OvrvVgQf568a9Jqt5GWnQxmPdv8iNdC/mLX
+e182q4swWpAj4Iz6ts5Wevmh13rkMnJbFlmLUbjVOfLLZiMq+mQ2yleYpce70TtvD472zum9
+kxbb0UawdK0Gt6YNqwy0CSeTD5LT2phLz1rxeyJWNZz8uvUAXrboM/AhvqPNbpHI0rCIXEu4
+i05E1yJlD54Ifto2TvPDB/A8K3AhWenx7novvgUU0QZAJyhPg1vbIg0rjw8EYy8mXnlkzae/
+TwQBhjLbI6C+9q75Q2DRovRmOKr5rOZHzz0sO1Lzjd7OoDGgJBqdeKQXWHE7463wE8qXM5E/
+74i4EYi0v56Rvravj/iubWmju0ZaGhFoZxOtr1Y/SsJRPCL+eniVF3lPfT1iZMGpsx0CkVck
+bhft9p6jDbp95PEItJdXcRKJY3oqTe0lvKdKcnAyHiLxyA4Oc4i5MoVAfzJiiDcaOSwCvT9Q
+dNikVg4cIQdEZuUw0+Z7r9DkJJKGlwaIwLURIIlce/2ZPRFII/Af5DHtsDlctR8AAAAASUVO
+RK5CYII=</item>
+<item item-id="8">iVBORw0KGgoAAAANSUhEUgAAAIMAAAAtCAYAAACNi9j4AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AkxJREFUeF7tmeFyxCAIhNv3f+i2aS8ZQwAFN6Z6ezP90asiLJ+o9PPr5/PBDxXYFNhg4IcK
+/BYFykAFdgUIA1k4FCAMhIEwkIGrAqwMpIKVgQywMpABRwHIMbG1K+QPVZ9PARgMx1uVfaz5
+KHh5DIGBIEyb/5PjMBjY2Z4fCMIwfw5hEUBgkFWBVQKWn6GGumHQXhKEYWgOYYt1wwDzpMEQ
+IWsQKTik1HQqGIJxcrjXYCp6Q8drkIr9KTB71cn6z8qg7ICsmP9pM2VimBaGk+OvTud+gS0b
+X+V35QV3rwDWpVfOK8db9mXDTfpTm4eGKQrElDB4CZZl3nvqakBp87WkWnYlcJ4/0WRlYIms
+YcJQ2zF3/70WuJXICAxyJ7f+Ln3TKlI5xvO1Fqe0k9W9ZZ0pK0M04XuQ2i5p+c7aXdpRol1A
+tSoS2bEtibTGRNYhDMp/Vr2jpaV6tMwf8WqJgHDZYD0Ejp7bekyUQdaSJCtIa0XJHhPRZEU0
+ztiesjJY56Z8IVjntveSkK8G7UKoraP5VBsXSW5kbBaE07EXWZBj11aA7ei18xuK7lEYMqUt
+FB0HhxR4BAbrTA55zsFwBR6BwXqqwaOjwZAChCEk19qDVRisJxNaCt4Z0Ir22TNhGFHKCUNf
+8tCz3WPCS5bVBJKdOc9hwoBOZ589E4YRiRqxRp887zWbMLxXvt1oq3eGbfZdO/guu8xvToEL
+DN4/hHJL6LPYeEKqibH1aJ8BEwKtoBQgDCglF7BDGBZIIioEwoBScgE7hGGBJKJC+AbpGYA6
++BrErgAAAABJRU5ErkJggg==</item>
+<item item-id="9">iVBORw0KGgoAAAANSUhEUgAAAIgAAAAtCAYAAAB1ayMPAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AnJJREFUeF7tm+tuwyAMhbv3f+i1iZSKUF+JHepyIu1HF/Dl+AsQd/v7f10PXFCAU2ADBBcU
+4BR4QBooICkAQMCHqAAAASAABAyMK4AVZFy7JWYCkCXKPJ4kABnXbomZIYC8eixbs+30s4R6
+CyQZBsih1QYKrt9RILSagKM2GEf9jt1g/xomKiXAEaXkHDvtEaHdDQDInHp8pdf+Id+hiYiU
+MhxhFzbuVSAFEOoNBtvNvYWN8pYCSFRwmh1Apyl0/X5pQK6nDwuSAv0h9f0Zsu1/UVdahsz4
+aysTVNZMgYNCVM1k5VAGkFYAqqGzN3Wadr/2WTpcW+23/YLWX19NqsegVnxggBUSTzwlADl1
+9joIjsL0xaI+U5BR81t/ml2uwaT5H6i/aYoGibclcQKEe6ru+L2WPVdcDyBasbn73IpgsacV
+zHpw9NaAs0vZEWPQCvMt962AtMBQxbH8jitqv5JZAJG2ngxtNSC1+x8PQ0aQGTZnAyItzdZl
+21scr44W+5Yxrd8SZxDvNtIeMk/Jdq+z/ThuHndOsawgEtheALTtyGLPCvM7N4vR2WO4/bdd
+vrXELTY0e/0W09uk5lOH2Gg93asCcdBnzyzRwcLebylQZov5LdnrZANA6tRqSqQAZIrsdZwC
+kDq1mhIpAJkiex2nJCDedqw33Tte/bwxYTytAAsI1wS6KqTWr7hqH/NjFRC3GKkBo315xDZe
+8F94sRVMtsYC4u3OWePMsmv1j3E+BQCIT6/lRqtnkE2RyKceZ5BajH0AIn2pFZUa3mKilMy3
+gz5IvsalPQCQ0uXLDx6A5Gtc2gMAKV2+/OABSL7GpT08ARBtqDwF6/KqAAAAAElFTkSuQmCC</item>
+<item item-id="10">iVBORw0KGgoAAAANSUhEUgAAAP0AAAAtCAYAAABlC23TAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+BA1JREFUeF7tnAGOGyEMRbf3P3S7m2okwhr8DZ6ZDLxIlZpiwH72B08S9c/f79cXLwhAYB8C
+P6LnBQEI7EPga59QiRQCEHh19mCAAAT2IoDo98o30UKAm54agMBuBLjpd8s48W5PANFvXwIA
+2I0Aot8t48S7PYE00X//suHnRz6vP7wgAIHPJZCi0FLoiP5zk41nEEj7nh6hU0wQuI+A12WX
+46+/Z7lKa59FknUgoBOoL9zW+7duXF9es+TW1zhhBYEzCLT0ly56nunPSB9r7krgVzvufEhe
+27+e26sP1E8RPe39riVK3HcS8Nr7w7d00V8VdMajQ8Ya1kl6FYPV91Hz49l546twXF70s4nK
+6kay1pmNZ8X5ilgVm50OZutxoK6NN5sVC6cXk1owHpesdbx9njg+yuaY15sfXTtq/0TeUZ/T
+vrKLbnyXfVYRZK1zF4ez9x3hg+jPzsr/9R8leutbgrrVLtuYo8UrbaxnIKtdLwvQKmB1HcuH
+MrW1v5G0j8xVWsGID1ldlZVbq0W19vNiGjmAFAYj/Httt7Jnhs1jRF8L1xL7AcQSpDXWsrOS
+qa5ZP0uOzvOSq4ikJ5qzhKAK1bNTDlqPdasePLbKeC+vyvzad+u9uk7U7k301ol55b95zvcK
+fXSsLAxPSN54easrBefdUFm3qCcwj3vNaKQmvD0UEfUOqpmxXjye31bOlTnlvIyOQd3ztW/E
++G5bVdjlqekVU91B9MTq7X+MK4dDxsledztqfq665dUYR271yEF2Vryt2il9Gz2M1FyO2G0t
++kjrXRewdwCoN/1I0iIFb61/lghG/Wr54x3Yd4or4lsrx1fl4VdeMoruqjVUoak3fb2e975V
+ZBnz1FvROkyixaN2IjN5VX2K3ISqbYYgvdh7Offmti4ElZm6fvOwmV3gqvnlc0/590MsVqtr
+Jb9uyaz39aExs07PP2+sHLdu0V57r4ydVWSRdVt5rXPsdU5R+9m6bdVgdN2W39F1IvaPau8j
+gc3aRgp3di9v/qgvo/M8f+4cj8YUtb8ztqv2RvQN0p9ULKO+jM67qvhG91HjUu1G/XjqPERv
+ZO6Olqv5/DX4fw6uXvBefN74UwWb4Teiz6DIGhB4EIFU0XO6PijzuLotAUS/beoJfFcCTdGP
+PNdGb/qRPXZNFHFDIIuAKXrre2llw4joS9vIPMUPbCAAgTYBt71Xf+TR+pFF9qfSJBMCEJgj
+4Lb3P8urN7Fqd7jcO1DmwmI2BCDQvHCtgSva+3Lf6GFBOiEAgXEC7jN95DaOiJdn+vGkMRMC
+MwSaoi/Frgo/Knp13ZkAmQsBCLwTcD/IAxgEILAWAUS/Vj6JBgIuAUTvIsIAAmsRQPRr5ZNo
+IOASQPQuIgwgsBaBf3ODo4kRBuUEAAAAAElFTkSuQmCC</item>
+<item item-id="11">iVBORw0KGgoAAAANSUhEUgAAALkAAAAtCAYAAADyWsoJAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AzNJREFUeF7tnI1uwzAIhLv3f+it7RTJcfxzYEiwfZWmaSsmcHwmxJX68/t+vfiiAisr8IGc
+LyqwsgKvlZNjblTgO6lQBiqwugKEfPUKMz92cjIQQ4H3c69bIH6e3UKm45UU+MB9/HjlRci9
+lKVfkQLs5CK5aDyjAoR8xqoxZpEChFwkF41nVGA6yHsPE+n7nsnNWOxdY/bkwPzBMw+29rdn
+UruCMnPenjyYQ54LXQveM6mZi71r7J48QJDn44VmHOl1+F2Ly7z/FXgcckkhUJg9k5LES9vn
+Feg1zdEIoU4uuYgG8hbwVpvByo9EC9rGUMAc8uPW0ztBQXav1ce9Vn5ilIxRSBVwgVwaRMve
+qgNb+bHMLYqv1bUh5FFIeziOlUG/QI6MEXfWozTjl8aPw642mqB+8nGrdCSqGX9KJ1SojnfV
+ZFXQT5CjD41ocSzs0phq8ZUgaOXi8R46cklBauVvoW9pE3v4fdLnBfLeA+PdwdagyLtpyQ4B
+BPFz5DzSjY87hFQ/6aZI/ZfiRf9XixNdH8Xuq3suirQI3va1MSOHRgp5CjeyGbSQWuirGY+0
+dRnZVNpreq+bCnLJmNHaBFI/aScfKcgoQKPre7F7++9d3+v9aWfy0piBzO8l+DXrNJ0dvWPU
+ur8nhJ6+veBF/YY+XUnnugOqfMw4ipP+ro04uU1tTX7d2pxbErk1WiB+c5+tNWiRe3YrA36Z
+yXtiRH4/UqG0sWjXRa5LhNjCfxiEihQJEG0s2nWoRrvaLQH5Hbd0FBAtqNp1aFyedhFib8Ww
+BOSeBaTvtgIRAO+dfhFyUqxWwBJwK18lP4RcXWIutAJTcxxbU5+Qk0szBZozsOKr36Qbpncc
+ezr2NcuajrZSoAZl6TMKRBgJ5KltsXNnXx7KcQWpAG0uCiBQoh+MpV0ZOSnrXfuy0Vg/KqBR
+ABlXJLN2D9w8xt4G4riiqSrXnBR4clw5AVz4XnN2csJqogACeavbljozGhhnclQp2g0rUHvo
+S+FGQZeMK5KTle/INJwpHWyrgATMu0TiOfldSm90nUigV0eojerBVJ0UiAB687THKW+6pQJh
+FOBMHqYUDMRLgT8zxExo/u1UpAAAAABJRU5ErkJggg==</item>
+<item item-id="12">iVBORw0KGgoAAAANSUhEUgAAADMAAAAcCAYAAADMW4fJAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AO1JREFUWEftWO0OgCAIrPd/6D4sN1OQE8sp6davhO6AA23djrVYWScZK2uxQsRV2CTTSQQO
+qZ96d8/QmfEEfFwdqU6CXA3DDJnhy+xRXqNrJq5LM2V2n2J+0gDi1lfdbgAHVLsFzK4Zw7Xm
+1kTi4RcS4LCENmw3a00EBY5kKBmaZsigKf2KcM4v8s1HZnJkwiGFpFyzpwkZhEgsSEqgEsFm
+ZJA0S2Cl95NMEKFizfgBJUVZ8/7VzFBAOS1owOZsNIMzOWxSp8+3gdb6Q/VK3jRR41qQiH0J
+FvbaXOIEAaXZU4rBzD8Ap3dNxHq12QE9mnKo/7+zjAAAAABJRU5ErkJggg==</item>
+<item item-id="13">iVBORw0KGgoAAAANSUhEUgAAAIcAAAA0CAYAAACguSvRAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+A+VJREFUeF7tXE1yKkEINifyDu69mSfwAu7d6xl06dKlO29gQiq+N/bQQHcD88dUpeol0kDz
+fQGa6byv18+zisc1AufzebXZbFxt5oxdr9fVer3GPwZyxOMXgfv9/no8Hn4GGUvgD3xhz2o0
+Xi7EkdPpNLqdHg6HIMfQqNxut1FljXc8IHOAb+kTmcORMcfjsdraT1MAveHvl8WDZQ8bSxbe
+z0BnLn1zW0sJYUGQ/X4fmYMDwupzSN1a/YYFOcC3tDGNzGHFhkQvFvxa0xbkgJ4jJW+Qoxah
+wnWQtnNHxkJVJn0H+JaWliBHKTKV8rvdrnLl5zKLrAEWns/nK/UxyKECGa9ku93yQgIJK3KA
+6dTHIIcAEA0RDVA1dFB76Z2KNDYeOvgIUMBKQO/KSOR5j/oSQY6aqCmsyQEqGWx1B2AS+Vp3
+gxy1kWtc15o5Gs2LljeTw3qMK9rFBIWohtSqTJSGqakh9Rjjlm5oKvJwTITjIvak/YRF6ZCU
+JtWj7FgYPwWCUEMw72YTw019CBbkkNMSRtPYa3HQ8I6jRzxzNrB3P01zDo/NyMM/bknqxZtW
+H8fhQX2u+uKNc2TcUA3jHfZavJs50n9re0lhpnqfI8hRDl32Ol7nAo9VXLnDBHYRqaqsWG2g
+PNzTWgE9R+/OBHLDS6vMvKODnVS6GMKFZ/aaoAR0j856WpCXedtyVbDMklw6dwnpX+aQnK0l
+Z2W5S8uUzF3mHSoakDVEf5ogyRwam/Cyo+ErN7SqsXG5XGqWmayhri5+9BxeoHnZMYnmn9I5
+7IGLT5YcGk1RrhFKdXeHQGlPg5W7nDzWgHEBaPl87gQhydESOOr8XkKALuBvnSlhck2yB3ge
+NlpxqF2PkkN7w9wZm7NHkUFziCTJdNyxMAWiReeQa3/j2t2MRinBgsP9LEeOLimoIzRGPo5w
+tb9N3F609I5Bj2lZSX+r0xKR+x5bV0IOSq9m0L0IqOlziS5TcuTKSbehlBCotqxYgmepuwRA
+S9neEEzSLEocompzWi5yJ5KcHLXeojQuqZR8tBkSoENmmRGoevG2zFAtb9dBjoEwH6Jn4UYK
+vfI5UGwWbdabGFQfRvkSmcOZpt7ESOdY2Hazcybn2CzeXJBj8RTAA8BNgq2P4WQJQf6vsSgr
+jkSmyOEx1Q1yOIJdaoorKRx4ucEip1dCPExHZI5ShBvkOfAbVIuWltoPcojCqiNUCo6O1f9a
+Su0HObQRIPRJeg5YLi0Tpa4HOUoj5iyPTSmxXkLbrZpBWGQObRQYfVZZoWUbMQRriZ7y2jER
+JMbnyuBqqBsDQTgfoqxoID1THUGOmQKrsa1vglLpS2oNzPgAAAAASUVORK5CYII=</item>
+<item item-id="14">iVBORw0KGgoAAAANSUhEUgAAABAAAAAcCAYAAABoMT8aAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AJJJREFUSEvVVEEOgDAIm/9/tG5km8DAFIkaSUw8jIa20G2vVTLVADJVMs00/esAVa6mGX3h
+CUbTmJqAMhR+DnBLRK5XCoC7IVzQNlkOiWZuI18Oz1q+RPPf4hXZjTAFDe4C6J13aXkUEEGX
+Y5re9ktDtFgoIG6IqR+h0IMWYXDmgaU64kQqUMKRZt4GRPTi0fcUDr4bOhw5TlecAAAAAElF
+TkSuQmCC</item>
+<item item-id="15">iVBORw0KGgoAAAANSUhEUgAAAFYAAAAxCAYAAABAp14VAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AhJJREFUeF7tmI1uwyAMhNf3f+itWZeKOra5A0zI4kiVqvbwz4cxkMf38/nKZzyBDezs55nF
+bJfT/Z2SYYINmucEm2CbCWQraEbnD0ywdwZ7xZ58iYpNsOCyskBtv9c+fxeaX0+7dndbji1D
+2f1JfW0cmI4qW6piS+Dedw2QnCwJE7XdA/NjMkcZYuzUlrYFqawwz59WyVoFl9XPxI9ol6pY
+K9EaaLmkpZ3aeKtFIAAtDQ3W6mNMEF7Fav/VwGgTYi19r0prK4nKkRKLlyetgXibl7XpyE1L
+xi1BomA9HcPmEE/X4Ma3VFZVaieCHai3GZUaTVcudbniRqxAjSHdCqxNgJmg1kpnfJytTbBB
+M9AMtqfqesYGcRhuNsEOR/oy2AS2t+J6xwexGGr2AyyS8IjjCeJnaJYnGHuDRW4f1nGIjftW
+YL0bCQuupr8iWDZmuhXUoCH/s0EiNmdomLhNsFE3kpkrIwI2CtcFGxHY1cGi8atg0VlpBR9t
+n4lL25DR3zw/B7DI6YAJXNOuBLYlFyT+bAUkWQTq4eY14vCPxIkGh9iaqWHiPlwQJNyI1sAE
+OBOc2zPJd89N7wp6k70iWDbnBMsSA/UJFgTFyhIsSwzUJ1gQFCtLsCwxUL8e2O1YU37ARFaT
+JdigGUmwCTaIQJDZrNgEG0QgyGxW7G3ABiU62+x6FTubQJC/BPufwAblspTZH1c2j8sc/1c2
+AAAAAElFTkSuQmCC</item>
+<item item-id="16">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
+/px1AAAAAElFTkSuQmCC</item>
+<item item-id="17">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
+RcAAAAAASUVORK5CYII=</item>
+<item item-id="18">iVBORw0KGgoAAAANSUhEUgAAACgAAAAVCAYAAAA0GqweAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AKhJREFUSEvtlOEKwCAIhN2b7823ChKLlkoX+WPC2KJmn3fZ9aSgyJEBIwdFhivu/oCLCoRU
+MPUslxUKMIPVpxKGAmQolILSisWj1vw+tXgkM3JzS65PwF4Rj0KysNG3BUy12APk2dC71qyg
+NzFq/RbAIxafshzWxTsK6G+RkBe1PMsMSHfLqo1RDaHlKVQZRgJpYy0pcp4BK6jljQTQcpFH
+ud52LTli/gXpm7psG85PWAAAAABJRU5ErkJggg==</item>
+<item item-id="19">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
+PQAAAABJRU5ErkJggg==</item>
+<item item-id="20">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</item>
+<item item-id="21">iVBORw0KGgoAAAANSUhEUgAAAkQAAAAFCAMAAACTpQOIAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AwBQTFRFAAAAgICAgAAAgIAAAIAAAICAAACAgACAgIBAAEBAAID/AECAQAD/gEAA////wMDA
+/wAA//8AAP8AAP//AAD//wD///+AAP+AgP//gID//wCA/4BAwNzApsrwbWlzTAB/PwCCMQCG
+IgCJEgCMAgCPAA6TACCWADOZAEacAFqgAG+jAIWmAJupAK2nALCWALODALdwALpdAL1IAMAz
+AMQdAMcGEMoAKc0AQtEAXNQAdtcAktsArt4Ay+EA5OEA6MkA67AA7pcA8XwA9WIA+EYA+ykA
+/wwACwsLFhYWISEhLCwsNzc3QkJCTU1NWFhYY2Njbm5ueXl5hYWFkJCQm5ubpqamsbGxvLy8
+x8fH0tLS3d3d6Ojo8/PzKwAAVQAAqgAA1QAAADMAKzMAVTMAgDMAqjMA1TMA/zMAAGYAK2YA
+VWYAgGYAqmYA1WYA/2YAAJkAK5kAVZkAgJkAqpkA1ZkA/5kAAMwAK8wAVcwAgMwAqswA1cwA
+/8wAK/8AVf8AgP8Aqv8A1f8AAABVKwBVVQBVgABVqgBV1QBV/wBVADNVKzNVVTNVgDNVqjNV
+1TNV/zNVAGZVK2ZVVWZVgGZVqmZV1WZV/2ZVAJlVK5lVVZlVgJlVqplV1ZlV/5lVAMxVK8xV
+VcxVgMxVqsxV1cxV/8xVAP9VK/9VVf9VgP9Vqv9V1f9V//9VAACqKwCqVQCqgACqqgCq1QCq
+/wCqADOqKzOqVTOqgDOqqjOq1TOq/zOqAGaqK2aqVWaqgGaqqmaq1Waq/2aqAJmqK5mqVZmq
+gJmqqpmq1Zmq/5mqAMyqK8yqVcyqgMyqqsyq1cyq/8yqAP+qK/+qVf+qgP+qqv+q1f+q//+q
+KwD/VQD/gAD/qgD/1QD/ADP/KzP/VTP/gDP/qjP/1TP//zP/AGb/K2b/VWb/gGb/qmb/1Wb/
+/2b/AJn/K5n/VZn/gJn/qpn/1Zn//5n/AMz/K8z/Vcz/gMz/qsz/1cz//8z/K///Vf//qv//
+1f////vwoKCk2AWPPxGsViNa2xjW4wAAAAlwSFlzAAAOzQAADtYBytAvAAAAADNJREFUSEvt
+0jENADAQw8CoAMwf7peDV3vPcsqoBKTA5L55AoxXCRgB/okqASnQiSRgcziJX4ONC7U4ewAA
+AABJRU5ErkJggg==</item>
+<item item-id="22">iVBORw0KGgoAAAANSUhEUgAAAjkAAAAHCAYAAADqBFyZAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AIBJREFUaEPt2dsJACAMA8C6uZv7AsEVDFdwgJ75CNrGmjIECBAgQIAAgTSBXXIMAQIECBAg
+QCBNoNIWsg8BAgQIECBA4PxUXYZeNRwGMiADMiADMiADP2fgrXdecpRdAgQIECBAIFJAyYm8
+VksRIECAAAECSo4MECBAgAABApECExAorgNNM6TDAAAAAElFTkSuQmCC</item>
+</binaryContent>
+</worksheet>

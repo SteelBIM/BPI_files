@@ -1,0 +1,136 @@
+Microcal Origin 7 Crack for the Full CD (Origin 7.0 SR0 - v7.0220 - B220)
+4/7/02
+
+//---------------------------------------------------------------------------
+INSTRUCTIONS
+
+1. Copy the setup files from Origin 7 cd to a directory on your hard drive.
+2. Copy the cracked setup.inx into this directory, over the original.
+3. Run the installer using a serial below.  Type anything for License Key.
+4. After instalation, run Crack_PartTwo.exe to crack the origin 7 program.
+5. When you start the program for the first time, you will be asked to
+    register.  Select the option "I am already registered" and type in
+    something fun as your registration id (the cracked version will
+    accept whatever you type as a valid registration).  This step makes
+    the program believe you are a real registered user which is required
+    to unpack pro opk modules.
+
+Sample Serials:
+        G63S4-2478-7777777	standard (yuck - missing code generation)
+        G63S4-9490-7777777	enterprise (any dif. with pro?)
+    --> G63S4-9489-7777777	PRO (i think this is the one you want)
+        G63S4-3490-7777777	enterprise server (pointless)
+        G63S4-3489-7777777	pro server (pointless)
+
+Greetz:
+	First, thank you to Origin, for one of the best publication quality
+	   plotting programs on the market.
+	Second, thank you to those who made previous versions of Origin
+ 	  available to the scene.
+	Third. thank you to those who have very kindly provided this
+ 	  copy of origin for us all to use.
+	Fourth, thank you to the japanese author of isd, and installshield
+ 	  decompiler, without whom this full crack of the installer would
+ 	  not have been possible.  It was a constantly and faithful light
+	  which stayed with me for the many hours i struggled with this.
+	Fifth, thanks to the tf scidiv, the home of some good people.
+
+Future Notes:
+	This crack may work on future Origin 7 releases, just copy over the
+	 new .inx and ok70.dll files as above.
+//---------------------------------------------------------------------------
+
+
+
+
+//---------------------------------------------------------------------------
+                             SERIAL NUMBER SCHEME
+//---------------------------------------------------------------------------
+
+
+
+
+//---------------------------------------------------------------------------
+Microcal Origin Serial Number 
+11111-2222-3333333
+	11111	language
+	2222	product edition
+	3333333	users serial
+//---------------------------------------------------------------------------
+
+
+
+//---------------------------------------------------------------------------
+Languages:
+	G63S4 english
+	G63S5 english
+	F23H4 english (invalid)
+	F23H5 english (invalid)
+	L69I6 japanese (disabled)
+	K03U4 japanese (disabled)
+	N69S6 japanese
+	M13H6 (DISABLED) japanese (invalid)
+	S68T5 german (dont work)
+	R14G5 german (invalid)
+	D62W8 chinese (dont work)
+	M62D3 english
+
+NOTE:	only english works with this current version of the crack.
+	 i do not believe the other languages are actually available with
+	 this cd. sorry.
+//---------------------------------------------------------------------------
+
+
+//---------------------------------------------------------------------------
+Product editions:
+(unverified)
+	9865 enterprise (generic?) (broken?)
+	9378 (diabled) (standard?)
+	9389 (disabled)
+	9490 enterprise (same as pro??) [this installs same files as pro version; i dont know any difference]
+	9478 pro (standard?)
+	9489 pro (generic?)
+	9058 (disabled)
+	6058 (reject)  (update student?)
+	6865 (reject)
+	6478 pro
+	6489 pro (upgrade pro?)
+	3490 enterprise edition server
+	3489 pro server [only dif in installed files between pro and pro server is "Client Setup" directory]
+	3478 pro server
+	2058 (disabled) (network student?)
+	2865 (reject)
+	2478 origin "standard" (plain) [this may be for network client; its missing the big ATI directory for code building, and has a client setup director).
+	2489 standard server
+	2387 (disabled)
+	2058 (disabled)
+
+NOTE:	i dont know what the difs. are for dif numbers with same labels.
+	the server edition seems to work but i dont know how to use it :).
+//---------------------------------------------------------------------------
+
+
+//---------------------------------------------------------------------------
+Users Serial:
+	7000000<=x<=7999999 
+	exapmle: 7777777
+//---------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

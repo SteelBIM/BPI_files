@@ -1,0 +1,6 @@
+1) install with serial number SC14RYMMEC0001-FLEX-COML
+2) backup original files (mathcad.exe, efiutlr.dll)
+3) copy cracked files to installdir
+4) browse to and choose mcad14_TBE.dat in license manager dialog  
+
+have fun!

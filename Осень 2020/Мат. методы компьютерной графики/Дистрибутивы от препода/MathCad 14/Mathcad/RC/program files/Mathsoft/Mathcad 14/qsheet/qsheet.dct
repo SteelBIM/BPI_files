@@ -1,0 +1,2811 @@
+1/s,1,0
+2D graph enhancements,2,4
+2D graph formatting,1,12
+2D graphs, animating,1,16
+2D graphs, creating,1,20
+2D graphs, formatting,1,24
+2D image convolution,2,28
+2d plot,1,36
+2D plot, vector field,1,40
+2D plots, circle,1,44
+2D plots, complex numbers,1,48
+2D plots, creating,1,52
+2D plots, creating from a data set,1,56
+2D plots, gradient field,1,60
+2D plots, histograms,1,64
+2D plots, inequalities,1,68
+2D plots, matching units in axes,1,72
+2D plots, overview,1,76
+2D plots, parametric,2,80
+2D plots, piecewise functions,1,88
+2D plots, polar plots,1,92
+2D plots, range variables,1,96
+2D plots, scatter plot,1,100
+2D QuickPlot,1,104
+2D spline interpolation,1,108
+2D waterfall plots,1,112
+3D graphs,1,116
+3D graphs, formatting,1,120
+3D plots, creating,1,124
+3D plots, formatting,1,128
+3D plots, graphing,1,132
+3D plots, parametric,1,136
+3D plots, rotating,1,140
+3D plots, spinning,1,144
+3D plots, surface of revolution,1,148
+3D plots, zooming,1,152
+3D QuickPlot,1,156
+3D waterfall plots,1,160
+absolute value operator,1,164
+acetic acid, density of,1,168
+acetic acid, dielectric constant of,1,172
+acetic acid, molecular weight of,1,176
+acetic acid, refractive index of,1,180
+acetic acid, sound velocity in,1,184
+acetic acid, specific gravity of,1,188
+acetic acid, surface tension of,1,192
+acetic acid, viscosity of,1,196
+acetone, density of,1,200
+acetone, dielectric constant of,1,204
+acetone, molecular weight of,1,208
+acetone, refractive index of,1,212
+acetone, sound velocity in,1,216
+acetone, specific gravity of,1,220
+acetone, surface tension of,1,224
+acetone, viscosity of,1,228
+acetylene, molecular weight of,1,232
+acetylene, sound velocity,1,236
+acetylene, specific gravity of,1,240
+acetylene, specific heat at 1.0 atm pressure, 20 C,1,244
+actinium, AC, Periodic Table information,1,248
+Adams, ODE solver,1,252
+Adams/BDF,3,256
+Adaptive method of integration,1,268
+Add-ins,1,272
+address toolbar,1,276
+African teak, density of,1,280
+agate, density of,1,284
+air (mixture), specific gravity of,1,288
+air, molecular weight of,1,292
+air, sound velocity,1,296
+air, specific heat at 1.0 atm pressure, 20 C,1,300
+Airy functions,1,304
+alabaster, carbonate, density of,1,308
+alabaster, sulfate, density of,1,312
+albite, density of,1,316
+alcohol, ethyl, density of,1,320
+alcohol, ethyl, dielectric constant of,1,324
+alcohol, ethyl, molecular weight of,1,328
+alcohol, ethyl, refractive index of,1,332
+alcohol, ethyl, sound velocity in,1,336
+alcohol, ethyl, specific gravity of,1,340
+alcohol, ethyl, surface tension of,1,344
+alcohol, ethyl, viscosity of,1,348
+alcohol, methyl, density of,1,352
+alcohol, methyl, dielectric constant of,1,356
+alcohol, methyl, molecular weight of,1,360
+alcohol, methyl, refractive index of,1,364
+alcohol, methyl, sound velocity in,1,368
+alcohol, methyl, specific gravity of,1,372
+alcohol, methyl, surface tension of,1,376
+alcohol, methyl, viscosity of,1,380
+alcohol, propyl, density of,1,384
+alcohol, propyl, dielectric constant of,1,388
+alcohol, propyl, molecular weight of,1,392
+alcohol, propyl, refractive index of,1,396
+alcohol, propyl, sound velocity in,1,400
+alcohol, propyl, specific gravity of,1,404
+alcohol, propyl, surface tension of,1,408
+alcohol, propyl, viscosity of,1,412
+alder, density of,1,416
+aliasing,4,420
+aligning regions,1,436
+aligning text regions,1,440
+ALL, modifier,1,444
+aluminum oxide, dielectric constant of,1,448
+aluminum, Al, Periodic Table information,1,452
+aluminum, electrical resistivity of,1,456
+aluminum, linear expansion coefficient of,1,460
+aluminum, melting point of,1,464
+aluminum, modulus of elasticity for,1,468
+aluminum, Poisson's ratio for,1,472
+aluminum, specific gravity of,1,476
+aluminum, temperature coefficient of resistivity of,1,480
+aluminum, thermal conductivity of,1,484
+amber, density of,1,488
+ammonia (gas), specific gravity of,1,492
+ammonia, density of,1,496
+ammonia, dielectric constant of,1,500
+ammonia, molecular weight of,2,504
+ammonia, sound velocity,1,512
+ammonia, specific gravity of,1,516
+ammonia, specific heat at 1.0 atm pressure, 20 C,1,520
+amphiboles, density of,1,524
+analysis of variance,1,528
+analyzing data,1,532
+AND operator,1,536
+angular frequency,1,540
+animating 2D graphs,1,544
+animating a sine curve,1,548
+animation,2,552
+animation, using range variables,1,560
+annotate book,1,564
+annotating graphs,1,568
+anorthite, density of,1,572
+ANOVA,1,576
+ANSI code maps,1,580
+answers, copying,1,584
+answers, very large,1,588
+answers, very small,1,592
+anthracite coal, density of,1,596
+anthracite coal, specific gravity of,1,600
+anthracite coal, specific heat of,1,604
+antimony, electrical resistivity of,1,608
+antimony, linear expansion coefficient of,1,612
+antimony, melting point of,1,616
+antimony, modulus of elasticity for,1,620
+antimony, specific gravity of,1,624
+antimony, temperature coefficient of resistivity of,1,628
+antimony, thermal conductivity of,1,632
+APPEND function,1,636
+APPENDPRN function,2,640
+apple tree wood, density of,1,648
+approximate solution,1,652
+arc length of a parabolic segment,1,656
+arc length of a sector of a circle,1,660
+arc length of the cardioid curve,1,664
+arc length of the cycloid curve,1,668
+arc length of the hypocycloid curve,1,672
+arc of a circle, centroid of an,1,676
+arclength, calculating,1,680
+area,1,684
+area of a cardioid,1,688
+area of a circle,1,692
+area of a circular segment,1,696
+area of a circumscribed polygon,1,700
+area of a cycloid,1,704
+area of a frustum of a right circular cone,1,708
+area of a hypocycloid,1,712
+area of a lemniscate,1,716
+area of a parallelepiped, cross-sectional,1,720
+area of a parallelogram,1,724
+area of a rectangle,1,728
+area of a regular polygon,1,732
+area of a right circular cone, lateral surface,1,736
+area of a right circular cylinder, lateral surface,1,740
+area of a spherical triangle,1,744
+area of a trapezoid,1,748
+area of a triangle,1,752
+area of an ellipse,1,756
+area of an inscribed polygon,1,760
+area, collapsed,1,764
+areas, working with,1,768
+argon, molecular weight of,1,772
+argon, sound velocity,1,776
+argon, specific gravity of,1,780
+argon, specific heat at 1.0 atm pressure, 20 C,1,784
+array algebra,1,788
+array assignments,1,792
+array calculations,1,796
+array functions,1,800
+array origin,1,804
+array subscripts,1,808
+array superscripts,1,812
+arrays,2,816
+arrays and subarrays,1,824
+arrays, assigning,1,828
+arrays, elements,1,832
+arrays, from a range or function,1,836
+arrays, nested,1,840
+arrays, zero-padding,1,844
+asbestos cement board, specific gravity of,1,848
+asbestos cement board, specific heat of,1,852
+asbestos cement board, thermal conductivity of,1,856
+asbestos fiber, dielectric constant of,1,860
+asbestos millboard, specific gravity of,1,864
+asbestos millboard, specific heat of,1,868
+asbestos millboard, thermal conductivity of,1,872
+asbestos slate, density of,1,876
+asbestos, density of,1,880
+ASCII code conversions,1,884
+ash wood, density of,1,888
+asphalt, density of,1,892
+asphalt, dielectric constant of,1,896
+asphalt, specific gravity of,1,900
+asphalt, specific heat of,1,904
+assignment operator key,1,908
+assume,1,912
+assume keyword,1,916
+atomic mass unit,1,920
+authoring, with Mathcad,1,924
+autocorrelation,1,928
+automatic calculation mode,2,932
+automatically update,1,940
+automating controls,2,944
+automation,1,952
+automation and controls,1,956
+automation interface,1,960
+Automation interface,1,964
+automation, using,1,968
+Avogadro's number,1,972
+axes limits, setting,1,976
+axes, formatting,1,980
+axis limits, changing,1,984
+backward differentiation formulas,1,988
+balsa, density of,1,992
+balsa, specific gravity of,1,996
+balsa, specific heat of,1,1000
+balsa, thermal conductivity of,1,1004
+bamboo, density of,1,1008
+bar plots,1,1012
+Barnes extended hypergeometric function,1,1016
+basalt, density of,1,1020
+bases,1,1024
+basic integrals,1,1028
+basic trigonometric identities,1,1032
+basswood, density of,1,1036
+batch processing,2,1040
+batch reading of data,1,1048
+BDF,1,1052
+beech, density of,1,1056
+beef tallow, density of,1,1060
+beeswax, density of,1,1064
+beeswax, dielectric constant of,1,1068
+beeswax, specific gravity of,1,1072
+beeswax, specific heat of,1,1076
+benzene, density of,1,1080
+benzene, dielectric constant of,1,1084
+benzene, molecular weight of,1,1088
+benzene, refractive index of,1,1092
+benzene, sound velocity in,1,1096
+benzene, specific gravity of,1,1100
+benzene, surface tension of,1,1104
+benzene, viscosity of,1,1108
+beryl, density of,1,1112
+beryllium, electrical resistivity of,1,1116
+beryllium, linear expansion coefficient of,1,1120
+beryllium, melting point of,1,1124
+beryllium, modulus of elasticity for,1,1128
+beryllium, Poisson's ratio for,1,1132
+beryllium, specific gravity of,1,1136
+beryllium, temperature coefficient of resistivity of,1,1140
+beryllium, thermal conductivity of,1,1144
+Bessel function, scaled,1,1148
+Bessel functions,1,1152
+Bessel functions, solutions,1,1156
+binary files,1,1160
+binary representation,1,1164
+binding rules,1,1168
+binomial distribution functions,1,1172
+biotite, density of,1,1176
+birch, density of,1,1180
+bismuth, electrical resistivity of,1,1184
+bismuth, linear expansion coefficient of,1,1188
+bismuth, melting point of,1,1192
+bismuth, modulus of elasticity for,1,1196
+bismuth, specific gravity of,1,1200
+bismuth, temperature coefficient of resistivity of,1,1204
+bismuth, thermal conductivity of,1,1208
+bituminous coal, density of,1,1212
+bituminous coal, specific gravity of,1,1216
+bituminous coal, specific heat of,1,1220
+blue gum wood, density of,1,1224
+Bohr magneton,1,1228
+Bohr radius,1,1232
+bold equal sign,1,1236
+Boltzmann's constant,1,1240
+bone, density of,1,1244
+book menu,1,1248
+Boolean equal sign,1,1252
+Boolean equals,1,1256
+Boolean operators,1,1260
+Boolean toolbar,2,1264
+boxwood, density of,1,1272
+break statement,1,1276
+break statements, in while loops,1,1280
+brick, common, specific gravity of,1,1284
+brick, common, specific heat of,1,1288
+brick, common, thermal conductivity of,1,1292
+brick, density of,1,1296
+brick, hard, specific gravity of,1,1300
+brick, hard, specific heat of,1,1304
+brick, hard, thermal conductivity of,1,1308
+bromine, dielectric constant of,1,1312
+bromine, molecular weight of,1,1316
+bromine, surface tension of,1,1320
+bromine, viscosity of,1,1324
+built-in functions,1,1328
+Bulstoer,1,1332
+Bulstoer function,2,1336
+butadiene, molecular weight of,1,1344
+butadiene, sound velocity,1,1348
+butadiene, specific gravity of,1,1352
+butadiene, specific heat at 1.0 atm pressure, 20 C,1,1356
+butane, molecular weight of,1,1360
+butane, sound velocity,1,1364
+butane, specific gravity of,1,1368
+butane, specific heat at 1.0 atm pressure, 20 C,1,1372
+butene, molecular weight of,1,1376
+butene, sound velocity,1,1380
+butene, specific gravity of,1,1384
+butene, specific heat at 1.0 atm pressure, 20 C,1,1388
+butter, density of,1,1392
+butternut wood, density of,1,1396
+button controls,1,1400
+butylene, molecular weight of,1,1404
+butylene, sound velocity,1,1408
+butylene, specific gravity of,1,1412
+butylene, specific heat at 1.0 atm pressure, 20 C,1,1416
+cadmium, electrical resistivity of,1,1420
+cadmium, linear expansion coefficient of,1,1424
+cadmium, melting point of,1,1428
+cadmium, modulus of elasticity for,1,1432
+cadmium, specific gravity of,1,1436
+cadmium, temperature coefficient of resistivity of,1,1440
+cadmium, thermal conductivity of,1,1444
+calamine, density of,1,1448
+calcspar, density of,1,1452
+calculating with variables,1,1456
+calculation,1,1460
+calculation speed,1,1464
+calculation strategies,1,1468
+calculation tab,1,1472
+calculations, controlling,1,1476
+calculations, disabling,1,1480
+calculations, entering math,1,1484
+calculations, interrupting,1,1488
+calculations, vector and matrix,1,1492
+calculator toolbar,3,1496
+calculus,2,1508
+Calculus,1,1516
+Calculus toolbar,1,1520
+calculus toolbar,1,1524
+calculus, derivative formulas,1,1528
+calculus, integral formulas,1,1532
+calculus, symbolic solutions,1,1536
+camphor, density of,1,1540
+caoutchouc, density of,1,1544
+capacitance,1,1548
+capacitance between parallel plates,1,1552
+capacitance between two concentric spheres,1,1556
+capacitance of an isolated sphere,1,1560
+capacitance of coaxial cylinders,1,1564
+carbon dioxide, molecular weight of,1,1568
+carbon dioxide, sound velocity,1,1572
+carbon dioxide, specific gravity of,1,1576
+carbon dioxide, specific heat at 1.0 atm pressure, 20 C,1,1580
+carbon disulfide, density of,1,1584
+carbon disulfide, dielectric constant of,1,1588
+carbon disulfide, molecular weight of,1,1592
+carbon disulfide, refractive index of,1,1596
+carbon disulfide, sound velocity in,1,1600
+carbon disulfide, specific gravity of,1,1604
+carbon disulfide, surface tension of,1,1608
+carbon disulfide, viscosity of,1,1612
+carbon monoxide, molecular weight of,1,1616
+carbon monoxide, sound velocity,1,1620
+carbon monoxide, specific gravity of,1,1624
+carbon monoxide, specific heat at 1.0 atm pressure, 20 C,1,1628
+carbon tetrachloride, density of,1,1632
+carbon tetrachloride, dielectric constant of,1,1636
+carbon tetrachloride, molecular weight of,1,1640
+carbon tetrachloride, refractive index of,1,1644
+carbon tetrachloride, sound velocity in,1,1648
+carbon tetrachloride, specific gravity of,1,1652
+carbon tetrachloride, surface tension of,1,1656
+carbon tetrachloride, viscosity of,1,1660
+cardboard, density of,1,1664
+cardioid curve, equation,1,1668
+cardioid, arc length,1,1672
+cardioid, area,1,1676
+Cartesian coordinates, converting spherical to,1,1680
+castor oil, density of,1,1684
+castor oil, sound velocity in,1,1688
+castor oil, specific gravity of,1,1692
+castor oil, viscosity of,1,1696
+Catalan's constant,1,1700
+cedar, density of,1,1704
+ceil function,2,1708
+Ceil function,1,1716
+ceil function,1,1720
+celluloid, density of,1,1724
+Celsius temperature units,1,1728
+Celsius to Fahrenheit,1,1732
+cement, set, density of,1,1736
+centroid of a circular sector,1,1740
+centroid of a parabolic area,1,1744
+centroid of a parabolic spandrel,1,1748
+centroid of a quarter circle arc,1,1752
+centroid of a quarter circle area,1,1756
+centroid of a semicircular arc,1,1760
+centroid of a semicircular area,1,1764
+centroid of a semiparabolic area,1,1768
+centroid of an arc of a circle,1,1772
+centroids of geometric shapes,1,1776
+cerium, temperature coefficient of resistivity of,1,1780
+chain rule,1,1784
+chalk, density of,1,1788
+chalk, specific gravity of,1,1792
+chalk, specific heat of,1,1796
+chalk, thermal conductivity of,1,1800
+changing number of digits displayed,1,1804
+changing the unit system,1,1808
+changing units,1,1812
+Character Map,1,1816
+Character Map program,1,1820
+characters, adding special,1,1824
+characters, missing,1,1828
+charcoal, oak, density of,1,1832
+charcoal, pine, density of,1,1836
+charcoal, wood, specific gravity of,1,1840
+charcoal, wood, specific heat of,1,1844
+charcoal, wood, thermal conductivity of,1,1848
+checkbox,1,1852
+cherry wood, density of,1,1856
+chi-square test,1,1860
+chlorine, molecular weight of,1,1864
+chlorine, sound velocity,1,1868
+chlorine, specific gravity of,1,1872
+chlorine, specific heat at 1.0 atm pressure, 20 C,1,1876
+chloroform, density of,1,1880
+chloroform, dielectric constant of,1,1884
+chloroform, molecular weight of,1,1888
+chloroform, refractive index of,1,1892
+chloroform, sound velocity in,1,1896
+chloroform, specific gravity of,1,1900
+chloroform, surface tension of,1,1904
+chloroform, viscosity of,1,1908
+chromium, electrical resistivity of,1,1912
+chromium, linear expansion coefficient of,1,1916
+chromium, melting point of,1,1920
+chromium, modulus of elasticity for,1,1924
+chromium, specific gravity of,1,1928
+chromium, temperature coefficient of resistivity of,1,1932
+chromium, thermal conductivity of,1,1936
+Ci, cosine integral,1,1940
+cinnabar, density of,1,1944
+circle, area,1,1948
+circle, circumscribed,1,1952
+circle, circumscribed--radius of,1,1956
+circle, drawing,1,1960
+circle, inscribed,1,1964
+circle, inscribed--radius of,1,1968
+circle, perimeter,1,1972
+circle, sector,1,1976
+circle, sector of--arc length and area of,1,1980
+circuits,1,1984
+circular cone, mass moments of inertia,1,1988
+circular cylinder, mass moments of inertia,1,1992
+circular sector, centroid,1,1996
+circular segment, area,1,2000
+circumscribed circle, area,1,2004
+circumscribed circle, radius,1,2008
+circumscribed polygon, area,1,2012
+circumscribed polygon, perimeter,1,2016
+Clapp oscillator, oscillation frequency of an,1,2020
+classical electron radius,1,2024
+clay, density of,1,2028
+coal, anthracite, density of,1,2032
+coal, anthracite, specific gravity of,1,2036
+coal, anthracite, specific heat of,1,2040
+coal, bituminous, density of,1,2044
+coal, bituminous, specific gravity of,1,2048
+coal, bituminous, specific heat of,1,2052
+coaxial cylinders, capacitance of,1,2056
+cobalt, electrical resistivity of,1,2060
+cobalt, linear expansion coefficient of,1,2064
+cobalt, melting point of,1,2068
+cobalt, modulus of elasticity for,1,2072
+cobalt, specific gravity of,1,2076
+cobalt, temperature coefficient of resistivity of,1,2080
+cobalt, thermal conductivity of,1,2084
+cocoa butter, density of,1,2088
+coefficient of linear expansion,1,2092
+coefficients,1,2096
+coefficients, extracting,1,2100
+coeffs keyword,1,2104
+coke, density of,1,2108
+collapsed area,1,2112
+collapsed areas,1,2116
+collapsing regions,1,2120
+color image, reading into a matrix,1,2124
+color, 3D plots,1,2128
+colormap,1,2132
+Colpitts oscillator, oscillation frequency of an,1,2136
+column operator,1,2140
+columns in arrays,1,2144
+combine,1,2148
+combining expressions,1,2152
+Companion Matrix method,1,2156
+compare,1,2160
+compare files,1,2164
+comparing file,1,2168
+Comparing files,1,2172
+comparison, file,1,2176
+compatibility,2,2180
+complex,1,2188
+complex coefficients,1,2192
+complex conjugate,1,2196
+complex conjugate roots,1,2200
+complex DFT,1,2204
+complex domain,1,2208
+complex function,1,2212
+complex functions, plotting,1,2216
+complex number decomposition,1,2220
+complex numbers,2,2224
+complex numbers, plotting,1,2232
+complex numbers, polar notation,1,2236
+complex roots,1,2240
+complex trigonometric identities,1,2244
+component, file input,1,2248
+components,2,2252
+components, Excel,1,2260
+components, file input,1,2264
+components, file input and output,1,2268
+components, file output,1,2272
+components, Matlab,1,2276
+components, ODBC,1,2280
+components, READ and WRITE functions,1,2284
+components, third party,1,2288
+Compton wavelength, electron,1,2292
+Compton wavelength, neutron,1,2296
+Compton wavelength, proton,1,2300
+computing standard errors,1,2304
+concat function,1,2308
+concatenation,1,2312
+concentrated loads,1,2316
+concentric spheres, capacitance between two,1,2320
+concrete, light, specific gravity of,1,2324
+concrete, light, specific heat of,1,2328
+concrete, light, thermal conductivity of,1,2332
+concrete, stone, specific gravity of,1,2336
+concrete, stone, specific heat of,1,2340
+concrete, stone, thermal conductivity of,1,2344
+condition numbers of matrix,1,2348
+conditional programs, units in,1,2352
+conditional statements,1,2356
+conditional switches,1,2360
+cone, circular, mass moments of inertia,1,2364
+confidence interval,2,2368
+confidence interval limits,1,2376
+confidence interval, variance unknown,1,2380
+confrac, keyword,1,2384
+conjugate, complex number,1,2388
+constant,1,2392
+constant multiple rule,1,2396
+constants, Euler's and Catalan's,1,2400
+constants, font style,1,2404
+constants, physical,1,2408
+constrained nonlinear optimization,1,2412
+context-sensitive help,1,2416
+continue operator,1,2420
+continue statement,1,2424
+continued fraction expression,1,2428
+contour integrals,1,2432
+contour plot,1,2436
+control characters,1,2440
+controls,3,2444
+controls toolbar,2,2456
+controls, automation,2,2464
+controls, button,1,2472
+controls, exporting,1,2476
+controls, inelastic behavior,1,2480
+controls, mixing,1,2484
+controls, modifying,1,2488
+convergence,1,2492
+conversion of strings,1,2496
+converting numbers,1,2500
+converting units,1,2504
+convolution,2,2508
+coordinates, converting spherical into Cartesian,1,2516
+copal, density of,1,2520
+copper, electrical resistivity of,1,2524
+copper, linear expansion coefficient of,1,2528
+copper, melting point of,1,2532
+copper, modulus of elasticity for,1,2536
+copper, Poisson's ratio for,1,2540
+copper, specific gravity of,1,2544
+copper, temperature coefficient of resistivity of,1,2548
+copper, thermal conductivity of,1,2552
+copying answers,1,2556
+copying from resources window,1,2560
+cork linoleum, density of,1,2564
+cork, density of,1,2568
+corkboard, specific gravity of,1,2572
+corkboard, specific heat of,1,2576
+corkboard, thermal conductivity of,1,2580
+correlation coefficient,1,2584
+correlation, calculating,1,2588
+corundum, density of,1,2592
+cosine integral, Ci,1,2596
+cosine integral, Fresnel,1,2600
+covariance,1,2604
+covariance matrix,1,2608
+CreateMesh function,2,2612
+CreateSpace function,1,2620
+creating hyperlinks,1,2624
+creating worksheets,1,2628
+cross product of vectors,1,2632
+csort,1,2636
+csort function,1,2640
+cspline function,2,2644
+cube, truncated,1,2652
+cumulative distribution,1,2656
+curl,3,2660
+current working directory,1,2672
+curvature,1,2676
+curve fit, specialized,1,2680
+curves, level,1,2684
+custom Boolean operators,1,2688
+custom controls,1,2692
+custom operators,2,2696
+custom units,1,2704
+custom units systems,1,2708
+customer support,1,2712
+customizing display,1,2716
+CWD,1,2720
+cycloid, arc length,1,2724
+cycloid, area,1,2728
+cycloid, equations in parametric form,1,2732
+cylinder, circular, mass moments of inertia,1,2736
+DAE, index,1,2740
+DAE, pendulum motion,1,2744
+data,1,2748
+data analysis,2,2752
+data analysis, using,1,2760
+data import wizard,1,2764
+data modelling,1,2768
+data plots,2,2772
+data sets, large,1,2780
+data sets, plotting,1,2784
+data sets, small,1,2788
+data strategies,1,2792
+data table errors, minimizing,1,2796
+data tables, importing,1,2800
+data vector, extracting elements,1,2804
+data wizard,1,2808
+data, exporting,1,2812
+data, fitting,1,2816
+data, graphing,1,2820
+data, handling,1,2824
+data, importing from a data file,1,2828
+data, scatter plots,1,2832
+data, t score on,1,2836
+data, writing,1,2840
+dchisq function,1,2844
+debug mode,2,2848
+debugging,1,2856
+debugging programs,1,2860
+debugging toolbar,1,2864
+decane, density of,1,2868
+decane, dielectric constant of,1,2872
+decane, molecular weight of,1,2876
+decane, specific gravity of,1,2880
+decane, surface tension of,1,2884
+decane, viscosity of,1,2888
+decimal format,1,2892
+decimal places,1,2896
+decimal places, stripping,1,2900
+decomposition,1,2904
+decomposition of a matrix,1,2908
+decomposition over complex numbers,1,2912
+decomposition over real numbers,1,2916
+deconvolution,2,2920
+default font, changing,1,2928
+defining a variable,1,2932
+defining variables,1,2936
+definite integral,1,2940
+definite integrals,2,2944
+definite integration,1,2952
+definitions, order of,1,2956
+definitions, viewing,1,2960
+deg-min-sec, radians to,1,2964
+degrees, converting to radian,1,2968
+denom, function,2,2972
+denominator, find,2,2980
+density, table listing for liquids,1,2988
+density, table listing for materials,1,2992
+derivative,1,2996
+derivative formulas, reference table of,1,3000
+derivative of a complex function,1,3004
+derivative operator,1,3008
+derivatives,6,3012
+derivatives, finding,1,3036
+derivatives, higher order,1,3040
+derivatives, symbolic evaluation,1,3044
+determinant,1,3048
+determinant of a matrix,1,3052
+determinant operator,1,3056
+deuterium, molecular weight of,1,3060
+deuterium, sound velocity,1,3064
+deuterium, specific gravity of,1,3068
+deuterium, specific heat at 1.0 atm pressure, 20 C,1,3072
+DFT,2,3076
+diagonal matrix,1,3084
+diamond, density of,1,3088
+dielectric constant, liquids, table listing,1,3092
+dielectric constant, solids, table listing,1,3096
+difference equations,1,3100
+differential algebraic equation,1,3104
+differential equations,1,3108
+Differential Equations,1,3112
+differential equations for electrical systems,1,3116
+differential equations for mechanical systems,1,3120
+differential equations, ordinary,2,3124
+differential equations, second-order homogeneous linear,1,3132
+differential geometry,1,3136
+differentiation,1,3140
+differentiation of data vectors,1,3144
+differentiation operators,1,3148
+differentiation, formulas,1,3152
+digamma function, Psi,1,3156
+dilog (dilogarithm) function,1,3160
+dimensions in range variables,1,3164
+dirac delta function,1,3168
+dirhombicosidodecahedron,1,3172
+disabling a calculation,2,3176
+Disabling Calculations,1,3184
+disabling evaluation,1,3188
+discontinuous functions,1,3192
+discrete Fourier transforms,1,3196
+disk, thin, mass moments of inertia of,1,3200
+display coefficients,1,3204
+display options,1,3208
+display units,1,3212
+display, customizing,1,3216
+displaying images,1,3220
+divergence,2,3224
+divide by 0,1,3232
+division, inline,1,3236
+DMS system, converting,1,3240
+dnorm function,1,3244
+documentation, online,1,3248
+documents, customizing,1,3252
+dodecane, density of,1,3256
+dodecane, molecular weight of,1,3260
+dodecane, refractive index of,2,3264
+dodecane, viscosity of,1,3272
+dogwood, density of,1,3276
+dolomite, density of,1,3280
+domain,1,3284
+dot product, vectors,1,3288
+double integrals,1,3292
+double-byte character sets,1,3296
+double-byte characters,1,3300
+downloads, Mathcad,1,3304
+downloads, modules,1,3308
+downsampling,1,3312
+drift effect,1,3316
+drop-down lists,1,3320
+dspline program,1,3324
+dt function,1,3328
+dual-tone multifrequency signal (DTMF),1,3332
+earth, dry, specific gravity of,1,3336
+earth, dry, specific heat of,1,3340
+earth, dry, thermal conductivity of,1,3344
+ebonite, density of,1,3348
+ebony, density of,1,3352
+E-book,1,3356
+E-books,1,3360
+E-books, creating,1,3364
+E-books, download,1,3368
+editing math,1,3372
+editing math in resources window,1,3376
+efficient calculations,1,3380
+efficient loops,1,3384
+Ei, exponential integral,4,3388
+Eigenanalysis,1,3404
+eigenvalues,1,3408
+eigenvalues, principal component analysis,1,3412
+eigenvecs function,1,3416
+eigenvectors,1,3420
+eigenvectors, principal component analysis,1,3424
+electrical resistivity, table listing,1,3428
+electron charge,1,3432
+electron charge to mass ratio,1,3436
+electron magnetic moment,1,3440
+electron mass,1,3444
+electron mass, and ratio of proton mass,1,3448
+electron radius,1,3452
+electron rest mass,1,3456
+electronic books,1,3460
+electronic books, creating,1,3464
+elementary charge,1,3468
+elementary row operations,1,3472
+elements, electrical resistivity table,1,3476
+elements, linear expansion coefficient table,1,3480
+elements, melting point table,1,3484
+elements, modulus of elasticity table,1,3488
+elements, picking from vectors,1,3492
+elements, Poisson's ratio table,1,3496
+elements, specific gravity table,1,3500
+elements, temperature coefficient of resistivity table,1,3504
+elements, thermal conductivity table,1,3508
+ellipse, area of an,1,3512
+ellipse, perimeter of an,1,3516
+ellipses in table,1,3520
+ellipsoid, volume of an,1,3524
+elm, density of,1,3528
+emery, density of,1,3532
+enabling evaluation,1,3536
+entering data,1,3540
+entering text,1,3544
+epidote, density of,1,3548
+equal sign, numerical,1,3552
+equal sign, symbolic,1,3556
+equation of the cardioid curve,1,3560
+equations of the cycloid curve, parametric,1,3564
+equations with different units, solving,1,3568
+equations, non-calculating,1,3572
+equations, solving with symbolics menu,1,3576
+equations, system with inequality constraints,1,3580
+equations, typing,1,3584
+ERR,1,3588
+ERR variable,1,3592
+error function,1,3596
+error message,1,3600
+error messages,3,3604
+error trapping,1,3616
+error trapping and units,1,3620
+error variable,1,3624
+errors,2,3628
+errors of estimation,1,3636
+estimating mean,2,3640
+estimating probability,1,3648
+ethane, molecular weight of,1,3652
+ethane, sound velocity,1,3656
+ethane, specific gravity of,1,3660
+ethane, specific heat at 1.0 atm pressure, 20 C,1,3664
+ethene, molecular weight of,1,3668
+ethene, sound velocity,1,3672
+ethene, specific gravity of,1,3676
+ethene, specific heat at 1.0 atm pressure, 20 C,1,3680
+ether, density of,1,3684
+ether, dielectric constant of,1,3688
+ether, molecular weight of,1,3692
+ether, refractive index of,1,3696
+ether, sound velocity in,1,3700
+ether, specific gravity of,1,3704
+ether, surface tension of,1,3708
+ether, viscosity of,1,3712
+ethyl alcohol, density of,1,3716
+ethyl alcohol, dielectric constant of,1,3720
+ethyl alcohol, molecular weight of,1,3724
+ethyl alcohol, refractive index of,1,3728
+ethyl alcohol, sound velocity in,1,3732
+ethyl alcohol, specific gravity of,1,3736
+ethyl alcohol, surface tension of,1,3740
+ethyl alcohol, viscosity of,1,3744
+ethyl chloride, molecular weight of,1,3748
+ethyl chloride, sound velocity,1,3752
+ethyl chloride, specific gravity of,1,3756
+ethyl chloride, specific heat at 1.0 atm pressure, 20 C,1,3760
+ethylene glycol, density of,1,3764
+ethylene glycol, dielectric constant of,1,3768
+ethylene glycol, molecular weight of,1,3772
+ethylene glycol, refractive index of,1,3776
+ethylene glycol, sound velocity in,1,3780
+ethylene glycol, specific gravity of,1,3784
+ethylene glycol, surface tension of,1,3788
+ethylene glycol, viscosity of,1,3792
+ethylene, molecular weight of,1,3796
+ethylene, sound velocity,1,3800
+ethylene, specific gravity of,1,3804
+ethylene, specific heat at 1.0 atm pressure, 20 C,1,3808
+Euler's constant,1,3812
+evaluate,1,3816
+evaluate limits,1,3820
+evaluating in a single line,1,3824
+Evaluation toolbar,1,3828
+evaluation toolbar,1,3832
+even-faced polyhedra,1,3836
+exact equality in comparisons,1,3840
+exact evaluations,1,3844
+Excel,1,3848
+Excel component,1,3852
+expand functions,1,3856
+expand keyword,1,3860
+expfit function,1,3864
+explicit,1,3868
+explicit calculation,1,3872
+explicit keyword,1,3876
+Explicit Strings,1,3880
+exponential fit,1,3884
+exponential functions, derivatives of,1,3888
+exponential functions, integrals of,1,3892
+exponential integral, Ei,4,3896
+exponential ramp in frequency,1,3912
+exponential threshold,1,3916
+exponentiation operators,1,3920
+exporting controls,1,3924
+exporting data,2,3928
+expressions, entering math,1,3936
+expressions, formatting,1,3940
+expressions, numeric,1,3944
+expressions, symbolic,1,3948
+extracting a subimage,1,3952
+extracting elements from a data vector,1,3956
+extracting specific coefficients,1,3960
+extracting subarrays,1,3964
+F distribution function,1,3968
+factor,2,3972
+factor keyword,2,3980
+factor polynomials,1,3988
+factor, keyword,1,3992
+factoring expressions,1,3996
+factoring integers,1,4000
+Fahrenheit temperature units,1,4004
+Fahrenheit to Celsius,1,4008
+FAQ,1,4012
+Faraday constant,1,4016
+Fast Fourier transform,1,4020
+features, in Mathcad,6,4024
+feldspar, density of,1,4048
+felt, specific gravity of,2,4052
+felt, specific heat of,2,4060
+felt, thermal conductivity of,2,4068
+FFT,1,4076
+FFT, 2D image convolution,2,4080
+fiber hardboard, specific gravity of,1,4088
+fiber hardboard, specific heat of,1,4092
+fiber hardboard, thermal conductivity of,1,4096
+fiberboard, light, specific gravity of,1,4100
+fiberboard, light, specific heat of,1,4104
+fiberboard, light, thermal conductivity of,1,4108
+file compare,1,4112
+file comparison,1,4116
+file import and export,1,4120
+file input component,2,4124
+file output component,1,4132
+file READ and WRITE functions,1,4136
+file type,1,4140
+files, reducing size,1,4144
+fill surface,1,4148
+find,1,4152
+Find function,1,4156
+find keyword,1,4160
+find, in collapsed areas,1,4164
+finding integrals,1,4168
+fine-structure constant,1,4172
+finite,1,4176
+firebrick, specific gravity of,1,4180
+firebrick, specific heat of,1,4184
+firebrick, thermal conductivity of,1,4188
+first order ODE,1,4192
+first order ODE, solving,1,4196
+first radiation constant,1,4200
+fit of data, chi-square test,1,4204
+fitting functions,1,4208
+fitting functions to data,1,4212
+Fl refrigerant R_11, density of,1,4216
+Fl refrigerant R_11, molecular weight of,1,4220
+Fl refrigerant R_11, refractive index of,1,4224
+Fl refrigerant R_11, specific gravity of,1,4228
+Fl refrigerant R_11, surface tension of,1,4232
+Fl refrigerant R_11, viscosity of,1,4236
+Fl refrigerant R_12, density of,1,4240
+Fl refrigerant R_12, dielectric constant of,1,4244
+Fl refrigerant R_12, molecular weight of,1,4248
+Fl refrigerant R_12, refractive index of,1,4252
+Fl refrigerant R_12, specific gravity of,1,4256
+Fl refrigerant R_12, surface tension of,1,4260
+Fl refrigerant R_22, density of,1,4264
+Fl refrigerant R_22, molecular weight of,1,4268
+Fl refrigerant R_22, refractive index of,1,4272
+Fl refrigerant R_22, specific gravity of,1,4276
+Fl refrigerant R_22, surface tension of,1,4280
+flint, density of,1,4284
+float keyword,2,4288
+floating point answers,1,4296
+floating point calculations,1,4300
+floating toolbars, adjusting,1,4304
+floor function,2,4308
+Floor function,1,4316
+floor function,1,4320
+fluorine, molecular weight of,1,4324
+fluorine, sound velocity,1,4328
+fluorine, specific gravity of,1,4332
+fluorine, specific heat at 1.0 atm pressure, 20 C,1,4336
+fluorite, density of,1,4340
+foamed plastics, specific gravity of,1,4344
+foamed plastics, specific heat of,1,4348
+foamed plastics, thermal conductivity of,1,4352
+font, changing default,1,4356
+fonts,1,4360
+fonts, changing for math,1,4364
+footers and headers,1,4368
+for loops,1,4372
+format function,1,4376
+formatting 2D graphs,1,4380
+formatting 3D graphs,1,4384
+formatting axes,1,4388
+formatting displayed units,1,4392
+formatting math regions,1,4396
+formatting operators,1,4400
+formatting paragraphs,1,4404
+formatting results,1,4408
+formatting text,2,4412
+formatting toolbar,2,4420
+formatting traces,1,4428
+formulas, mechanics,1,4432
+Fourier and inverse Fourier transforms,3,4436
+Fourier coefficients,1,4448
+Fourier polynomial,1,4452
+Fourier transform pairs,1,4456
+Fourier transform, Guassian,1,4460
+Fourier transform, Sine,1,4464
+Fourier transforms,1,4468
+frequency response,1,4472
+frequency signal,1,4476
+frequently asked questions,1,4480
+Fresnel cosine integral,1,4484
+Fresnel sine integral,1,4488
+FresnelC,1,4492
+FresnelS,1,4496
+frustum of right circular cone, lateral surface area,1,4500
+frustum of right circular cone, volume,1,4504
+fully, keyword,1,4508
+fully, modifier,1,4512
+function and derivative plot,1,4516
+function notation,1,4520
+function with range variable,1,4524
+function, complex,1,4528
+function, finding type of arguments,1,4532
+function, signature,1,4536
+functions,2,4540
+functions in Mathcad,1,4548
+functions, complex,1,4552
+functions, defining,1,4556
+functions, in unit placeholder,1,4560
+functions, inserting,1,4564
+functions, modifying,1,4568
+functions, number of arguments,1,4572
+functions, piecewise,1,4576
+functions, recursive,1,4580
+functions, smoothing,1,4584
+functions, truncation and roundoff,1,4588
+functions, unitless arguments,1,4592
+Fundamental Theorem of Calculus,1,4596
+galena, density of,1,4600
+Galois,1,4604
+gamboge, density of,1,4608
+garnet, density of,1,4612
+gas carbon, density of,1,4616
+gases, molecular weight table,1,4620
+gases, sound velocity table,1,4624
+gases, specific heats at 1.0 atm pressure, 20 C, table,1,4628
+Gaussian, transform,1,4632
+gelatin, density of,1,4636
+generating random numbers,1,4640
+genfit function,1,4644
+getting values,1,4648
+GETWAVINFO function,1,4652
+Gibbs' phenomenon,1,4656
+given,1,4660
+glass, common, density of,1,4664
+glass, flint, density of,1,4668
+glass, window, specific gravity of,1,4672
+glass, window, specific heat of,1,4676
+glass, window, thermal conductivity of,1,4680
+global variables,1,4684
+glue, density of,1,4688
+glycerine, density of,1,4692
+glycerine, dielectric constant of,1,4696
+glycerine, molecular weight of,1,4700
+glycerine, refractive index of,1,4704
+glycerine, sound velocity in,1,4708
+glycerine, specific gravity of,1,4712
+glycerine, surface tension of,1,4716
+glycerine, viscosity of,1,4720
+gold, electrical resistivity of,1,4724
+gold, linear expansion coefficient of,1,4728
+gold, melting point of,1,4732
+gold, modulus of elasticity for,1,4736
+gold, Poisson's ratio for,1,4740
+gold, specific gravity of,1,4744
+gold, temperature coefficient of resistivity of,1,4748
+gold, thermal conductivity of,1,4752
+goodness of fit,1,4756
+gradient,2,4760
+gradient field plot,1,4768
+gradient operator,2,4772
+granite, density of,1,4780
+graph enhancements, 2D,2,4784
+graph toolbar,1,4792
+graph, markers,1,4796
+graphing complex functions,1,4800
+graphing data,1,4804
+graphing, 2D plots,1,4808
+graphing, 3D plots,1,4812
+graphite, density of,1,4816
+graphs, 2D,1,4820
+graphs, 3D, formatting,1,4824
+graphs, animation,1,4828
+graphs, annotating,1,4832
+graphs, changing axis limits,1,4836
+graphs, complex numbers,1,4840
+graphs, formatting,1,4844
+graphs, formatting traces,1,4848
+graphs, histograms,1,4852
+graphs, inequalities,1,4856
+graphs, parametric plots,1,4860
+graphs, piecewise functions,1,4864
+graphs, polar plots,1,4868
+graphs, solid bar,1,4872
+graphs, x-y plots,1,4876
+gravitational constant,1,4880
+grayscale image processing,1,4884
+grayscale images, reading into matrix,1,4888
+great dirhombicosidodecahedron,1,4892
+greek character,1,4896
+Greek characters,4,4900
+Greek toolbar,1,4916
+gum arabic, density of,1,4920
+gypsum board, specific gravity of,1,4924
+gypsum board, specific heat of,1,4928
+gypsum board, thermal conductivity of,1,4932
+gypsum, density of,1,4936
+gyromagnetic ratio of protons,1,4940
+hafnium, temperature coefficient of resistivity of,1,4944
+hairfelt, specific gravity of,1,4948
+hairfelt, specific heat of,1,4952
+hairfelt, thermal conductivity of,1,4956
+Hamming window,1,4960
+Hankel functions,2,4964
+harmonic motion, simple,1,4972
+Hartley oscillator, oscillation frequency of an,1,4976
+Hartree energy,1,4980
+headers and footers,1,4984
+heat equation,1,4988
+heat flow,1,4992
+Heaviside step function and dirac delta function,1,4996
+helium, molecular weight of,1,5000
+helium, sound velocity,1,5004
+helium, specific gravity of,1,5008
+helium, specific heat at 1.0 atm pressure, 20 C,1,5012
+help, context-sensitive,1,5016
+help, online,1,5020
+hematite, density of,1,5024
+heptane, density of,1,5028
+heptane, dielectric constant of,1,5032
+heptane, molecular weight of,1,5036
+heptane, refractive index of,1,5040
+heptane, sound velocity in,1,5044
+heptane, specific gravity of,1,5048
+heptane, surface tension of,1,5052
+heptane, viscosity of,1,5056
+Heron's formula,1,5060
+hexadecimal,1,5064
+hexane, density of,1,5068
+hexane, molecular weight of,1,5072
+hexane, refractive index of,1,5076
+hexane, sound velocity in,1,5080
+hexane, specific gravity of,1,5084
+hexane, surface tension of,1,5088
+hexane, viscosity of,1,5092
+hickory, density of,1,5096
+hiding content,1,5100
+hiding regions,1,5104
+higher order derivatives,1,5108
+histograms, creating,1,5112
+hlookup function,1,5116
+holly, density of,1,5120
+Honduras mahogany, density of,1,5124
+Hooke's Law,1,5128
+hornblende, density of,1,5132
+HTML,1,5136
+hydrogen chloride, molecular weight of,1,5140
+hydrogen chloride, sound velocity,1,5144
+hydrogen chloride, specific gravity of,1,5148
+hydrogen chloride, specific heat at 1.0 atm pressure, 20 C,1,5152
+hydrogen sulfide, molecular weight of,1,5156
+hydrogen sulfide, sound velocity,1,5160
+hydrogen sulfide, specific gravity of,1,5164
+hydrogen sulfide, specific heat at 1.0 atm pressure, 20 C,1,5168
+hydrogen, molecular weight of,1,5172
+hydrogen, sound velocity,1,5176
+hydrogen, specific gravity of,1,5180
+hydrogen, specific heat at 1.0 atm pressure, 20 C,1,5184
+hyperbolic functions and exponentials,1,5188
+hyperbolic functions and trig relationships,1,5192
+hypergeom, hypergeometric function,1,5196
+hyperlinks,1,5200
+hyperlinks, inserting and creating,1,5204
+hyperlinks, region to region,1,5208
+hypocycloid, arc length,1,5212
+hypocycloid, area,1,5216
+hypocycloid, equations in parametric form,1,5220
+hypothesis test of median,1,5224
+hypothesis test, normal distribution,1,5228
+Hz,1,5232
+ice, density of,1,5236
+ideal gas, molar volume of, at STP,1,5240
+identity matrix,1,5244
+if,1,5248
+if function,1,5252
+If function,1,5256
+if operator,1,5260
+if statement,1,5264
+if, conditional,1,5268
+if, inline function,1,5272
+if, insufficient casing,1,5276
+Im function,1,5280
+image processing,5,5284
+image processing, synthetic constructions,1,5304
+image processing, using transformations,1,5308
+image size,1,5312
+images, adding,1,5316
+images, displaying,1,5320
+images, modifying properties of,1,5324
+images, pasting,1,5328
+images, reducing,2,5332
+images, saving,1,5340
+images, scaling,1,5344
+imaginary number,1,5348
+imaginary numbers,1,5352
+imaginary unit, defining,1,5356
+importing data,1,5360
+importing files,1,5364
+inactive equations,1,5368
+incompatibilities, calculations,1,5372
+indefinite integral,1,5376
+indefinite integral operator,1,5380
+indefinite integrals,1,5384
+indents, inserting,1,5388
+index of DAE,1,5392
+index reduction,1,5396
+indexing arrays,1,5400
+Indian teak, density of,1,5404
+indium, temperature coefficient of resistivity of,1,5408
+inequalities, one variable,1,5412
+inequality constraints in solve blocks,1,5416
+infinite limit method of integration,1,5420
+infinite recursion,1,5424
+infinity,1,5428
+infix operator,2,5432
+initial value ODEs,1,5440
+inline division,1,5444
+input table,1,5448
+inscribed circle, area,1,5452
+inscribed circle, radius,1,5456
+inscribed polygon, area,1,5460
+inscribed polygon, perimeter,1,5464
+inserting subarrays,1,5468
+Inside Mathcad: Solving E-book,1,5472
+integral,1,5476
+integral formulas, reference table of,1,5480
+integral, Fresnel cosine,1,5484
+integral, Fresnel sine,1,5488
+integral, indefinite,1,5492
+integrals,6,5496
+integrals, definite,1,5520
+integrals, evaluating,1,5524
+integrals, indefinite,1,5528
+integrals, numerical double,1,5532
+integrals, symbolic evaluation,1,5536
+integrals, symbolic functions,2,5540
+integrand,1,5548
+integration,3,5552
+integration methods,1,5564
+integration of data vectors,1,5568
+integration, Adaptive method,1,5572
+integration, by parts,1,5576
+integration, contour,1,5580
+integration, definite,1,5584
+integration, discontinuous functions,1,5588
+integration, finding arc length and surface area,1,5592
+integration, infinite limit method,1,5596
+integration, Romberg method,1,5600
+integration, singular endpoint method,1,5604
+intercept,1,5608
+internal error variable,1,5612
+interp function,2,5616
+interpolation, spline,1,5624
+intersection of circles,1,5628
+intersection of vectors,1,5632
+inverse of a matrix,1,5636
+inverse transformation,1,5640
+inverse transforms,1,5644
+inverse trigonometric functions, derivatives of,1,5648
+inverse wavelet transforms,1,5652
+iodine, dielectric constant of,1,5656
+iodine, molecular weight of,1,5660
+iridium, electrical resistivity of,1,5664
+iridium, linear expansion coefficient of,1,5668
+iridium, melting point of,1,5672
+iridium, modulus of elasticity for,1,5676
+iridium, specific gravity of,1,5680
+iridium, temperature coefficient of resistivity of,1,5684
+iridium, thermal conductivity of,1,5688
+iron, electrical resistivity of,1,5692
+iron, linear expansion coefficient of,1,5696
+iron, melting point of,1,5700
+iron, modulus of elasticity for,1,5704
+iron, specific gravity of,1,5708
+iron, temperature coefficient of resistivity of,1,5712
+iron, thermal conductivity of,1,5716
+isobutane, molecular weight of,1,5720
+isobutane, sound velocity,1,5724
+isobutane, specific gravity of,1,5728
+isolated sphere, capacitance of an,1,5732
+iterated products,1,5736
+iterated products, finding,1,5740
+iterated sums,1,5744
+iteration,2,5748
+iterations, seeded,1,5756
+iterative functions, using while loops,1,5760
+ivory, density of,1,5764
+iwave transforms,1,5768
+J,1,5772
+jacob,1,5776
+Jacob, function,1,5780
+Jacobi spectral radius,1,5784
+Jacobian,1,5788
+Jacobian matrix,3,5792
+Jacobian of a vector function,1,5804
+JPEG,2,5808
+JPG,2,5816
+juniper, density of,1,5824
+kerosene, density of,1,5828
+kerosene, sound velocity in,1,5832
+kerosene, specific gravity of,1,5836
+keyboard shortcuts,1,5840
+keyword assume,2,5844
+keyword float,1,5852
+keyword rectangular,1,5856
+keywords, using more than one,1,5860
+krypton, molecular weight of,1,5864
+krypton, sound velocity,1,5868
+krypton, specific gravity of,1,5872
+krypton, specific heat at 1.0 atm pressure, 20 C,1,5876
+ksmooth function,1,5880
+LabVIEW,1,5884
+LaGuerre method,1,5888
+Lambert's W function,1,5892
+languages,1,5896
+Laplace and inverse Laplace transforms,1,5900
+Laplace transform,1,5904
+Laplace's equation,1,5908
+larch, density of,1,5912
+large results,1,5916
+lateral surface area of a frustum of a right circular cone,1,5920
+lateral surface area of a right circular cone,1,5924
+lateral surface area of a right circular cylinder,1,5928
+Layout,1,5932
+layout,1,5936
+lead, electrical resistivity of,1,5940
+lead, linear expansion coefficient of,1,5944
+lead, melting point of,1,5948
+lead, modulus of elasticity for,1,5952
+lead, Poisson's ratio for,1,5956
+lead, specific gravity of,1,5960
+lead, temperature coefficient of resistivity of,1,5964
+lead, thermal conductivity of,1,5968
+least squares fit,2,5972
+least squares fitting, nonlinear,1,5980
+least squares regression, nonlinear,1,5984
+leather, dry, density of,1,5988
+leather, dry, specific gravity of,1,5992
+leather, dry, specific heat of,1,5996
+leather, dry, thermal conductivity of,1,6000
+left-handed limit,1,6004
+lemniscate, area,1,6008
+lemniscate, equations in polar coordinates,1,6012
+level curves,1,6016
+Levenberg-Marquardt method,1,6020
+Licensing,1,6024
+light, velocity of, in a vacuum,1,6028
+lighting,1,6032
+lighting, 3D plots,1,6036
+lignum vitae, density of,1,6040
+lime, slaked, density of,1,6044
+limestone, density of,1,6048
+limestone, specific gravity of,1,6052
+limestone, specific heat of,1,6056
+limestone, thermal conductivity of,1,6060
+limit operator,1,6064
+limits,6,6068
+limits, finding,1,6092
+linear equations, solving,1,6096
+linear expansion coefficient, table listing,1,6100
+linear fit,1,6104
+linear program, constraints,1,6108
+linear programming,1,6112
+linear regression,2,6116
+linear systems,1,6124
+linfit function,1,6128
+linfit, revision,1,6132
+linoleum, cork, density of,1,6136
+linoleum, density of,1,6140
+linseed oil, density of,1,6144
+linseed oil, specific gravity of,1,6148
+linseed oil, viscosity of,1,6152
+liquids, density table,1,6156
+liquids, dielectric constant table,1,6160
+liquids, molecular weight table,1,6164
+liquids, refractive index table,1,6168
+liquids, sound velocity table,1,6172
+liquids, specific gravity table,1,6176
+liquids, surface tension table,1,6180
+liquids, viscosity table,1,6184
+listbox,1,6188
+literal subscript,1,6192
+lithium, temperature coefficient of resistivity of,1,6196
+live symbolics,2,6200
+live symbolics, calculus,1,6208
+ln function,1,6212
+ln0 function,1,6216
+lnfit function,1,6220
+load analysis,1,6224
+loads, concentrated,1,6228
+local assignment return,1,6232
+local assignments,1,6236
+local assignments, evaluation order,1,6240
+local minimum and maximum, finding,1,6244
+localization,1,6248
+locking regions,1,6252
+locust, density of,1,6256
+logarithmic functions, derivatives of,1,6260
+logarithmic functions, integrals of,1,6264
+logarithmic regression,1,6268
+logfit function,1,6272
+logic,1,6276
+logwood, density of,1,6280
+lookup functions,1,6284
+looping,1,6288
+loops,1,6292
+lsolve function,1,6296
+lucite, dielectric constant of,1,6300
+maclaurin series,4,6304
+Maclaurin series,1,6320
+magnesia, specific gravity of,1,6324
+magnesia, specific heat of,1,6328
+magnesia, thermal conductivity of,1,6332
+magnesium oxide, dielectric constant of,1,6336
+magnesium, electrical resistivity of,1,6340
+magnesium, linear expansion coefficient of,1,6344
+magnesium, melting point of,1,6348
+magnesium, modulus of elasticity for,1,6352
+magnesium, Poisson's ratio for,1,6356
+magnesium, specific gravity of,1,6360
+magnesium, temperature coefficient of resistivity of,1,6364
+magnesium, thermal conductivity of,1,6368
+magnetic flux quantum,1,6372
+magnetite, density of,1,6376
+magnitude of vector,1,6380
+mahogany, Honduras, density of,1,6384
+mahogany, Spanish, density of,1,6388
+malachite, density of,1,6392
+manganese, electrical resistivity of,1,6396
+manganese, linear expansion coefficient of,1,6400
+manganese, melting point of,1,6404
+manganese, modulus of elasticity for,1,6408
+manganese, specific gravity of,1,6412
+mantissa,1,6416
+manual calculation mode,1,6420
+maple, density of,1,6424
+mapping,1,6428
+marble, density of,1,6432
+marble, specific gravity of,1,6436
+marble, specific heat of,1,6440
+marble, thermal conductivity of,1,6444
+markers,1,6448
+Markov process,1,6452
+mass moments of inertia,1,6456
+mass moments of inertia for a circular cone,1,6460
+mass moments of inertia for a circular cylinder,1,6464
+mass moments of inertia for a rectangular prism,1,6468
+mass moments of inertia for a sphere,1,6472
+mass moments of inertia for a thin disk,1,6476
+mass moments of inertia for slender rods,1,6480
+mass moments of inertia for thin rectangular plates,1,6484
+match function,1,6488
+materials, density table,1,6492
+materials, dielectric constant table,1,6496
+materials, specific gravity table,1,6500
+materials, specific heat table,1,6504
+materials, thermal conductivity table,1,6508
+math calculations, entering,1,6512
+math expressions, typing,1,6516
+math fonts,1,6520
+math regions in text,1,6524
+math regions, formatting,1,6528
+math regions, moving,1,6532
+math symbols,1,6536
+math toolbar,1,6540
+math, editing,1,6544
+Mathcad 11,1,6548
+Mathcad 12,1,6552
+Mathcad 12 and 13 features,1,6556
+Mathcad and other applications,1,6560
+Mathcad resources,1,6564
+Mathcad toolbars,1,6568
+Mathcad User's Guide,1,6572
+Mathcad Web library,1,6576
+Mathcad, overview,1,6580
+Mathsoft controls,1,6584
+Matlab component,1,6588
+matrices,1,6592
+matrices, adding and subtracting,1,6596
+matrices, algebra of,1,6600
+matrices, flatten into column vector,1,6604
+matrices, functions,1,6608
+matrices, large,1,6612
+matrices, scalars,1,6616
+matrices, special types,1,6620
+matrix arithmetic and image processing,1,6624
+matrix calculations,2,6628
+matrix equations, solving,1,6636
+matrix function,1,6640
+matrix indexing,1,6644
+matrix toolbar,1,6648
+matrix, covariance,1,6652
+matrix, decomposition,1,6656
+matrix, inverse,1,6660
+matrix, powers,1,6664
+matrix, preallocate,1,6668
+matrix, row operations,1,6672
+matrix, special characteristics,1,6676
+Maximize,2,6680
+maximum, finding local,1,6688
+MCD,1,6692
+mean,1,6696
+mean estimation, variance unknown,1,6700
+mean of normal population,2,6704
+mechanic formulas,1,6712
+mechanics, physical formulas,1,6716
+median,2,6720
+medsmooth function,1,6728
+meerschaum, density of,1,6732
+melting point, table listing,1,6736
+menus,2,6740
+mercury (element), electrical resistivity of,1,6748
+mercury (element), melting point of,1,6752
+mercury (element), molecular weight of,1,6756
+mercury (element), sound velocity in,1,6760
+mercury (element), specific gravity of,2,6764
+mercury (element), surface tension of,1,6772
+mercury (element), temperature coefficient of resistivity of,1,6776
+mercury (element), thermal conductivity of,1,6780
+mercury (element), viscosity of,1,6784
+metadata, adding,1,6788
+metals, electrical resistivity of,1,6792
+methane, molecular weight of,1,6796
+methane, sound velocity,1,6800
+methane, specific gravity of,1,6804
+methane, specific heat at 1.0 atm pressure, 20 C,1,6808
+methyl alcohol, density of,1,6812
+methyl alcohol, dielectric constant of,1,6816
+methyl alcohol, molecular weight of,1,6820
+methyl alcohol, refractive index of,1,6824
+methyl alcohol, sound velocity in,1,6828
+methyl alcohol, specific gravity of,1,6832
+methyl alcohol, surface tension of,1,6836
+methyl alcohol, viscosity of,1,6840
+methyl chloride, molecular weight of,1,6844
+methyl chloride, sound velocity,1,6848
+methyl chloride, specific gravity of,1,6852
+methyl chloride, specific heat at 1.0 atm pressure, 20 C,1,6856
+mica, density of,1,6860
+mica, dielectric constant of,1,6864
+mica, specific gravity of,1,6868
+mica, specific heat of,1,6872
+mica, thermal conductivity of,1,6876
+mineral wool blanket, specific gravity of,1,6880
+Minerr function,1,6884
+Minimize,2,6888
+minimum, finding local,1,6896
+missing characters,1,6900
+mixed numbers,1,6904
+modelling data,1,6908
+modifying a variable,1,6912
+modifying functions,1,6916
+modules, download,1,6920
+modulus of elasticity, table listing,1,6924
+molar gas constant,1,6928
+molar volume of ideal gas at STP,1,6932
+molecular weight, table listing for gases,1,6936
+molecular weight, table listing of liquids,1,6940
+molybdenum, electrical resistivity of,1,6944
+molybdenum, linear expansion coefficient of,1,6948
+molybdenum, melting point of,1,6952
+molybdenum, modulus of elasticity for,1,6956
+molybdenum, Poisson's ratio for,1,6960
+molybdenum, specific gravity of,1,6964
+molybdenum, temperature coefficient of resistivity of,1,6968
+molybdenum, thermal conductivity of,1,6972
+momentum,1,6976
+Monte Carlo integration,1,6980
+Monte Carlo probability estimation,1,6984
+motion in one dimension,1,6988
+motion in two dimensions,1,6992
+moving average routine,1,6996
+moving regions,1,7000
+multigrid function,1,7004
+multigrid solving method, PDE,1,7008
+multiple array assignments,1,7012
+multiple assignment,1,7016
+multiple plots,1,7020
+multiple roots,1,7024
+multivariate regression,1,7028
+muon mass,1,7032
+muscovite, density of,1,7036
+mutton tallow, density of,1,7040
+namespace operator,1,7044
+NaN (Not a Number),1,7048
+NaNs, data plotting,1,7052
+navigation,2,7056
+negative radii,1,7064
+neon, molecular weight of,1,7068
+neon, sound velocity,1,7072
+neon, specific gravity of,1,7076
+neon, specific heat at 1.0 atm pressure, 20 C,1,7080
+neoprene, dielectric constant of,1,7084
+nested arrays,1,7088
+nested matrices,1,7092
+nested matrix,1,7096
+neutron Compton wavelength,1,7100
+neutron mass,1,7104
+new features,6,7108
+new functions,1,7132
+Newton's Law of Universal Gravitation,1,7136
+Newton's Laws of Motion,1,7140
+nickel, electrical resistivity of,1,7144
+nickel, linear expansion coefficient of,1,7148
+nickel, melting point of,1,7152
+nickel, modulus of elasticity for,1,7156
+nickel, Poisson's ratio for,1,7160
+nickel, specific gravity of,1,7164
+nickel, temperature coefficient of resistivity of,1,7168
+nickel, thermal conductivity of,1,7172
+niobium, electrical resistivity of,1,7176
+niobium, linear expansion coefficient of,1,7180
+niobium, melting point of,1,7184
+niobium, modulus of elasticity for,1,7188
+niobium, specific gravity of,1,7192
+niobium, temperature coefficient of resistivity of,1,7196
+niobium, thermal conductivity of,1,7200
+nitric oxide, molecular weight of,1,7204
+nitric oxide, sound velocity,1,7208
+nitric oxide, specific gravity of,1,7212
+nitric oxide, specific heat at 1.0 atm pressure, 20 C,1,7216
+nitrogen, molecular weight of,1,7220
+nitrogen, sound velocity,1,7224
+nitrogen, specific gravity of,1,7228
+nitrogen, specific heat at 1.0 atm pressure, 20 C,1,7232
+nitrous oxide, molecular weight of,1,7236
+nitrous oxide, sound velocity,1,7240
+nitrous oxide, specific gravity of,1,7244
+nitrous oxide, specific heat at 1.0 atm pressure, 20 C,1,7248
+nonlinear equations, solving,1,7252
+nonlinear least squares fitting,1,7256
+nonlinear least squares regression,1,7260
+nonlinear optimization,1,7264
+nonparametric sign test,1,7268
+normal distribution, hypothesis test,1,7272
+normal population,2,7276
+normals,1,7284
+norms of matrix,1,7288
+NOT operator,1,7292
+nuclear magneton,1,7296
+number of digits displayed, changing,1,7300
+number systems,1,7304
+numbers, converting bases,1,7308
+numbers, precision,1,7312
+numbers, random,1,7316
+numer, function,2,7320
+numerator, find,2,7328
+numeric expressions, entering,1,7336
+numerical approximation,1,7340
+numerical double integrals,1,7344
+numerical equal sign,1,7348
+numerical transform functions,1,7352
+numol,1,7356
+numol solver,1,7360
+nylon, dielectric constant of,1,7364
+Nyquist frequency,1,7368
+oak charcoal, density of,1,7372
+oak, density of,1,7376
+oak, specific gravity of,1,7380
+oak, specific heat of,1,7384
+oak, thermal conductivity of,1,7388
+ochre, density of,1,7392
+octahedron, truncated,1,7396
+octahemioctahedron,1,7400
+octal,1,7404
+octane, density of,1,7408
+octane, molecular weight of,1,7412
+octane, refractive index of,1,7416
+octane, sound velocity in,1,7420
+octane, specific gravity of,1,7424
+octane, surface tension of,1,7428
+octane, viscosity of,1,7432
+ODBC Read component,1,7436
+ODE,2,7440
+ODE solver,1,7448
+ODE solvers,1,7452
+ODE solvers, arguments,1,7456
+ODE solvers, new,1,7460
+ODE solvers, units,1,7464
+ODEs, stiff,2,7468
+Odesolve function,3,7476
+Odesolve, changes,2,7488
+OLE objects,1,7496
+on error,1,7500
+On Error operator,1,7504
+one-tailed hypothesis test, left tail,1,7508
+one-tailed hypothesis test, right tail,1,7512
+online documentation,1,7516
+opal, density of,1,7520
+operator, assignment,1,7524
+operator, range variable,1,7528
+operators, customized,1,7532
+operators, customizing display of,1,7536
+optimization,1,7540
+OR operator,1,7544
+order of calculation,1,7548
+order of evaluation,1,7552
+ordinary differential equations,2,7556
+ordinary differential equations, solving,1,7564
+ORIGIN of an array,1,7568
+oscillation,1,7572
+oscillation frequency of a Clapp oscillator,1,7576
+oscillation frequency of a Colpitts oscillator,1,7580
+oscillation frequency of a Hartley oscillator,1,7584
+oscillation frequency of a Pierce oscillator,1,7588
+oscillation frequency of a tuned output oscillator,1,7592
+oscillation frequency of an rc phase shift oscillator,1,7596
+oscillators,1,7600
+osmium, electrical resistivity of,1,7604
+osmium, linear expansion coefficient of,1,7608
+osmium, melting point of,1,7612
+osmium, modulus of elasticity for,1,7616
+osmium, specific gravity of,1,7620
+osmium, temperature coefficient of resistivity of,1,7624
+osmium, thermal conductivity of,1,7628
+output table,1,7632
+overview, Mathcad,1,7636
+oxygen, molecular weight of,1,7640
+oxygen, sound velocity,1,7644
+oxygen, specific gravity of,1,7648
+oxygen, specific heat at 1.0 atm pressure, 20 C,1,7652
+ozone, molecular weight of,1,7656
+ozone, specific gravity of,1,7660
+ozone, specific heat at 1.0 atm pressure, 20 C,1,7664
+page breaks,1,7668
+palladium, temperature coefficient of resistivity of,1,7672
+paper, density of,1,7676
+paper, specific gravity of,1,7680
+paper, specific heat of,1,7684
+paper, thermal conductivity of,1,7688
+parabolic area, centroid,1,7692
+parabolic segment, arc length,1,7696
+parabolic segment, area,1,7700
+parabolic spandrel, centroid,1,7704
+paraboloid, volume,1,7708
+paraffin wax, density of,1,7712
+paraffin wax, specific gravity of,1,7716
+paraffin wax, specific heat of,1,7720
+paraffin wax, thermal conductivity of,1,7724
+paragraphs, formatting,1,7728
+paralellepiped, cross-sectional area of a,1,7732
+parallel plates, capacitance between,1,7736
+parallel resistance,1,7740
+parallelepiped, volume,1,7744
+parallelogram, area,1,7748
+parallelogram, perimeter,1,7752
+parameter,1,7756
+parameterized,1,7760
+parameterized coefficients,1,7764
+parameterized integral,1,7768
+parametric curves in 2D and 3D,1,7772
+parametric equations,1,7776
+parametric ODEs,1,7780
+parametric optimization,1,7784
+parametric plots, creating,1,7788
+parametric solutions,3,7792
+Parametric Technology Corporation,1,7804
+partial differential equations,3,7808
+partial fraction decomposition, symbolic evaluation,2,7820
+partial fractions,4,7828
+parts, integration by,1,7844
+pasting images,1,7848
+pause function,2,7852
+pbeta function,1,7860
+pbinom function,1,7864
+pchisq function,1,7868
+PCM WAV files,1,7872
+PDE solve block,1,7876
+PDE solver,1,7880
+PDEs,2,7884
+PDEs, systems of,1,7892
+PDEs, with algebraic constraints,1,7896
+pdesolve,1,7900
+pear tree wood, density of,1,7904
+peat blocks, density of,1,7908
+pendulum motion, DAE,1,7912
+performance,3,7916
+perimeter of a circle,1,7928
+perimeter of a circumscribed polygon,1,7932
+perimeter of a parallogram,1,7936
+perimeter of a rectangle,1,7940
+perimeter of a regular polygon,1,7944
+perimeter of a trapezoid,1,7948
+perimeter of a triangle,1,7952
+perimeter of an ellipse,1,7956
+perimeter of an inscribed polygon,1,7960
+periodic functions,1,7964
+Periodic Table of the Elements,1,7968
+permeability of vacuum,1,7972
+permittivity of vacuum,1,7976
+phenol, density of,1,7980
+phenol, dielectric constant of,1,7984
+phenol, molecular weight of,1,7988
+phenol, sound velocity in,1,7992
+phenol, specific gravity of,1,7996
+phenol, surface tension of,1,8000
+phenol, viscosity of,1,8004
+physical constants, table listing,1,8008
+physical formulas, mechanics,1,8012
+physics formulas,1,8016
+picture operator,1,8020
+picture toolbar,3,8024
+pictures, inserting,1,8036
+piecewise functions, defining,1,8040
+piecewise functions, graphing,1,8044
+Pierce oscillator, oscillation frequency of an,1,8048
+pine charcoal, density of,1,8052
+pine, pitch, density of,1,8056
+pine, white, density of,1,8060
+pine, white, specific gravity of,1,8064
+pine, white, specific heat of,1,8068
+pine, white, thermal conductivity of,1,8072
+pine, yellow, density of,1,8076
+pitch pine, density of,1,8080
+pitch, density of,1,8084
+Planck's constant,1,8088
+plaster, light, specific gravity of,1,8092
+plaster, light, specific heat of,1,8096
+plaster, light, thermal conductivity of,1,8100
+plaster, sand, specific gravity of,1,8104
+plaster, sand, specific heat of,1,8108
+plaster, sand, thermal conductivity of,1,8112
+plastics, foamed, specific gravity of,1,8116
+plastics, foamed, specific heat of,1,8120
+plastics, foamed, thermal conductivity of,1,8124
+plastics, solids, specific gravity of,1,8128
+plastics, solids, specific heat of,1,8132
+plastics, solids, thermal conductivity of,1,8136
+plates, thin rectangular, mass moments of inertia of,1,8140
+platinum, electrical resistivity of,1,8144
+platinum, linear expansion coefficient of,1,8148
+platinum, melting point of,1,8152
+platinum, modulus of elasticity for,1,8156
+platinum, Poisson's ratio for,1,8160
+platinum, specific gravity of,1,8164
+platinum, temperature coefficient of resistivity of,1,8168
+platinum, thermal conductivity of,1,8172
+plexiglass, dielectric constant of,1,8176
+plot, contour,1,8180
+plot, function and its derivative,1,8184
+plot, gradient field,1,8188
+plot, parametric,1,8192
+plot, quantile-quantile,1,8196
+plot, surface of revolution,1,8200
+plot, vector field,1,8204
+plot, vectors in,1,8208
+plots with units,1,8212
+plots, 2D,2,8216
+plots, 3D, formatting,1,8224
+plots, data,1,8228
+plots, formatting,1,8232
+plots, parametric,1,8236
+plots, solid bar,1,8240
+plots, using range variables,1,8244
+plots, waterfall,1,8248
+plots, x-y graphs,1,8252
+plotting complex functions,1,8256
+plotting complex numbers,1,8260
+plotting data sets,1,8264
+plotting multiple curves,1,8268
+plotting, data and curve,2,8272
+plotting, world data on a sphere,1,8280
+plum tree wood, density of,1,8284
+plutonium, linear expansion coefficient of,1,8288
+plutonium, melting point of,1,8292
+plutonium, modulus of elasticity for,1,8296
+plutonium, Poisson's ratio for,1,8300
+plutonium, specific gravity of,1,8304
+plutonium, thermal conductivity of,1,8308
+pnorm function,2,8312
+Poisson's equation,1,8320
+Poisson's ratio, table listing,1,8324
+polar notation, complex numbers,1,8328
+polar plot,1,8332
+polar plots, creating,1,8336
+polycarbonate, dielectric constant of,1,8340
+polyester, dielectric constant of,1,8344
+polyethylene, dielectric constant of,1,8348
+polygamma function, Psin,1,8352
+polygon, circumscribed, area and perimeter,1,8356
+polygon, inscribed - area and perimeter of,1,8360
+polyhedra, even-faced,1,8364
+polyhedra, regular and quasi-regular,2,8368
+polyhedra, semi-regular,2,8376
+polyhedra, snub,1,8384
+polyhedron,1,8388
+polynomial,1,8392
+polynomial equations,1,8396
+polynomial, finding roots,1,8400
+polynomials,3,8404
+polypropylene, dielectric constant of,1,8416
+polyroots function,2,8420
+poplar, density of,1,8428
+popup windows,1,8432
+porcelain, density of,1,8436
+porcelain, dielectric constant of,1,8440
+porcelain, specific gravity of,1,8444
+porcelain, specific heat of,1,8448
+porcelain, thermal conductivity of,1,8452
+porphyry, density of,1,8456
+postfix operator,2,8460
+posting, User Forums,1,8468
+potassium, electrical resistivity of,1,8472
+potassium, linear expansion coefficient of,1,8476
+potassium, melting point of,1,8480
+potassium, specific gravity of,1,8484
+potassium, thermal conductivity of,1,8488
+power regression,1,8492
+power rule,1,8496
+preallocate matrix,1,8500
+precision,5,8504
+prefix operator,2,8524
+Presentation,1,8532
+principal component analysis,1,8536
+print preview,1,8540
+prism, rectangular, mass moments of inertia,1,8544
+Pro/ENGINEER, integration,1,8548
+probability density,1,8552
+probability distributions,1,8556
+probability estimation,1,8560
+probability functions,2,8564
+processing images,1,8572
+product operator,1,8576
+product rule,1,8580
+program operators,1,8584
+program, debugging,1,8588
+programming,4,8592
+programming strategies,1,8608
+programming toolbar,2,8612
+programming, branching,1,8620
+programming, linear,1,8624
+programming, loops,1,8628
+programming, recursive functions,1,8632
+programming, while loops,1,8636
+programs, non-executing,1,8640
+programs, optimize,1,8644
+programs, recursion depth,1,8648
+projectile motion,1,8652
+projection, cartographic,1,8656
+propane (gas), specific gravity of,1,8660
+propane, density of,1,8664
+propane, dielectric constant of,1,8668
+propane, molecular weight of,2,8672
+propane, refractive index of,1,8680
+propane, sound velocity,1,8684
+propane, specific gravity of,1,8688
+propane, specific heat at 1.0 atm pressure, 20 C,1,8692
+propane, surface tension of,1,8696
+propane, viscosity of,1,8700
+propyl alcohol, density of,1,8704
+propyl alcohol, dielectric constant of,1,8708
+propyl alcohol, molecular weight of,1,8712
+propyl alcohol, refractive index of,1,8716
+propyl alcohol, sound velocity in,1,8720
+propyl alcohol, specific gravity of,1,8724
+propyl alcohol, surface tension of,1,8728
+propyl alcohol, viscosity of,1,8732
+propylene (gas), specific gravity of,1,8736
+propylene glycol, density of,1,8740
+propylene glycol, molecular weight of,1,8744
+propylene glycol, refractive index of,1,8748
+propylene glycol, specific gravity of,1,8752
+propylene glycol, surface tension of,1,8756
+propylene glycol, viscosity of,1,8760
+propylene, density of,1,8764
+propylene, molecular weight of,2,8768
+propylene, refractive index of,1,8776
+propylene, sound velocity,1,8780
+propylene, specific gravity of,1,8784
+propylene, specific heat at 1.0 atm pressure, 20 C,1,8788
+propylene, surface tension of,1,8792
+propylene, viscosity of,1,8796
+protecting worksheets,1,8800
+proton Compton wavelength,1,8804
+proton magnetic moment,1,8808
+proton mass,1,8812
+proton mass, and ratio of electron mass,1,8816
+protons, gyromagnetic ratio of,1,8820
+Psi, digamma function,1,8824
+Psin, polygamma function,1,8828
+PTC,1,8832
+pulp board, density of,1,8836
+push buttons,1,8840
+pwrfit function,1,8844
+pyramid, volume,1,8848
+pyrite, density of,1,8852
+qF function,1,8856
+qnorm function,2,8860
+qt function,2,8868
+quadratic fit,1,8876
+quantile-quantile plot,1,8880
+quantum of circulation,1,8884
+quarter circle arc, centroid,1,8888
+quartz, density of,1,8892
+quasi-regular polyhedra,2,8896
+QuickPlot, 2D,1,8904
+QuickPlot, 3D,1,8908
+QuickPlots,1,8912
+QuickSheets,2,8916
+QuickSheets, how to use,1,8924
+quiz template,1,8928
+quotient of polynomials,1,8932
+quotient rule,1,8936
+Radau,3,8940
+Radau function,2,8952
+Radau, enhancements,1,8960
+Radau, optional arguments,1,8964
+radians to degrees, minutes, and seconds,1,8968
+radians, converting,1,8972
+radians, converting to degrees,1,8976
+radiation constant, first,1,8980
+radiation constant, second,1,8984
+radical expressions,1,8988
+radicals,1,8992
+radii,1,8996
+radio buttons,1,9000
+radius of an inscribed circle,1,9004
+radius of circumscribed circle,1,9008
+random number generator,1,9012
+random numbers,1,9016
+range expressions, symbolic,1,9020
+range product,1,9024
+range variable function,1,9028
+range variable operator,1,9032
+range variables,2,9036
+range variables in 2D plots,1,9044
+range variables, defining,1,9048
+range variables, symbolic evaluation,1,9052
+range variables, units in,1,9056
+range variables, vector and matrix,1,9060
+ranges, defining,1,9064
+rank of matrix,1,9068
+raw, keyword,1,9072
+rc phase shift oscillator, oscillation frequency of an,1,9076
+Re function,1,9080
+READ function,1,9084
+READBIN function,1,9088
+READBMP,2,9092
+READBMP function,1,9100
+READFILE function,2,9104
+reading a color image,1,9112
+reading data from a data file,1,9116
+reading messages, User Forums,1,9120
+READPRN function,1,9124
+READPRN function, nested arrays,1,9128
+READRGB function,2,9132
+READWAV function,1,9140
+real,1,9144
+real coefficients,1,9148
+real domain,1,9152
+real number decomposition,1,9156
+real numbers,1,9160
+real-valued functions,1,9164
+rectangle, area,1,9168
+rectangle, perimeter,1,9172
+rectangular keyword,1,9176
+rectangular prism, mass moments of inertia,1,9180
+rectangular prism, surface area of a,1,9184
+rectangular prism, volume,1,9188
+recursion depth,1,9192
+recursion stack limitations,1,9196
+recursive functions,1,9200
+reducing size of files,1,9204
+reference function,1,9208
+Reference Tables,1,9212
+Referencing of worksheet variables,1,9216
+refractive index, table listing,1,9220
+regions, aligning,1,9224
+regions, collapsing,1,9228
+regions, hiding,1,9232
+regions, locking,1,9236
+regions, moving,2,9240
+regions, nudging,1,9248
+regions, order of,1,9252
+regions, resizing,1,9256
+regions, separating,1,9260
+regress function,1,9264
+regression statistics, linear regression,1,9268
+regression, linear,1,9272
+regression, logarithmic,1,9276
+regression, multivariate,1,9280
+regression, power,1,9284
+regression, units,1,9288
+regular polygon, area,1,9292
+regular polygon, perimeter,1,9296
+regular polyhedra,2,9300
+relax function,1,9308
+repeated calculations,1,9312
+replace,1,9316
+replace, in collapsed areas,1,9320
+residue theorem,1,9324
+resin, density of,1,9328
+resizing a text region,1,9332
+resources toolbar,2,9336
+resources window,1,9344
+resources window navigational controls,1,9348
+results, changing format,1,9352
+results, formatting,1,9356
+results, getting,1,9360
+results, precision,1,9364
+reverse sort function,1,9368
+revolution about axes,1,9372
+rewrite, keyword,1,9376
+rewriting expressions,1,9380
+rhenium, temperature coefficient of resistivity of,1,9384
+rhodium, electrical resistivity of,1,9388
+rhodium, linear expansion coefficient of,1,9392
+rhodium, melting point of,1,9396
+rhodium, modulus of elasticity for,1,9400
+rhodium, specific gravity of,1,9404
+rhodium, temperature coefficient of resistivity of,1,9408
+rhodium, thermal conductivity of,1,9412
+rhombicuboctahedron,1,9416
+Riccati equation,1,9420
+Riemann Zeta function,1,9424
+right circular cone, lateral surface area of a,1,9428
+right circular cone, volume,1,9432
+right circular cylinder, lateral surface area,1,9436
+right circular cylinder, volume,1,9440
+right-handed limit,1,9444
+Rkadapt,1,9448
+Rkadapt function,2,9452
+rkfixed function,2,9460
+rnorm function,1,9468
+Roark's formulas,1,9472
+rock salt, density of,1,9476
+Romberg method of integration,1,9480
+root function,5,9484
+root function with units,1,9504
+root, improving accuracy,1,9508
+roots,1,9512
+roots of a polynomial,2,9516
+roots, multiple,1,9524
+rotating 3D plots,1,9528
+rotation,1,9532
+round function,1,9536
+Round function,1,9540
+roundoff errors,1,9544
+roundoff functions,1,9548
+row operations, matrices,1,9552
+row-reduced echelon form,1,9556
+rubber, dielectric constant of,1,9560
+rubber, hard, density of,1,9564
+rubber, soft, commercial, density of,1,9568
+rubber, soft, pure gum, density of,1,9572
+ruler,1,9576
+Rydberg constant,1,9580
+sampling,1,9584
+sampling frequency,2,9588
+sandstone, density of,1,9596
+sandstone, specific gravity of,1,9600
+sandstone, specific heat of,1,9604
+sandstone, thermal conductivity of,1,9608
+satinwood, density of,1,9612
+saving data to a file,1,9616
+saving edits in resources window,1,9620
+saving images to a file,1,9624
+sawdust, specific gravity of,1,9628
+sawdust, specific heat of,1,9632
+sawdust, thermal conductivity of,1,9636
+scalar multiplication,1,9640
+scaling,1,9644
+scaling images,1,9648
+scatter plots,1,9652
+Schroedinger's equation,1,9656
+scientific notation,1,9660
+scriptable object components,1,9664
+Scriptable Object components,5,9668
+scripting,1,9688
+sea water, density of,1,9692
+sea water, molecular weight of,1,9696
+sea water, sound velocity in,1,9700
+sea water, specific gravity of,1,9704
+sealing wax, density of,1,9708
+search tool,2,9712
+second radiation constant,1,9720
+secondary y-axis,2,9724
+sector of a circle, arc length,1,9732
+sector of a circle, area,1,9736
+seed value,1,9740
+seeded iteration,1,9744
+selenium, linear expansion coefficient of,1,9748
+selenium, melting point of,1,9752
+selenium, modulus of elasticity for,1,9756
+selenium, specific gravity of,1,9760
+selenium, thermal conductivity of,1,9764
+semicircular arc, centroid,1,9768
+semicircular area, centroid,1,9772
+semiparabolic area, centroid,1,9776
+semi-regular polyhedra,2,9780
+separating regions,1,9788
+series expansion,1,9792
+series, sums of,1,9796
+serpentine, density of,1,9800
+setting values,1,9804
+shellac, dielectric constant of,1,9808
+shortcuts, keyboard,1,9812
+show markers,1,9816
+Si, sine integral,1,9820
+signal generation,2,9824
+signal processing,1,9832
+signal synthesis, example,1,9836
+signal, dual-tone multifrequency (DTMF),1,9840
+signals, wavelet transforms,1,9844
+signature,1,9848
+significant figures,1,9852
+silica aerogel, specific gravity of,1,9856
+silica aerogel, specific heat of,1,9860
+silica aerogel, thermal conductivity of,1,9864
+silica, fused transparent, density of,1,9868
+silica, translucent, density of,1,9872
+silicon, linear expansion coefficient of,1,9876
+silicon, melting point of,1,9880
+silicon, modulus of elasticity for,1,9884
+silicon, specific gravity of,1,9888
+silicon, thermal conductivity of,1,9892
+silver, electrical resistivity of,1,9896
+silver, linear expansion coefficient of,1,9900
+silver, melting point of,1,9904
+silver, modulus of elasticity for,1,9908
+silver, Poisson's ratio for,1,9912
+silver, specific gravity of,1,9916
+silver, temperature coefficient of resistivity of,1,9920
+silver, thermal conductivity of,1,9924
+simple harmonic motion,1,9928
+simple pendulum motion,1,9932
+simplify keyword,1,9936
+sine curve, animating,1,9940
+sine integral, Fresnel,1,9944
+sine integral, Si,1,9948
+Sine transform, square pulse,1,9952
+single value functions,1,9956
+single value variables, defining,1,9960
+single-factor ANOVA,1,9964
+singular endpoint method of integration,1,9968
+sinusoidal, signal,1,9972
+SIUnitsOf,1,9976
+size of files,1,9980
+slag, density of,1,9984
+slate, density of,1,9988
+slender rods, mass moments of inertia,1,9992
+sliders,1,9996
+slope,1,10000
+SmartSketch,1,10004
+SmartSketch, example static analysis of 4-bar linkage,1,10008
+SmartSketch, parallel pipe flow example,1,10012
+smoothing functions,1,10016
+snub polyhedra,1,10020
+soapstone, density of,1,10024
+sodium, electrical resistivity of,1,10028
+sodium, linear expansion coefficient of,1,10032
+sodium, melting point of,1,10036
+sodium, specific gravity of,1,10040
+sodium, thermal conductivity of,1,10044
+Software Performance Report,1,10048
+solidcolor,1,10052
+solids, dielectric constant table,1,10056
+solution vector,1,10060
+solve,1,10064
+solve block, linear system of equations,1,10068
+solve block, nonlinear system of equations,1,10072
+solve blocks,3,10076
+solve blocks with units,2,10088
+solve blocks, inequality constraints,1,10096
+solve blocks, linear programming,1,10100
+solve blocks, matrix equations,1,10104
+solve blocks, mixed-unit results,1,10108
+solve blocks, symbolic,2,10112
+solve blocks, units,1,10120
+solve blocks, whole vectors,1,10124
+solve equations symbolically,1,10128
+solve for variable,2,10132
+solve keyword,3,10140
+solving,1,10152
+solving E-book,1,10156
+Solving E-book,1,10160
+solving equations and systems,1,10164
+solving equations, parametric solutions,1,10168
+solving equations, single unknown,1,10172
+solving equations, symbolically,1,10176
+solving equations, symbolics menu,1,10180
+solving for ODE parameters,1,10184
+solving for roots,1,10188
+solving linear system of equations,1,10192
+solving linear systems,1,10196
+solving methods, comparing,1,10200
+solving nonlinear system of equations,1,10204
+solving parametric equations,1,10208
+solving polynomials,3,10212
+solving single equations,1,10224
+solving systems of equations,1,10228
+solving, adjusting tolerance,1,10232
+solving, Companion Matrix method,1,10236
+solving, units in,1,10240
+sorting functions,1,10244
+sound velocity, table listing for gases,1,10248
+sound velocity, table listing for liquids,1,10252
+Spanish mahogany, density of,1,10256
+special characters,2,10260
+special characters, missing,1,10268
+special matrices,1,10272
+specific gravity, table listing for elements,1,10276
+specific gravity, table listing for gases,1,10280
+specific gravity, table listing for liquids,1,10284
+specific gravity, table listing for materials,1,10288
+specific heat, table listing for gases,1,10292
+specific heat, table listing for materials,1,10296
+spectograms,1,10300
+speed,1,10304
+spell check,1,10308
+spermaceti, density of,1,10312
+sphere, mass moments of inertia,1,10316
+sphere, surface area of a,1,10320
+sphere, volume,1,10324
+spherical cap, surface area of a,1,10328
+spherical cap, volume,1,10332
+spherical coordinates, converting to Cartesian,1,10336
+spherical triangle, area of a,1,10340
+spinning 3D plots,1,10344
+spline interpolation,1,10348
+SPR,1,10352
+Spring-mass system,1,10356
+spruce, density of,1,10360
+square matrix determinant,1,10364
+square pulse, transform,1,10368
+standard deviation,1,10372
+standard error,1,10376
+standard errors, computing,1,10380
+standard form,1,10384
+standard toolbar,1,10388
+standing waves, animation,1,10392
+starch, density of,1,10396
+state space solver,1,10400
+statespace,1,10404
+static unit balancing,1,10408
+static unit checking,2,10412
+statistics, t test,1,10420
+status line,1,10424
+stdev,1,10428
+Stefan-Boltzmann constant,1,10432
+stiff differential equations,2,10436
+stiff ODEs,2,10444
+Stiffb,1,10452
+stiffness reduction factors,1,10456
+Stiffr,1,10460
+strain formulas,1,10464
+stress formulas,1,10468
+strict Boolean comparison,1,10472
+string length in Mathcad,1,10476
+strings,1,10480
+strings, converting to numbers,1,10484
+strings, manipulation of,1,10488
+subarrays, inserting and extracting,1,10492
+submatrix function,3,10496
+subscripts, vector and matrix,1,10508
+substition,1,10512
+substrings,1,10516
+sugar, density of,1,10520
+sulfur dioxide, molecular weight of,1,10524
+sulfur dioxide, sound velocity,1,10528
+sulfur dioxide, specific gravity of,1,10532
+sulfur dioxide, specific heat at 1.0 atm pressure, 20 C,1,10536
+sum of components,1,10540
+sum rule,1,10544
+summation,1,10548
+summation limits,1,10552
+sums of finite and infinite series,1,10556
+sums, finding,1,10560
+superscripts, array,1,10564
+support,1,10568
+supsmooth function,1,10572
+surface area of a rectangular prism,1,10576
+surface area of a sphere,1,10580
+surface area of a spherical cap,1,10584
+surface area of a torus,1,10588
+surface area of function,1,10592
+surface of revolution,1,10596
+surface tension, table listing,1,10600
+svd function,1,10604
+svd2 function,1,10608
+svds function,1,10612
+sycamore, density of,1,10616
+symbol font,2,10620
+Symbol font,1,10628
+symbolic calcuations, masking values,1,10632
+symbolic calculus,1,10636
+symbolic constants,1,10640
+symbolic equal sign,2,10644
+symbolic evaluation,1,10652
+symbolic evaluation, range variables,1,10656
+symbolic expressions, entering,1,10660
+symbolic Fourier,1,10664
+symbolic integral functions,2,10668
+Symbolic math,1,10676
+symbolic math,1,10680
+symbolic range expressions,1,10684
+symbolic result sign,2,10688
+symbolic results,1,10696
+symbolic roots,1,10700
+symbolic solution, linear system of equations,1,10704
+symbolic solutions,1,10708
+symbolic solve blocks,2,10712
+symbolic summation,1,10720
+symbolic toolbar,1,10724
+symbolic transforms,1,10728
+symbolics menu,1,10732
+Symbolics menu,1,10736
+symbolics, strategies,2,10740
+symbols,1,10748
+synthetic constructions and image processing,1,10752
+system of equations, nonlinear,1,10756
+system of equations, solving,1,10760
+system of units,1,10764
+systems of equations, solving,1,10768
+t score on vector of data,1,10772
+t statistics,1,10776
+t test on normal means,1,10780
+table ellipses,1,10784
+tabs, setting,1,10788
+talc, density of,1,10792
+tallow, beef, density of,1,10796
+tallow, mutton, density of,1,10800
+tangent line, animation,1,10804
+tangents,1,10808
+tantalum, electrical resistivity of,1,10812
+tantalum, linear expansion coefficient of,1,10816
+tantalum, melting point of,1,10820
+tantalum, modulus of elasticity for,1,10824
+tantalum, Poisson's ratio for,1,10828
+tantalum, specific gravity of,1,10832
+tantalum, temperature coefficient of resistivity of,1,10836
+tantalum, thermal conductivity of,1,10840
+tar, density of,1,10844
+Taylor series,1,10848
+taylor series,3,10852
+Taylor series,2,10864
+teak, African, density of,1,10872
+teak, Indian, density of,1,10876
+technical support,2,10880
+teflon, dielectric constant of,1,10888
+temperature coefficient of resistivity, table listing,1,10892
+temperature conversion,1,10896
+templates,1,10900
+termination of while loops,1,10904
+tetrahedron, truncated,1,10908
+tetrahemihexahedron,1,10912
+text region,1,10916
+text region, resizing,1,10920
+text regions, aligning,1,10924
+text, entering,1,10928
+text, formatting,2,10932
+text, inserting math into,1,10940
+textbox,1,10944
+thermal conductivity, table listing for elements,1,10948
+thermal conductivity, table listing for materials,1,10952
+thin disk, mass moments of inertia,1,10956
+thin rectangular plate, mass moments of inertia,1,10960
+thorium, electrical resistivity of,1,10964
+thorium, linear expansion coefficient of,1,10968
+thorium, melting point of,1,10972
+thorium, modulus of elasticity for,1,10976
+thorium, Poisson's ratio for,1,10980
+thorium, specific gravity of,1,10984
+thorium, temperature coefficient of resistivity of,1,10988
+thorium, thermal conductivity of,1,10992
+tin, electrical resistivity of,1,10996
+tin, linear expansion coefficient of,1,11000
+tin, melting point of,1,11004
+tin, modulus of elasticity for,1,11008
+tin, Poisson's ratio for,1,11012
+tin, specific gravity of,1,11016
+tin, temperature coefficient of resistivity of,1,11020
+tin, thermal conductivity of,1,11024
+titanium, electrical resistivity of,1,11028
+titanium, linear expansion coefficient of,1,11032
+titanium, melting point of,1,11036
+titanium, modulus of elasticity for,1,11040
+titanium, Poisson's ratio for,1,11044
+titanium, specific gravity of,1,11048
+titanium, temperature coefficient of resistivity of,1,11052
+titanium, thermal conductivity of,1,11056
+TOL,2,11060
+TOL, root function,1,11068
+tolerance,1,11072
+tolerance, adjusting for root estimates,1,11076
+tolerance, root function,1,11080
+toluene, density of,1,11084
+toluene, dielectric constant of,1,11088
+toluene, molecular weight of,1,11092
+toluene, refractive index of,1,11096
+toluene, sound velocity in,1,11100
+toluene, specific gravity of,1,11104
+toluene, surface tension of,1,11108
+toluene, viscosity of,1,11112
+toolbar, calculator,2,11116
+toolbar, controls,1,11124
+toolbar, formatting,1,11128
+toolbar, picture,1,11132
+toolbar, resources,1,11136
+toolbar, Web,1,11140
+toolbars,2,11144
+toolbars, floating,1,11152
+tooltips,1,11156
+topaz, density of,1,11160
+torus, surface area of a,1,11164
+torus, volume,1,11168
+tour, Mathcad,1,11172
+tourmaline, density of,1,11176
+Trace Error,1,11180
+trace function,2,11184
+trace of matrix,1,11192
+trace window,1,11196
+traces,1,11200
+transform functions, numerical,1,11204
+transform pairs,1,11208
+transformation, inverse,1,11212
+transformations and image processing,1,11216
+transforms, Fourier and inverse Fourier,3,11220
+transforms, Laplace and inverse Laplace,1,11232
+transforms, symbolic,1,11236
+transforms, wavelets,1,11240
+transforms, z and inverse z,1,11244
+translations,1,11248
+transparency,1,11252
+transpose of a matrix,1,11256
+transpose vectors,1,11260
+trapezoid, area,1,11264
+trapezoid, perimeter,1,11268
+tree operator,1,11272
+triangle, area,1,11276
+triangle, perimeter,1,11280
+triangular matrix,1,11284
+trigonometric functions, derivatives of,1,11288
+trigonometric functions, integrals of,1,11292
+trigonometric identities,1,11296
+trunc function,2,11300
+Trunc function,1,11308
+truncated cube,1,11312
+truncated octahedron,1,11316
+truncated tetrahedron,1,11320
+truncation functions,2,11324
+truncation functions compatibility,1,11332
+truncation functions, precision,1,11336
+tuned output oscillator, oscillation frequency of an,1,11340
+tungsten, electrical resistivity of,1,11344
+tungsten, linear expansion coefficient of,1,11348
+tungsten, melting point of,1,11352
+tungsten, modulus of elasticity for,1,11356
+tungsten, Poisson's ratio for,1,11360
+tungsten, specific gravity of,1,11364
+tungsten, temperature coefficient of resistivity of,1,11368
+tungsten, thermal conductivity of,1,11372
+turpentine, density of,1,11376
+turpentine, molecular weight of,1,11380
+turpentine, refractive index of,1,11384
+turpentine, sound velocity in,1,11388
+turpentine, specific gravity of,1,11392
+turpentine, viscosity of,1,11396
+tutorials,1,11400
+two-tailed hypothesis test,1,11404
+type checking,2,11408
+undersampling,2,11416
+Undo,1,11424
+unicode,1,11428
+Unicode,1,11432
+unit error messages,1,11436
+unit functions,1,11440
+unit impulse function,1,11444
+unit system, changing,1,11448
+units,6,11452
+units and the root function,1,11476
+units in expressions,1,11480
+units in plots,1,11484
+units in solve blocks,2,11488
+units of a result, changing,1,11496
+units placeholder,1,11500
+units, change defaults,1,11504
+units, converting,1,11508
+units, custom,1,11512
+units, defining custom,1,11516
+units, defining your own built-in,1,11520
+units, formatting,1,11524
+units, simplification rules,2,11528
+units, static unit checking,1,11536
+units, user-defined custom units,1,11540
+units, using,1,11544
+Unitsof,1,11548
+until,1,11552
+updating a result,1,11556
+uranium, electrical resistivity of,1,11560
+uranium, linear expansion coefficient of,1,11564
+uranium, melting point of,1,11568
+uranium, modulus of elasticity for,1,11572
+uranium, Poisson's ratio for,1,11576
+uranium, specific gravity of,1,11580
+uranium, thermal conductivity of,1,11584
+urea-formaldehyde, dielectric constant of,1,11588
+user files, Web library,1,11592
+User Forums,2,11596
+User Forums, getting started,1,11604
+User Forums, Mathcad,1,11608
+User Forums, posting,1,11612
+User Forums, reading messages,1,11616
+User Forums, searching,1,11620
+user-defined functions,1,11624
+User's Guide,1,11628
+using, keyword,1,11632
+vacuum, and velocity of light,1,11636
+vacuum, permeability,1,11640
+vacuum, permittivity,1,11644
+vanadium, electrical resistivity of,1,11648
+vanadium, linear expansion coefficient of,1,11652
+vanadium, melting point of,1,11656
+vanadium, modulus of elasticity for,1,11660
+vanadium, specific gravity of,1,11664
+vanadium, temperature coefficient of resistivity of,1,11668
+vanadium, thermal conductivity of,1,11672
+variable of differentiation,1,11676
+variables in programs, unitialized,1,11680
+variables, calculating with,1,11684
+variables, defining,1,11688
+variables, defining globally,1,11692
+variables, font style,1,11696
+variables, referencing,1,11700
+variables, solving symbolically,1,11704
+variance,2,11708
+VBScript, examples,1,11716
+vec2str function,1,11720
+vector,1,11724
+vector addition,1,11728
+vector calculations,2,11732
+vector derivative operators,2,11740
+vector field plot,1,11748
+vector of data, z score,1,11752
+vectorization,1,11756
+vectorization and image processing,1,11760
+vectorize operator,2,11764
+vectorized symbolics,1,11772
+vectors,2,11776
+vectors, algebra of,1,11784
+vectors, cross product,1,11788
+vectors, dot product,1,11792
+vectors, finding local minimum and maximum,1,11796
+vectors, integration and differentiation,1,11800
+vectors, intersection,1,11804
+vectors, magnitude,1,11808
+vectors, sorting,1,11812
+vectors, transpose,1,11816
+velocity, of light in a vacuum,1,11820
+vermiculite, specific gravity of,1,11824
+vermiculite, specific heat of,1,11828
+vermiculite, thermal conductivity of,1,11832
+vibrations, mechanical and electrical,1,11836
+view evaluation as,1,11840
+vinylite, dielectric constant of,1,11844
+viscosity, table listing,1,11848
+VisSim add-in, simulations with Mathcad,1,11852
+vlookup function,1,11856
+volume of a frustum of a right circular cone,1,11860
+volume of a paraboloid,1,11864
+volume of a parallelepiped,1,11868
+volume of a pyramid,1,11872
+volume of a rectangular prism,1,11876
+volume of a right circular cone,1,11880
+volume of a right circular cylinder,1,11884
+volume of a sphere,1,11888
+volume of a spherical cap,1,11892
+volume of a torus,1,11896
+volume of an ellipsoid,1,11900
+W, Lambert's W function,1,11904
+walnut tree wood, density of,1,11908
+water fall plot,1,11912
+water gum tree, density of,1,11916
+water, density of,1,11920
+water, dielectric constant of,1,11924
+water, molecular weight of,1,11928
+water, refractive index of,1,11932
+water, sound velocity in,1,11936
+water, specific gravity of,1,11940
+water, surface tension of,1,11944
+water, viscosity of,1,11948
+waterfall plots,1,11952
+waterfall plots, 3D,1,11956
+WAV files,1,11960
+WAV files, reading and writing to,1,11964
+WAV sound object,1,11968
+wave equation,1,11972
+wave signal, sawtooth,1,11976
+wave signal, square,1,11980
+wave signal, triangle,1,11984
+wave transforms,1,11988
+wavelet transforms,1,11992
+wax, sealing, density of,1,11996
+wax, specific gravity of,2,12000
+wax, specific heat of,2,12008
+wax, thermal conductivity of,1,12016
+Web library,1,12020
+Web toolbar,1,12024
+Weibull density,1,12028
+while loops,1,12032
+while operator,1,12036
+white pine, density of,1,12040
+white pine, specific gravity of,1,12044
+white pine, specific heat of,1,12048
+white pine, thermal conductivity of,1,12052
+willow, density of,1,12056
+window glass, specific gravity of,1,12060
+window glass, specific heat of,1,12064
+window glass, thermal conductivity of,1,12068
+wood charcoal, specific gravity of,2,12072
+wood charcoal, specific heat of,1,12080
+wood charcoal, thermal conductivity of,1,12084
+woods, density of,1,12088
+woods, specific heat of,1,12092
+woods, thermal conductivity of,1,12096
+wool, felt, specific gravity of,1,12100
+wool, loose, specific gravity of,1,12104
+wool, loose, specific heat of,2,12108
+wool, loose, thermal conductivity of,2,12116
+work and energy,1,12124
+worksheet optimization,1,12128
+worksheets, creating,1,12132
+worksheets, protecting,1,12136
+worksheets, templates and examples,1,12140
+WRITE function,1,12144
+WRITEBIN function,1,12148
+WRITEBMP function,1,12152
+WRITEPRN function,2,12156
+WRITERGB function,1,12164
+WRITEWAV function,1,12168
+writing data,1,12172
+writing data to a file,1,12176
+writing images to a file,1,12180
+Wythoff number,1,12184
+xenon, molecular weight of,1,12188
+xenon, sound velocity,1,12192
+xenon, specific gravity of,1,12196
+xenon, specific heat at 1.0 atm pressure, 20 C,1,12200
+XMCD,1,12204
+XMCDZ,1,12208
+XML,1,12212
+XOR operator,1,12216
+X-Y plot, function and its derivative,1,12220
+y axis, secondary,2,12224
+yellow pine, density of,1,12232
+z and inverse z transforms,1,12236
+z score of vector of data,1,12240
+z statistics, vector of data,1,12244
+z transforms,1,12248
+zero divided by zero,1,12252
+Zeta, Riemann Zeta function,1,12256
+zinc, electrical resistivity of,1,12260
+zinc, linear expansion coefficient of,1,12264
+zinc, melting point of,1,12268
+zinc, modulus of elasticity for,1,12272
+zinc, Poisson's ratio for,1,12276
+zinc, specific gravity of,1,12280
+zinc, temperature coefficient of resistivity of,1,12284
+zinc, thermal conductivity of,1,12288
+zirconium, temperature coefficient of resistivity of,1,12292
+zooming 3D plots,1,12296

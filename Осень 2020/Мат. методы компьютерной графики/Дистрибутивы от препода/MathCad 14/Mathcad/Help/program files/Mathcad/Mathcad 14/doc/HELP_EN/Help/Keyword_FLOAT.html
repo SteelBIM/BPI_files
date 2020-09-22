@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+        "http://www.w3.org/TR/REC-html40/loose.dtd">
+
+<html>
+
+<head>
+	<title>Symbolic Floating-Point Evaluation</title>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+	<meta name="generator" content="RoboHELP by eHelp Corporation - www.ehelp.com">
+	<link rel='stylesheet' href='MAIN_TOPIC_ns.css'>
+<script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='MAIN_TOPIC.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+tr.whs1 {height: 94px;}
+-->
+</style>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+  div.WebHelpPopupMenu {position:absolute; left:0px; top:0px; z-index:4; visibility:hidden;}
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+
+<body>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Symbolics and Keywords\nSymbolic Floating-Point Evaluation");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(0);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Mcad.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<table>
+	<tr class="whs1">
+		<td valign="top"><h1>Symbolic Floating-Point Evaluation</h1></td>
+	</tr>
+</table>
+
+<p>To evaluate an expression using symbolic floating-point evaluation, select the expression and either:</p>
+
+<ul type="disc">	
+	<li>Press <b>[Ctrl]&nbsp;[Shift]&nbsp;[.]</b> and type the <a href="Keywords.html">keyword</a> &quot;float,&quot; followed by a comma, in the placeholder. 
+	<p>- or -</p>
+	</li>
+ 	<li>Click <b>float</b> on the <a href="Symbolic_toolbar.html"><b>Symbolic</b> toolbar</a>.</li>
+</ul>
+
+<p>Then type a positive integer, specifying the number of digits in the floating-point evaluation, in the placeholder that appears, and press <b>[Enter]</b>.</p>
+
+<p><b>Note:</b> The integer argument after &quot;float&quot; is not required. By default, &quot;float&quot; evaluates the result to 20 digits.</p>
+
+<h4>Examples:</h4>
+
+<p>The following evaluates <span class="math">&pi;</span> to 25 decimal places:</p>
+
+<p class="vmath"><span class="math">&pi;</span> float, 25&rarr; 3.141592653589793238462643</p>
+
+<p>You can also force symbolic floating point evaluation with just the <a href="Symbolic_equal_sign.html">symbolic equal sign</a> by using decimal numbers rather than integers.</p>
+  
+<p class="blockindent"><img src="Graphics/float.gif" width="234" height="95" alt="example of floating point evaluation"></p>
+
+<p><b>Caution:</b> You should avoid defining a variable to be the output of float with a small integer argument, as the result will not be very accurate. For example, if you set</p>
+
+<p class="vmath">x:= <span class="math">&pi;</span> float, 4 &rarr; 3.142</p>
+
+<p><span class="math">x</span> is a poor approximation of <span class="math">&pi;</span>. Compare this with setting a variable equal to <span class="math">&pi;</span> without using float.</p>
+
+<p class="vmath">y:= <span class="math">&pi;</span></p>
+
+<p>When <b>Number of decimal places</b> is set to its maximum value of 17, you can see the difference in accuracy between <span class="math">x</span> and <span class="math">y</span>.</p>
+
+<p class="vmath">x = 3.142</p>
+
+<p class="vmath">y = 3.141592653589793</p>
+
+<p>Note that <b>Number of decimal places</b> only affects how results are displayed, not their actual values. If you change <b>Number of decimal places</b> to 3, only 3 decimal places for <span class="math">y</span> are displayed, but the value of <span class="math">y</span> remains the same.</p>
+
+<p>If you need to evaluate a symbolic expression numerically, you can usually do so using the numerical equal sign. However, some <a href="Special_Symbolic_Results.html">symbolic functions</a> cannot be evaluated with the numerical equal sign. To evaluate these, use the symbolic equal sign with the keyword &quot;float,&quot; which performs symbolic floating-point evaluation.</p>  
+
+<p>For example, you can evaluate the symbolic function <span class="math">Zeta</span>, which calculates the Riemann Zeta function, to 7 digits as follows:</p>
+
+<p class="blockindent"><img src="Graphics/float_Zeta.GIF" alt="Evaluating Zeta(1/2) with float" width="198" height="41" border="0"></p>
+
+<h4>Notes:</h4>
+
+<ul type="disc">
+  	<li><p>Another method is to select the expression and click <b>Evaluate &gt; Floating Point</b> on the <a href="Symbolics_Menu.html"><b>Symbolics</b> menu</a>. Then enter the number of decimal places for the result in the Floating Point Evaluation dialog. In this case the result will not automatically update if you make changes elsewhere in the worksheet.</p>
+	</li>
+  	<li>Symbolic floating point evaluation is useful in cases where Mathcad cannot return a result through traditional evaluation, such as with very large results, like <span class="math">&Gamma;(1000)</span>.</li>
+</ul>
+
+<hr size="2" width="100%" align="center">
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+
+</html>

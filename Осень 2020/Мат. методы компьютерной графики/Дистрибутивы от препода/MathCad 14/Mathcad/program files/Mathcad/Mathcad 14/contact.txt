@@ -1,0 +1,71 @@
+
+Please contact the Mathsoft Activation Helpdesk using one of the following methods:
+
+
+For US and Canada customers:
+
+E-mail: activation@mathsoft.com
+Tel:    1-800-827-1263
+Fax:    1-617-444-8001
+
+
+If you reside outside the United States or Canada, please contact your local authorized Mathcad distributor for your activation key.  Their contact details may be found at:
+
+http://www.mathcad.com/purchase/international_distributors/
+
+
+If you do not know who your local distributor is or are having problems getting your
+activation key, contact Mathsoft International direct for assistance at:
+
+E-mail: activation@mathsoft.co.uk
+Tel:   +44 (0)1276 605151
+Fax:   +44 (0)1276 605130
+
+
+If you are contacting the helpdesk by e-mail or fax, please complete the following form and print/fax it or e-mail it to the helpdesk.
+
+
+CONTACT DETAILS:
+---------------
+
+Title:                 Mr/Mrs/Miss/Ms
+
+Name:                  ______________________________* (if request comes in via fax)
+
+Company:               _____________________________________
+
+Street Address:        _____________________________________
+
+                       _____________________________________
+
+City:                  ___________________
+
+County/State/Province: ___________________
+
+Zip/Post Code:         ___________________
+
+Country:               ___________________
+
+Telephone:             ___________________* (if we run into issues with e-mail/fax)
+
+Fax:                   ___________________* (if request comes in via fax)
+
+E-mail:                ___________________* (if request comes in via e-mail)
+
+
+
+PRODUCT INFORMATION:
+-------------------
+
+Product Name:          Mathcad (Single-User Edition)
+
+The following information is displayed during the Activation Wizard process when Mathcad is launched. These details are provided by the application and appear on your computer screen.
+
+License Number:        __________*
+
+Product Code:          ______________-____-____*
+
+Request Code:          ____-____-____-____*
+
+
+NOTE: Please ensure that you have completed all sections marked with a '*'.

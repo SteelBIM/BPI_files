@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?validation-md5-digest babbbf5e7c4ddbddfdcdd88334a71b45?>
+<worksheet version="3.0.3" xmlns="http://schemas.mathsoft.com/worksheet30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet30" xmlns:ml="http://schemas.mathsoft.com/math30" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10" xmlns:prd="http://schemas.mathsoft.com/point-release-data">
+<pointReleaseData></pointReleaseData>
+<metadata>
+<generator>Mathcad Professional 14.0</generator>
+<userData>
+<title>Unicode Character Support in Mathcad 13.5</title>
+<description>Describes the enhanced support for Unicode characters in Mathcad, and how double-byte characters can now be used in variable names, plot titles, and trace labels, along with the effect on Greek characters.</description>
+<author>Parametric Technology Corporation</author>
+<company>Parametric Technology Corporation</company>
+<keywords>character Unicode greek double-byte Cyrillic Hebrew Arabic variable plot trace</keywords>
+<revisedBy />
+</userData>
+<identityInfo>
+<revision>37</revision>
+<documentID>423E1F81-DB3F-4BB6-9830-98B3CF383DD8</documentID>
+<versionID>BBC0CEC2-6FB0-45CD-A6DA-DEC3468834BB</versionID>
+<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
+<branchID>00000000-0000-0000-0000-000000000000</branchID>
+</identityInfo>
+</metadata>
+<settings>
+<presentation>
+<textRendering>
+<textStyles>
+<textStyle name="Normal">
+<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"></blockAttr>
+<inlineAttr font-family="Times New Roman" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"></inlineAttr>
+</textStyle>
+<textStyle name="Chapter Head">
+<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"></blockAttr>
+<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline" color="#808000"></inlineAttr>
+</textStyle>
+<textStyle name="Section Title">
+<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"></blockAttr>
+<inlineAttr font-family="Arial" font-charset="0" font-size="16" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline" color="#008080"></inlineAttr>
+</textStyle>
+<textStyle name="Heading 1">
+<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"></blockAttr>
+<inlineAttr font-family="Verdana" font-charset="0" font-size="10" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline" color="#800000"></inlineAttr>
+</textStyle>
+<textStyle name="Heading 2">
+<blockAttr margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit"></blockAttr>
+<inlineAttr font-family="Verdana" font-charset="0" font-size="10" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline" color="#800000"></inlineAttr>
+</textStyle>
+<textStyle name="Column Head">
+<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"></blockAttr>
+<inlineAttr font-family="inherit" font-charset="inherit" font-size="12" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"></inlineAttr>
+</textStyle>
+<textStyle name="List_custom" base-style="Normal">
+<blockAttr margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="none" tabs="inherit"></blockAttr>
+<inlineAttr font-family="Times New Roman" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"></inlineAttr>
+</textStyle>
+<textStyle name="List_number" base-style="Normal">
+<blockAttr margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="decimal" tabs="inherit"></blockAttr>
+<inlineAttr font-family="inherit" font-charset="inherit" font-size="inherit" font-weight="inherit" font-style="inherit" underline="inherit" line-through="inherit" vertical-align="inherit"></inlineAttr>
+</textStyle>
+<textStyle name="List_bullet" base-style="Normal">
+<blockAttr margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="disc" tabs="inherit"></blockAttr>
+<inlineAttr font-family="inherit" font-charset="inherit" font-size="inherit" font-weight="inherit" font-style="inherit" underline="inherit" line-through="inherit" vertical-align="inherit"></inlineAttr>
+</textStyle>
+</textStyles>
+</textRendering>
+<mathRendering equation-color="#000">
+<operators multiplication="narrow-dot" derivative="derivative" literal-subscript="large" definition="colon-equal" global-definition="triple-equal" local-definition="left-arrow" equality="bold-equal" symbolic-evaluation="right-arrow"></operators>
+<mathStyles>
+<mathStyle name="Variables" font-family="Times New Roman" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false"></mathStyle>
+<mathStyle name="Constants" font-family="Times New Roman" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false"></mathStyle>
+<mathStyle name="User 1" font-family="Verdana" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false"></mathStyle>
+<mathStyle name="User 2" font-family="Courier New" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"></mathStyle>
+<mathStyle name="User 3" font-family="Arial" font-charset="0" font-size="10" font-weight="bold" font-style="normal" underline="false"></mathStyle>
+<mathStyle name="User 4" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="italic" underline="false"></mathStyle>
+<mathStyle name="User 5" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"></mathStyle>
+<mathStyle name="User 6" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"></mathStyle>
+<mathStyle name="User 7" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"></mathStyle>
+<mathStyle name="Math Text Font" font-family="Times New Roman" font-charset="0" font-size="14" font-weight="normal" font-style="normal" underline="false"></mathStyle>
+</mathStyles>
+<dimensionNames mass="mass" length="length" time="time" current="current" thermodynamic-temperature="temperature" luminous-intensity="luminosity" amount-of-substance="substance" display="false"></dimensionNames>
+<symbolics derivation-steps-style="vertical-insert" show-comments="false" evaluate-in-place="false"></symbolics>
+<results>
+<general precision="3" show-trailing-zeros="false" radix="dec" complex-threshold="10" zero-threshold="15" imaginary-value="i" exponential-threshold="3"></general>
+<matrix display-style="auto" expand-nested-arrays="false"></matrix>
+<unit format-units="true" simplify-units="true" fractional-unit-exponent="false"></unit>
+</results>
+</mathRendering>
+<pageModel show-page-frame="false" show-header-frame="false" show-footer-frame="false" header-footer-start-page="1" paper-code="1" orientation="portrait" print-single-page-width="false" page-width="612" page-height="792">
+<margins left="86.4" right="86.4" top="86.4" bottom="86.4"></margins>
+<header use-full-page-width="false"></header>
+<footer use-full-page-width="false">
+<left>{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fnil\fprq6 Arial;}{\f3\fswiss Arial;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1033\pard\plain\f3\fs20 \{f\}
+\par }</left>
+<center>{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fnil\fprq6 Arial;}{\f3\fswiss Arial;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1033\pard\qc\plain\f3\fs20 \{n\}
+\par }</center>
+<right>{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fnil\fprq6 Arial;}{\f3\fswiss Arial;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1033\pard\qr\plain\f3\fs20 \{d\}
+\par }</right>
+</footer>
+</pageModel>
+<colorModel background-color="#fff" default-highlight-color="#ffff80"></colorModel>
+<language math="EN" UI="EN"></language>
+</presentation>
+<calculation>
+<builtInVariables array-origin="0" convergence-tolerance="0.001" constraint-tolerance="0.001" random-seed="1" prn-precision="4" prn-col-width="8"></builtInVariables>
+<calculationBehavior automatic-recalculation="true" matrix-strict-singularity-check="false" optimize-expressions="false" exact-boolean="true" strings-use-origin="false" zero-over-zero="error">
+<compatibility multiple-assignment="MC12" local-assignment="MC11"></compatibility>
+</calculationBehavior>
+<units>
+<currentUnitSystem name="si" customized="false"></currentUnitSystem>
+</units>
+</calculation>
+<editor view-annotations="false" view-regions="false">
+<ruler is-visible="false" ruler-unit="in">
+<tabs>
+<tab show-guide="true" position="36"></tab>
+<tab show-guide="true" position="324"></tab>
+</tabs>
+</ruler>
+<plotTemplate>
+<xy item-idref="1"></xy>
+</plotTemplate>
+<grid granularity-x="6" granularity-y="6"></grid>
+</editor>
+<fileFormat image-type="image/png" image-quality="75" save-numeric-results="true" exclude-large-results="false" save-text-images="false" screen-dpi="96"></fileFormat>
+<miscellaneous>
+<handbook handbook-region-tag-ub="202" can-delete-original-handbook-regions="true" can-delete-user-regions="true" can-print="true" can-copy="true" can-save="true" file-permission-mask="4294967295"></handbook>
+</miscellaneous>
+</settings>
+<regions>
+<region region-id="42" left="6" top="6" width="9" height="57.75" align-x="6" align-y="6" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<picture>
+<png item-idref="2" display-width="7.5" display-height="56.25"></png>
+</picture>
+<link href=".\..\..\map.xmcd" title="Links to home" popup="false"></link>
+<rendering item-idref="3"></rendering>
+</region>
+<region region-id="43" left="18" top="8.25" width="96.75" height="12" align-x="18" align-y="18" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Chapter Head" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
+<f family="Arial" charset="0" size="11">
+<inlineAttr font-weight="normal">
+<c val="#808000">NEW FEATURES</c>
+</inlineAttr>
+</f>
+</p>
+</text>
+<link href="./new.xmcd" title="Links to section" popup="false"></link>
+</region>
+<region region-id="55" left="18" top="38.25" width="91.5" height="12" align-x="18" align-y="48" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+<f family="Arial" charset="0" size="11">
+<b>
+<c val="#808080">
+<link href=".\..\..\toc_tuto.xmcd" title="Links to Tutorials" popup="false">tutorials</link>
+</c>
+</b>
+</f>
+</p>
+</text>
+</region>
+<region region-id="158" left="18" top="50.25" width="304.5" height="12" align-x="18" align-y="60" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
+<f family="Arial" charset="0" size="11">
+<b>
+<inlineAttr line-through="false">
+<c val="#800000">Internationalization and Unicode</c>
+</inlineAttr>
+</b>
+</f>
+</p>
+</text>
+<indexes>
+<phrase>double-byte characters</phrase>
+<phrase>unicode</phrase>
+<phrase>symbol font</phrase>
+<phrase>greek character</phrase>
+</indexes>
+</region>
+<region region-id="154" left="6" top="98.25" width="155.25" height="12" align-x="6" align-y="108" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Heading 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Enhanced Language Support</p>
+</text>
+</region>
+<region region-id="153" left="6" top="120.75" width="315" height="57" align-x="6" align-y="132" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="true" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Mathcad and its documentation is now available in nine languages:</p>
+<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">English, French, German, Italian, Japanese, Korean, Simplified Chinese, Spanish, and Traditional Chinese. Additionally, Mathcad supports checking your spelling in fifteen languages and dialects.</p>
+</text>
+<indexes>
+<phrase>languages</phrase>
+<phrase>translations</phrase>
+<phrase>spell check</phrase>
+<phrase>localization</phrase>
+</indexes>
+</region>
+<region region-id="156" left="6" top="194.25" width="46.5" height="12" align-x="24.75" align-y="204" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Heading 1" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Unicode </p>
+</text>
+</region>
+<region region-id="157" left="6" top="210.75" width="315" height="99.75" align-x="6" align-y="222" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="true" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Mathcad now provides support for Unicode character sets across the</p>
+<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">application. You can enter non-ASCII characters such as special mathematical symbols and characters from Asian, Greek, Hebrew, Cyrillic and other languages into variables, plot titles, and trace labels. You can also enter these characters into dialogs, such as the Search dialog. All discipline-correct notation can be entered in any area of a worksheet.</p>
+</text>
+<indexes>
+<phrase>Unicode</phrase>
+<phrase>Greek characters</phrase>
+</indexes>
+</region>
+<region region-id="164" left="6" top="318.75" width="315" height="71.25" align-x="6" align-y="330" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="true" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">
+<b>
+<c val="#008080">Note</c>
+</b>
+<b>:</b> You should no longer use the Symbol font when you enter Greek characters, since the Symbol font is <i>
+<inlineAttr font-weight="normal">not</inlineAttr>
+</i> a Unicode font. Use of the Symbol font may cause problems when saving worksheets, especially on double-byte operating systems. See the note on <b>
+<u>
+<link href="#Greek" title="Links to section." popup="false">Unicode and Greek Characters</link>
+</u>
+</b>.</p>
+</text>
+<indexes>
+<phrase>Symbol font</phrase>
+</indexes>
+</region>
+<region region-id="199" left="6" top="402.75" width="315" height="114" align-x="17.25" align-y="414" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
+<b>
+<c val="#008080">Note:</c>
+</b> The implementation of this feature may cause problems if you save your worksheets using an earlier Mathcad format. Versions of Mathcad prior to Mathcad 14 do not record information about the code page in saved files. As a result, when Mathcad saves a file using an earlier format, it assumes that the file will be opened on a workstation using the same code page. If the worksheet contains content authored with a different code page, those characters may not map correctly to the assumed code page.</p>
+</text>
+</region>
+<region region-id="162" left="0" top="528" width="6000" height="6" align-x="0" align-y="528" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<pageBreak></pageBreak>
+</region>
+<region region-id="161" left="6" top="534.75" width="226.5" height="14.25" align-x="16.5" align-y="546" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Here are some examples of what you can now do:</p>
+</text>
+</region>
+<region region-id="187" left="6" top="558" width="255" height="199.5" align-x="6" align-y="558" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<plot disable-calc="false" item-idref="4"></plot>
+<rendering item-idref="5"></rendering>
+</region>
+<region region-id="136" left="36" top="756.75" width="76.5" height="15.75" align-x="78" align-y="768" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:define>
+<ml:function>
+<ml:id xml:space="preserve">∆</ml:id>
+<ml:boundVars>
+<ml:id xml:space="preserve">a</ml:id>
+<ml:id xml:space="preserve">b</ml:id>
+</ml:boundVars>
+</ml:function>
+<ml:apply>
+<ml:minus></ml:minus>
+<ml:id xml:space="preserve">a</ml:id>
+<ml:id xml:space="preserve">b</ml:id>
+</ml:apply>
+</ml:define>
+</math>
+<rendering item-idref="6"></rendering>
+</region>
+<region region-id="102" left="180" top="756.75" width="30" height="15.75" align-x="193.5" align-y="768" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:define>
+<ml:id xml:space="preserve">я</ml:id>
+<ml:real>5</ml:real>
+</ml:define>
+</math>
+<rendering item-idref="7"></rendering>
+</region>
+<region region-id="137" left="36" top="792.75" width="63" height="15.75" align-x="77.25" align-y="804" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:eval placeholderMultiplicationStyle="auto-select" resultMultiplicationStyle="auto-select">
+<ml:apply>
+<ml:id xml:space="preserve">∆</ml:id>
+<ml:sequence>
+<ml:real>8</ml:real>
+<ml:id xml:space="preserve">я</ml:id>
+</ml:sequence>
+</ml:apply>
+<result xmlns="http://schemas.mathsoft.com/math30">
+<ml:real>3</ml:real>
+</result>
+</ml:eval>
+</math>
+<rendering item-idref="8"></rendering>
+</region>
+<region region-id="92" left="6" top="834.75" width="315" height="57" align-x="12" align-y="846" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">To enter these characters, you need to either use an input device that supports them, or paste them from another application, such as the <b>Character Map</b> accessory in Windows. To enter a Greek character, type the Roman character, then follow it by [Ctrl] G.</p>
+</text>
+</region>
+<region region-id="105" left="6" top="900.75" width="315.75" height="85.5" align-x="6" align-y="912" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="true" lock-width="true">
+<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">
+<b>
+<c val="#008080">Note</c>
+</b>
+<b>:</b> Not all fonts contain the same displayable Unicode characters. To view a Unicode character, you may need to switch one or more of your worksheet fonts. If the selected font does not contain a particular character, Mathcad displays an empty box in place of the character. Mathcad will still properly track instances of the character in your calculations and save all uses of it within the file.</p>
+</text>
+</region>
+<region region-id="171" left="6" top="1002.75" width="160.5" height="14.25" align-x="6" align-y="1014" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">To find and add special characters: </p>
+</text>
+<indexes>
+<phrase>characters, adding special</phrase>
+<phrase>special characters</phrase>
+</indexes>
+</region>
+<region region-id="172" left="24" top="1026.75" width="297" height="85.5" align-x="24" align-y="1038" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="none" tabs="inherit">
+<b>
+<c val="#008080">1.</c>
+</b>
+<sp count="2"></sp>Open <b>Character Map</b> in your <b>Programs &gt; Accessories &gt; System Tools</b>. </p>
+<p style="Normal" margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="none" tabs="inherit">
+<b>
+<c val="#008080">2</c>
+</b>.<sp count="2"></sp>View different fonts until you locate a character that you want.</p>
+<p style="Normal" margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="none" tabs="inherit">
+<b>
+<c val="#008080">3</c>
+</b>
+<b>
+<c val="#008080">.</c>
+</b>
+<sp count="2"></sp>Select and copy the character you want to use.</p>
+<p style="Normal" margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="none" tabs="inherit">
+<b>
+<c val="#008080">4.</c>
+</b>
+<sp count="2"></sp>In Mathcad, choose <b>Paste Special</b> from the <b>Edit</b> menu, then choose "Unformatted Text as Math."</p>
+</text>
+<indexes>
+<phrase>Character Map</phrase>
+</indexes>
+</region>
+<region region-id="163" left="0" top="1128" width="6000" height="6" align-x="0" align-y="1128" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<pageBreak></pageBreak>
+</region>
+<region region-id="67" left="6" top="1136.25" width="164.25" height="12" align-x="24.75" align-y="1146" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="Greek">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Heading 2" margin-left="0" margin-right="0" text-indent="0" text-align="left" list-style-type="none" tabs="inherit">Unicode and Greek Characters</p>
+</text>
+<indexes>
+<phrase>Greek characters</phrase>
+</indexes>
+</region>
+<region region-id="72" left="6" top="1158.75" width="315" height="42.75" align-x="19.5" align-y="1170" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Greek characters are no longer represented in worksheets using the Symbol font. Instead, Mathcad uses the Greek characters found in the extended section of Unicode fonts.</p>
+</text>
+</region>
+<region region-id="73" left="6" top="1212.75" width="306.75" height="42.75" align-x="6" align-y="1224" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">To enter a Greek character in a worksheet, use either the Greek toolbar or type the character's Roman equivalent, followed by <b>[Ctrl]</b>
+<sp></sp>
+<b>G</b> to change a character to its Greek equivalent. </p>
+</text>
+<indexes>
+<phrase>Greek characters</phrase>
+</indexes>
+</region>
+<region region-id="148" left="6" top="1272.75" width="315" height="28.5" align-x="16.5" align-y="1284" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">You can now enter a Greek character into the Find dialog to search for Greek characters in your worksheets.</p>
+</text>
+</region>
+<region region-id="78" left="6" top="1314.75" width="315" height="42.75" align-x="17.25" align-y="1326" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="true" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">In previous versions of Mathcad, selecting the "γ" in the expression below and changing its font or style had no effect, since the character was not dependent upon the Math styles.</p>
+</text>
+</region>
+<region region-id="141" left="36" top="1368.75" width="39" height="15.75" align-x="49.5" align-y="1380" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:define>
+<ml:id xml:space="preserve">γ</ml:id>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:real>2</ml:real>
+<ml:id xml:space="preserve">e</ml:id>
+</ml:apply>
+</ml:define>
+</math>
+<rendering item-idref="9"></rendering>
+</region>
+<region region-id="144" left="6" top="1392.75" width="315" height="57" align-x="6" align-y="1404" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="true" lock-width="true">
+<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="0" text-align="inherit" list-style-type="none" tabs="inherit">In Mathcad 14, changes to either the font or the style<f family="Times New Roman" charset="0">
+<sp></sp>
+</f>
+<f family="Times New Roman" charset="0">
+<i>do</i>
+</f>
+<f family="Times New Roman" charset="0"> affect Greek characters. C</f>hanging the style from <b>Variables,</b> which uses the Times New Roman font, to <b>User 1, </b>which uses the Verdana font, affects <inlineAttr font-style="normal">both</inlineAttr> the Greek character γ and the Roman character e<f family="Times New Roman" charset="0">:</f>
+</p>
+</text>
+</region>
+<region region-id="143" left="36" top="1464.75" width="42.75" height="15.75" align-x="51" align-y="1476" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<math optimize="false" disable-calc="false">
+<ml:define>
+<ml:id xml:space="preserve" font="4">γ</ml:id>
+<ml:apply>
+<ml:mult style="default"></ml:mult>
+<ml:real>2</ml:real>
+<ml:id xml:space="preserve" font="4">e</ml:id>
+</ml:apply>
+</ml:define>
+</math>
+<rendering item-idref="10"></rendering>
+</region>
+<region region-id="194" left="6" top="1502.25" width="252.75" height="12" align-x="19.5" align-y="1512" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Heading 2" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Better Support for Double-byte Character Sets</p>
+</text>
+<indexes>
+<phrase>double-byte character sets</phrase>
+</indexes>
+</region>
+<region region-id="195" left="6" top="1524.75" width="315" height="42.75" align-x="6" align-y="1536" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<text use-page-width="false" push-down="false" lock-width="true">
+<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">Consistency of editing on Asian systems has vastly improved. The trueness of the display now works for any operating system so that<sp count="2"></sp>worksheets can easily be shared across systems.</p>
+</text>
+</region>
+<region region-id="202" left="6" top="1584" width="426.75" height="5.25" align-x="6" align-y="1584" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+<picture>
+<png item-idref="11" display-width="425.25" display-height="3.75"></png>
+</picture>
+<rendering item-idref="12"></rendering>
+</region>
+</regions>
+<binaryContent>
+<item item-id="1" content-encoding="gzip">H4sIAAAAAAAA/4yQMW/CMBCF7+LQhJA2LJ3TpWbnFzCgTogOnQG5IdBUjYpCKnXsPw/vzmZh
+6llnv5y/d7EuJyJGbpGZaoO92M93x86dPnaH7651fUIST8ixlpeud1qiZ2TaVq/vn3XV+9LG
+HxQJb0L/R+mqWr4y99ucX7R1rOwMueLA+hiwiGf/r16bJ33nqnq+NHplA1jylNjyIIrZRjCV
+HLE1sJZs2MaDVGIwNECMwPwtcHUnjLgSZSBSYQQeSx+xZ2DUPgGj9hyM2u/1XxAPykAUwgjs
+n1usf9q6ayr35QeS6rPfkHtqsEyYXBameRO5bBcAAAD//wMASTtlpsYBAAA=</item>
+<item item-id="2">iVBORw0KGgoAAAANSUhEUgAAAAoAAABLCAIAAADGVIEjAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AAlwSFlzAAALEwAACxMBAJqcGAAAAFFJREFUSEtj/P//PwMesHiFOh7EMCqNLXyGb7A8xwsY
+CEi/K8/HgxhGpbGFz/ANFsoS0/K+TjyIYVQaW/gM32ChLDHNm3YUD2IYlcYWPsM2WAAcpUm4
+oQOl6gAAAABJRU5ErkJggg==</item>
+<item item-id="3">iVBORw0KGgoAAAANSUhEUgAAAAwAAABNCAYAAACScYUuAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AIZJREFUSEtj/A8EDKQAkAZSAANI8eIV6kRhsGtGNRAIrdFQIiY9DatQev78+X9iMNzTxCgG
+qYFreFee/58YPKphNJRwJJWRnTRIznEka1je1/mfGAyPB2IUg9SMaiAmpEZDaaiHEsk5jmQN
+86Yd/U8MhqclYhSD1IxqICakRkNpqIcSKV1LAPVF2W5Ss3TRAAAAAElFTkSuQmCC</item>
+<item item-id="4" content-encoding="gzip">H4sIAAAAAAAA/4xTT3PSUBDflwQSUiAFhFqqJEUaPNreM1KlXnR0pj3oQcukIaXRUjCETo8Z
+P4A3z178Asw4Xjz5Bfwcnv0CuG8XaPXky2ze7u/99k92X/IAIFCOUUzSVXwb4fvDcBCNLjIg
+10OUXH8UMKYR1pW0YfDi5G0YJITAG/JX8J2dnI0fja4YfomiI3C4Ir6Svii/kPsas/9Wr225
+vi+KUkBRSSmvku8nSRydTJNQEPMAxYKbS+scNP8CMhRBS+Iw3CLAQymMSc16mz8A0ozufca9
+kzV413O8GybvuTVPwSyX2CBFiF2AvPfpKcAHEwp08DW/PAAokkuaszxZWKeI0DqpaZFSlrzy
+TzSMMnn2S1iaOoEILgAq3kcsKy3BLTr7UpFRZ3IeUOWoeo0Lqm7wXrvNhW1Q/gcAm2R/W9lQ
+Z8faFpdTR+gOl1Oncu6yUSWjweSszdEbDu/2NmdxAFSh7ALGbXIDHLjHDWheHwG0OIy9wzlb
+CLmcpkVp2vx5jeXn3ac7Y/X3eoPYH5/1Tkfx0E904jry6hHc9ROfJ7qzHO02irq4K3LoFdKl
+ZfpX0eQJxeHr2kZ5JhZcXnN8QLT/H4XaEQ0qxKoewxRiuCT9FEaoO7CPZwM4J2ymciF6EvtB
+uNelKYK7CGqLdRCuwJiWNlMdCN65PSGEi32Y20IRror5bKEKV5tLREMyzFHJICft4FFWcmQg
+nTioGJIjyTkZR7qbyCH3NeSQex455F6gXKgUiYOKJTmSzHVbz6fDMI4C/5y7aFD9Ryh97EFE
+bZc/nrkYwT8rf9P4AwAA//8DAPmakIVkBAAA</item>
+<item item-id="5">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
+I2rvMjSAAAAAAElFTkSuQmCC</item>
+<item item-id="6">iVBORw0KGgoAAAANSUhEUgAAAGYAAAAVCAYAAAC0aZsNAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AWhJREFUaEPtmNsOwkAIROv/f7S9pDW4LjBMqVKzfTK63OYs0Ph4Ls80nnoKrGDGU0+BqV5K
+I6Ntig0ZaioAgVkGcM3s/zgrV/EDigYnC5rlJytGRY6qrl6yFpgswVY/ni/vd6+Oir9bdYc6
+RoqTLRTiDzlTEYCVE9UxrdFdwNwJYCoYbx8go6m9RXJkev6/3RVHPVcA1+pWR5m17NEXgUgh
+LUw0hgdJitr7jNjLM5GaPN/7vy5v+/UFSjNmwLQFRIronUW/QwTIOGMu6/0FRrsIEZ03Hz0D
+T1Bv1Mj2RAVBIXi5ofEi5ySQ7Pha3alg2iCRIq4Cc4dR1tu3H2AQMbWWlrZW2yNdmrVjIp3h
+5RWtCYmtXeYuGO+WWWDatu8F9vbXWSjI5UJEk8tZjudM/70Y23dogtrrLWPPFsbaMTn+2oYG
+c5BmCmAEZmyY3KrYnALDwGEEZmyqCMzmcRoMG3jY2QoMMEVvyAxMesDYFcUowQAAAABJRU5E
+rkJggg==</item>
+<item item-id="7">iVBORw0KGgoAAAANSUhEUgAAACgAAAAVCAYAAAA0GqweAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AKNJREFUSEvtldEOgCAIAO3/P7rEaSngELHGlmy95GDHIXWcMYLnAEDPETzDpeluQKMBdwbj
+vsLSPo+xwaXpAIbDlcHlgFzBWaV4tKUOMUjuAKN9FkKTV5pvALERjSGusfqdBu62B8tSJ1oA
+ZwCknNQg2Rq05lKRN8+7gLXiUYDfjZgsSTHQXNA87p5FzRJJkxj+zEiFvj539Sfhmt+A1ivh
+3uAFARHE10BjXSMAAAAASUVORK5CYII=</item>
+<item item-id="8">iVBORw0KGgoAAAANSUhEUgAAAFQAAAAVCAYAAADYb8kIAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AUNJREFUWEftl+EOwjAIhOf7P7Ruxia1AndHWcy0TfyhUuh9UNhu931ta9UROICuVUdgq3O1
+PD1v+8JQS4ACujeY2qg/7A2SajA9qOPvx/f+U8HuGwnN6pgCasEcAVbBqPLDJNiKxcaXgPZO
+2aDsQbJCmX0VNqyOEGhUgf8ElIUJp7wHNAqAqhhVy9i7mLaCfM78r8AMgUZDCAVpUFQhDDwU
++/Xm9zYY0wOmG7CsFvfKZ4HOVGgVUFa8Ysck0q1QtDmCPTvlUTWhsymQFFs2rlmhaPPZQJtQ
+dvBZSbR6cbYVtTbCJOADKILZ9yimGhl/HsAsUEa4YiNpULPbZ946FLqyXkLG6rHiKMIUYIiB
+4gs+2HvOZsVl9mf2KDAqbNNAlb7iVbIi4Aoww+dQVmxGqLpHtWfPfobdVIWecaCr+1xAizP4
+ADEAc98w1jmpAAAAAElFTkSuQmCC</item>
+<item item-id="9">iVBORw0KGgoAAAANSUhEUgAAADQAAAAVCAYAAAAJiM14AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+ANFJREFUWEftVu0KgCAMtPd/6NKoMN3c7ezHkIQgcN7HNlfbnldaaRVDK620kpmz235DwTMQ
+qkJ5NpUBdT7s4k+yjMq51gRrKqyh63PiTtuUITaLqEoG/zGk9S4Digq24hDu9t69DLVlRgBv
+UTWw9G6Jb/cRbunedS1XByGgXqFIPMorJlHLDAqKCPTEjHiRSahWyGvoi5ZjOLuCSNnzAnsq
+oMVKnJYO9x2yhFqE1vl6X6uwhaFOuXpaWSCR94dTLrJwtXWZ+R/Z6NSvT0Rjyxk6AJF5V31K
+ixvdAAAAAElFTkSuQmCC</item>
+<item item-id="10">iVBORw0KGgoAAAANSUhEUgAAADkAAAAVCAYAAAD8dkbIAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+ANxJREFUWEftV+0OgCAItPd/6EpnzRzCWWdzFFu/4uPuYFDLulvwbpGkdwveCaZJ/Uk6UWDK
+Tu57MC7D9DCMk4WBJOeoiTGIXki2EjIKoTpItdD65QSUMRSSKAiUaO2H5NfEoZC8Cx6Ns0hq
+71N3LdWsAlJ8PTZPFglS/3WSaHcQP4Rg/iw9t7EosFTsSI4WQQD3+ljdKfNZOMUT8oSkNqoW
+mAM46of6N+9kb6HeTrX8754Q7fxRSDIFaU0CIqIUq36gM4EjAEf6UDo5EiAj97dJMhScJcd0
+fyEjhNkAaZbCIM5T8HEAAAAASUVORK5CYII=</item>
+<item item-id="11">iVBORw0KGgoAAAANSUhEUgAAAkQAAAAFCAMAAACTpQOIAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AwBQTFRFAAAAgICAgAAAgIAAAIAAAICAAACAgACAgIBAAEBAAID/AECAQAD/gEAA////wMDA
+/wAA//8AAP8AAP//AAD//wD///+AAP+AgP//gID//wCA/4BAwNzApsrwbWlzTAB/PwCCMQCG
+IgCJEgCMAgCPAA6TACCWADOZAEacAFqgAG+jAIWmAJupAK2nALCWALODALdwALpdAL1IAMAz
+AMQdAMcGEMoAKc0AQtEAXNQAdtcAktsArt4Ay+EA5OEA6MkA67AA7pcA8XwA9WIA+EYA+ykA
+/wwACwsLFhYWISEhLCwsNzc3QkJCTU1NWFhYY2Njbm5ueXl5hYWFkJCQm5ubpqamsbGxvLy8
+x8fH0tLS3d3d6Ojo8/PzKwAAVQAAqgAA1QAAADMAKzMAVTMAgDMAqjMA1TMA/zMAAGYAK2YA
+VWYAgGYAqmYA1WYA/2YAAJkAK5kAVZkAgJkAqpkA1ZkA/5kAAMwAK8wAVcwAgMwAqswA1cwA
+/8wAK/8AVf8AgP8Aqv8A1f8AAABVKwBVVQBVgABVqgBV1QBV/wBVADNVKzNVVTNVgDNVqjNV
+1TNV/zNVAGZVK2ZVVWZVgGZVqmZV1WZV/2ZVAJlVK5lVVZlVgJlVqplV1ZlV/5lVAMxVK8xV
+VcxVgMxVqsxV1cxV/8xVAP9VK/9VVf9VgP9Vqv9V1f9V//9VAACqKwCqVQCqgACqqgCq1QCq
+/wCqADOqKzOqVTOqgDOqqjOq1TOq/zOqAGaqK2aqVWaqgGaqqmaq1Waq/2aqAJmqK5mqVZmq
+gJmqqpmq1Zmq/5mqAMyqK8yqVcyqgMyqqsyq1cyq/8yqAP+qK/+qVf+qgP+qqv+q1f+q//+q
+KwD/VQD/gAD/qgD/1QD/ADP/KzP/VTP/gDP/qjP/1TP//zP/AGb/K2b/VWb/gGb/qmb/1Wb/
+/2b/AJn/K5n/VZn/gJn/qpn/1Zn//5n/AMz/K8z/Vcz/gMz/qsz/1cz//8z/K///Vf//qv//
+1f////vwoKCk2AWPPxGsViNa2xjW4wAAAAlwSFlzAAAOzQAADtYBytAvAAAAADNJREFUSEvt
+0jENADAQw8CoAMwf7peDV3vPcsqoBKTA5L55AoxXCRgB/okqASnQiSRgcziJX4ONC7U4ewAA
+AABJRU5ErkJggg==</item>
+<item item-id="12">iVBORw0KGgoAAAANSUhEUgAAAjkAAAAHCAYAAADqBFyZAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAA
+AIBJREFUaEPt2dsJACAMA8C6uZv7AsEVDFdwgJ75CNrGmjIECBAgQIAAgTSBXXIMAQIECBAg
+QCBNoNIWsg8BAgQIECBA4PxUXYZeNRwGMiADMiADMiADP2fgrXdecpRdAgQIECBAIFJAyYm8
+VksRIECAAAECSo4MECBAgAABApECExAorgNNM6TDAAAAAElFTkSuQmCC</item>
+</binaryContent>
+</worksheet>
